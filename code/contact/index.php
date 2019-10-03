@@ -144,7 +144,7 @@
                                 <label for="text">〒</label>
                                 <input type="text" class="form-control" name="input3"/>
                             </div>
-                            <div class="form-group col-md-4 dropText">
+                            <div class="form-group col-md-4 dropText custom-input">
                                 ＊ハイフンなしで入力
                             </div>
                         </div>
@@ -209,7 +209,7 @@
                                 <p>参加人数</p>
                               </div>
                             </div>
-                            <div class="form-group col-md-4 form8">
+                            <div class="form-group mb-block col-md-4 form8">
                                 <label class="double" for="text">大人</label>
                                 <div class="wrapSelect small">
                                     <select class="selectForm" name="select8">
@@ -218,7 +218,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="form-group col-md-4 form9">
+                            <div class="form-group mb-block col-md-4 form9">
                                 <label class="double" for="text">こども</label>
                                 <div class="wrapSelect small">
                                     <select class="selectForm" name="select9">
@@ -328,7 +328,7 @@
                                   <p>託児所利用</p>
                               </div>
                             </div>
-                            <div class="col-md-10">
+                            <div class="col-md-9">
                                 <div class="lineFormchild hide-line">
                                     <div class="wrapCheckmart">
                                         <label class="unset">利用する<input type="checkbox" value="利用する"
@@ -384,7 +384,7 @@
                                     <p class="text-12">＊複数選択可</p>
                               </div>
                             </div>
-                            <div class="col-md-10">
+                            <div class="col-md-9">
                                 <h2 class="m0"> 希望するハウスメーカー・ご希望時間をお選びください。 </h2>
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">

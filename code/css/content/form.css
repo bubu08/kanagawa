@@ -410,6 +410,69 @@ span.text{
     vertical-align: middle;
     margin-right: 13px;
 }
-
-
+@media screen and (max-width: 991px){
+    .label-infor{
+        margin: 10px 0;
+        text-align: center;
+    }
+    .formContent .contentBody .orderForm input[type="text"]{
+        flex-grow: 1;
+        width: 100%;
+    }
+    .formContent .contentBody .orderForm .custom-input{
+        height: auto;
+        justify-content: flex-end;
+    }
+    .formContent .contentBody .orderForm .wrapSelect{
+        width: 100%;
+    }
+    .mb-block{
+        display: block;
+    }
+    .formContent .contentBody .orderForm .wrapSelect.small{
+        flex-grow: 1;
+        width: auto;
+        display: block;
+    }
+    .formContent .contentBody .orderForm .wrapSelect.small .selectForm{
+        width: 100%;
+    }
+    .formContent .contentBody .orderForm label.double{
+        width: auto;
+    }
+    .form-inline .form-group.form-flex{
+        display: block;
+    }
+    .formContent .contentBody .orderForm .lineForm{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .formContent .contentBody .orderForm .row:not(.lineForm){
+        margin-left: 0 !important;
+        margin-right: 0;
+    }
+    .formContent .contentBody .orderForm .wrapSelect.large{
+        width: 100%;
+    }
+    .formContent .contentBody .orderForm .row:not(.lineForm) .col-md-9{
+        padding: 0;
+    }
+    .formContent .contentBody .orderForm h2{
+        padding: 0 15px;
+    }
+    .formContent{
+        padding: 5px 15px 0;
+    }
+    .formContent .contentBody .orderForm{
+        padding: 50px 0;
+    }
+}
+@media screen and (max-width: 425px){
+    .formContent .contentBody .orderForm h2, .formContent .contentBody .orderForm label{
+        font-size: 14px;
+    }
+    .formContent .contentBody .orderForm .wrapSelect .selectForm{
+        font-size: 16px;
+    }
+}
 
