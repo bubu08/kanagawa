@@ -13,43 +13,50 @@
     function submitData() {
         var f = $(fName);
         var method_ = f.prop('method');
+
         var formdata = new FormData(f.get(0));
         let serialize = $('#orderForm').serialize();
-        console.log(serialize);
+        console.log(formdata);
+        // var formdata = new FormData(f.get(0));
+        // let serialize = $('#orderForm').serialize();
+        // console.log(serialize);
+
+        var data = $('#orderForm').data('form');
+        console.log(data);
+        $("#dialog").dialog({
+            buttons: {}
+        });
+
+        $("#dialog").html('メールを配信しました。');
+        $("#dialog").dialog({
+            resizable: false,
+            draggable: false,
+            closeOnEscape: false,
+            open: function (event, ui) {
+                $(".ui-dialog-titlebar-close").hide();
+            },
+            modal: true,
+            title: '配信完了',
+            width: 400,
+            height: 150,
+            buttons: {
+                '閉じる': function () {
+                    $(this).dialog('close');
+                }
+            }
+        });
 
         // POSTでアップロード
         $.ajax({
             url: url_,
             method: method_,
             type: 'POST',
-            data: formdata,
-            cache: false,
-            contentType: false,
-            processData: false,
+            // data: formdata,
+            data: data,
             success: function (data) {
                 console.log(data);
-                $("#dialog").dialog({
-                    buttons: {}
-                });
+                window.location.href = 'thankyou.php';
 
-                $("#dialog").html('メールを配信しました。');
-                $("#dialog").dialog({
-                    resizable: false,
-                    draggable: false,
-                    closeOnEscape: false,
-                    open: function (event, ui) {
-                        $(".ui-dialog-titlebar-close").hide();
-                    },
-                    modal: true,
-                    title: '配信完了',
-                    width: 400,
-                    height: 150,
-                    buttons: {
-                        '閉じる': function () {
-                            $(this).dialog('close');
-                        }
-                    }
-                });
 
             }
         }).fail(function (data) {
@@ -105,7 +112,7 @@
         }
     }
 
-    function confirm_buttom() {
+    function submit_button() {
         $('a.submitbtn').on('click', function (e) {
             e.preventDefault();
 
@@ -134,7 +141,7 @@
 
     }
 
-    function submit_button() {
+    function confirm_buttom() {
         $('a.confirmbntttt').on('click', function (e) {
             e.preventDefault();
             $('#confirmform').submit();
@@ -144,7 +151,7 @@
 
     $(document).ready(function () {
         inputcheckhideshow();
-        input_select_disable();
+        // input_select_disable();
         confirm_buttom();
         submit_button();
     });
