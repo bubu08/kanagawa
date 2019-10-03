@@ -37,6 +37,13 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="../js/lib/bootstrap/js/bootstrap.min.js"></script>
     <!-- /content Header Object -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/additional-methods.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/additional-methods.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 
     <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
@@ -108,7 +115,7 @@
                             </div>
                             <div class="form-group form-flex col-md-4">
                                 <label for="text1">姓</label>
-                                <input type="text" class="form-control" name="input1"/>
+                                <input type="text" class="form-control" name="input1" required/>
                             </div>
                             <div class="form-group form-flex col-md-4">
                                 <label for="text">名</label>
