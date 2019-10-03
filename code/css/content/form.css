@@ -92,7 +92,7 @@
 }
 
 .formContent .contentBody .orderForm {
-  padding: 100px 0;
+  padding: 100px 0 50px 0;
 }
 
 .formContent .contentBody .orderForm .row:not(.lineForm) {
@@ -105,6 +105,12 @@
   padding-bottom: 20px;
   margin-right: 20px;
   margin-left: 20px;
+  border-bottom: 2px dotted #273e52;
+}
+
+.formContent .contentBody .orderForm .lineFormchild {
+  margin-right: -15px;
+  margin-bottom: 20px;
   border-bottom: 2px dotted #273e52;
 }
 
@@ -256,9 +262,8 @@
 
 .formContent .contentBody .orderForm .wrapSelect.large {
     width: 300px;
-  }
+}
   
-
 .formContent .contentBody .orderForm .wrapSelect::before {
   content: "\f107";
   font-family: FontAwesome;
@@ -295,6 +300,45 @@
   padding: 30px;
 }
 
+.formFooter{
+  text-align: center;
+  padding-top: 75px !important;
+  padding-bottom: 60px !important;
+}
+
+.formFooter .confirmBtn {
+  margin-bottom: 100px !important;
+  padding: 25px 160px;
+  width: max-content;
+  background-color: #b60056;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.formFooter .caption{
+  font-size: 22px;
+  font-weight: bold;
+  color:white;
+  margin-bottom: 25px;
+}
+
+.formFooter .dig,
+.formFooter .tel,
+.formFooter .mal {
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+}
+
+.copyright {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 10px;
+  font-weight: normal;
+}
+
 /* global */
 .ta-end {
   text-align: end;
@@ -302,4 +346,8 @@
 
 .w-100 {
   width: 100% !important;
+}
+
+.ml--15 {
+  margin-left: -15px !important;
 }
