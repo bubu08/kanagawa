@@ -312,7 +312,7 @@
                                 <div class="wrapCheckmart">
                                     <label class="multi">11/16 <input type="checkbox"
                                                                       class="checkbox"
-                                                                      name="join_date_1" value="yes"/>
+                                                                      name="join_date_1" />
                                         <span class="checkmark"> </span></label>
                                     <img src="../images/content/form/form7image1.png" alt=""/>
                                 </div>
@@ -322,7 +322,7 @@
                                     <label class="multi">11/17<input type="checkbox"
                                                                      class="checkbox"
                                                                      name="join_date_2"
-                                                                     value="yes"/><span
+                                                                     /><span
                                                 class="checkmark"></span></label>
                                     <img src="../images/content/form/form7image2.png" alt=""/>
                                 </div>
@@ -491,7 +491,7 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">へーベルハウス<input type="checkbox" value="yes"
+                                            <label class="unset">へーベルハウス<input type="checkbox"
                                                                                name="input12_1"/><span
                                                         class="checkmark"></span></label>
                                         </div>
@@ -522,7 +522,7 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">住友林業<input type="checkbox" value="yes"
+                                            <label class="unset">住友林業<input type="checkbox"
                                                                             name="input12_2"/><span
                                                         class="checkmark"></span></label>
                                         </div>
@@ -553,7 +553,7 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">セキスイハイム<input type="checkbox" value="yes"
+                                            <label class="unset">セキスイハイム<input type="checkbox"
                                                                                name="input12_3"/><span
                                                         class="checkmark"></span></label>
                                         </div>
@@ -584,7 +584,7 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">ダイワハウス <input type="checkbox" value="yes"
+                                            <label class="unset">ダイワハウス <input type="checkbox"
                                                                                name="input12_4"/><span
                                                         class="checkmark"></span></label>
                                         </div>
@@ -615,7 +615,7 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">パナソニック ホームズ<input type="checkbox" value="yes"
+                                            <label class="unset">パナソニック ホームズ<input type="checkbox"
                                                                                    name="input12_5"/><span
                                                         class="checkmark"></span></label>
                                         </div>
@@ -646,7 +646,7 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">へーベルハウス<input type="checkbox" value="yes"
+                                            <label class="unset">へーベルハウス<input type="checkbox"
                                                                                name="input12_6"/><span
                                                         class="checkmark"></span></label>
                                         </div>

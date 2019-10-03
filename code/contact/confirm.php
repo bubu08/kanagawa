@@ -1,5 +1,7 @@
 <?php
-
+echo '<pre>';
+print_r($_POST);
+echo '</pre>';
 
 $input1       = ! empty( $_POST['input1'] ) ? $_POST['input1'] : '';
 $input12      = ! empty( $_POST['input12'] ) ? $_POST['input12'] : '';
@@ -13,8 +15,8 @@ $phone_number = ! empty( $_POST['phone_number'] ) ? $_POST['phone_number'] : '';
 $email        = ! empty( $_POST['email'] ) ? $_POST['email'] : '';
 $select8      = ! empty( $_POST['select8'] ) ? $_POST['select8'] : '';
 $select9      = ! empty( $_POST['select9'] ) ? $_POST['select9'] : '';
-$join_date_1  = ! empty( $_POST['join_date_1'] ) ? $_POST['join_date_1'] : '';
-$join_date_2  = ! empty( $_POST['join_date_2'] ) ? $_POST['join_date_2'] : '';
+$join_date_1  = ! empty( $_POST['join_date_1'] ) ? 'checkedmark' : 'checkmark';
+$join_date_2  = ! empty( $_POST['join_date_2'] )? 'checkedmark' : 'checkmark';
 
 $input10  = isset( $_POST['input10'] ) ? 'checkedmark' : 'checkmark';
 $input101 = isset( $_POST['input101'] ) ? 'checkedmark' : 'checkmark';
@@ -288,16 +290,16 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                             <div class="col-md-3">
                                 <div class="wrapCheckmart">
                                     <label class="multi">11/16
-                                        <span class="text"><?= $join_date_1 ?></span></span>
-                                        <span class="checkmark"> </span></label>
+                                        <span class="<?= $join_date_1 ?>"> </span>
+                                    </label>
                                     <img src="../images/content/form/form7image1.png" alt=""/>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="wrapCheckmart">
                                     <label class="multi">11/17
-                                        <span class="text"><?= $join_date_2 ?></span></span>
-                                        <span class="checkmark"></span></label>
+                                        <span class="<?= $join_date_1 ?>"> </span>
+                                    </label>
                                     <img src="../images/content/form/form7image2.png" alt=""/>
                                 </div>
                             </div>
@@ -559,7 +561,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                 <div class="row">
                     <a class="submitbtn" href="">
                         <div class="confirmBtn">
-                            確定する -->
+                            確定する
                         </div>
                     </a>
                     <p class="caption"> かながわ住まいづくりフェア事務局 </p>
