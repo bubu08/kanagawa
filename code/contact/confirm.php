@@ -42,6 +42,9 @@ $input12_6 = isset( $_POST['input12_6'] ) ? 'checkedmark' : 'checkmark';
 $input12_7 = isset( $_POST['input12_7'] ) ? 'checkedmark' : 'checkmark';
 $input12_8 = isset( $_POST['input12_8'] ) ? 'checkedmark' : 'checkmark';
 
+$select111 = ! empty( $_POST['select111'] ) ? $_POST['select111'] : '';
+$select112 = ! empty( $_POST['select112'] ) ? $_POST['select112'] : '';
+
 $select12_1 = ! empty( $_POST['select12_1'] ) ? $_POST['select12_1'] : '';
 $select12_2 = ! empty( $_POST['select12_2'] ) ? $_POST['select12_2'] : '';
 $select12_3 = ! empty( $_POST['select12_3'] ) ? $_POST['select12_3'] : '';
@@ -396,11 +399,11 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                 <div class="lineFormchild hide-line">
                                     <div class="wrapCheckmart">
                                         <label class="unset">利用する
-                                            <span class="text"><?= $input11 ?></span></span><span
-                                                    class="checkmark"></span></label>
+                                          <span class="<?= $input11 ?>"></span>
+                                        </label>
                                     </div>
                                 </div>
-                                <div class="row ml--15 hide">
+                                <div class="row ml--15 ">
 
                                     <div class="form-group col-md-4">
                                         <label class="w-100" for="text">▽ご利用人数</label>
