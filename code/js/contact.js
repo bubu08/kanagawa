@@ -151,7 +151,7 @@
 
     $(document).ready(function () {
         inputcheckhideshow();
-        input_select_disable();
+        // input_select_disable();
         confirm_buttom();
         submit_button();
     });

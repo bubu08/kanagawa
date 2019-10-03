@@ -399,7 +399,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select12_1">
+                                            <select class="selectForm "  name="select12_1">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
@@ -430,7 +430,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select12_2">
+                                            <select class="selectForm "  name="select12_2">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
@@ -461,7 +461,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select12_3">
+                                            <select class="selectForm "  name="select12_3">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
@@ -492,7 +492,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm  disabled" disabled name="select12_4">
+                                            <select class="selectForm  "  name="select12_4">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
@@ -523,7 +523,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select12_5">
+                                            <select class="selectForm "  name="select12_5">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
@@ -554,7 +554,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select12_6">
+                                            <select class="selectForm "  name="select12_6">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
@@ -585,7 +585,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select12_7">
+                                            <select class="selectForm "  name="select12_7">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
@@ -615,7 +615,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select12_8">
+                                            <select class="selectForm "  name="select12_8">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
