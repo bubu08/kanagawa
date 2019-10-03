@@ -338,58 +338,85 @@
                             </div>
                             <div class="col-md-9">
                                 <div class="wrapCheckmart">
-                                    <label class="unset">貴方の願い、設計のプロが叶えます！
-                                        メジャー8社の設計者によるトークバトル
-                                        広さに頼らない「心地よい住まい」のつくり方
-                                        安心安全に暮らす 神奈川県の防災対策と対処法 「美人収納」
-                                        捨てるが苦手な人も<input type="checkbox"
-                                                        value="貴方の願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル広さに頼らない「心地よい住まい」のつくり方安心安全に暮らす 神奈川県の防災対策と対処法 「美人収納」捨てるが苦手な人も"
+                                    <label class="unset">11/16 広さに頼らない「心地よい住まい」のつくり方<input type="checkbox"
+                                                        value="11/16 広さに頼らない「心地よい住まい」のつくり方"
                                                         name="input10"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">広さに頼らない「心地よい住まい」のつくり方
-                                        <input type="checkbox" value="広さに頼らない「心地よい住まい」のつくり方"
+                                    <label class="unset">11/16 あなたの願い、設計のプロが叶えます！
+                                        　　　　メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
+                                        <input type="checkbox" value="11/16 あなたの願い、設計のプロが叶えます！
+　　　　メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）"
                                                name="input101"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">安心安全に暮らす 神奈川県の防災対策と対処法
-                                        <input type="checkbox" value="安心安全に暮らす 神奈川県の防災対策と対処法"
+                                    <label class="unset">11/16 安心安全に暮らす 神奈川県の防災対策と対処法
+                                        <input type="checkbox" value="11/16 安心安全に暮らす 神奈川県の防災対策と対処法"
                                                name="input102"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">「美人収納」 捨てるが苦手な人もできる仕分け術
+                                    <label class="unset">11/16 あなたの願い、設計のプロが叶えます！
+                                        　　　　メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
                                         <input type="checkbox"
-                                               value="「美人収納」 捨てるが苦手な人もできる仕分け術"
+                                               value="11/16 あなたの願い、設計のプロが叶えます！
+　　　　メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）"
                                                name="input103"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">元号、消費税の変化に伴い、抑えておきたいお金の話！
+                                    <label class="unset">11/16 「美人収納」  捨てるが苦手な人もできる仕分け術
                                         <input type="checkbox"
-                                               value="元号、消費税の変化に伴い、抑えておきたいお金の話！"
+                                               value="11/16 「美人収納」  捨てるが苦手な人もできる仕分け術"
                                                name="input104"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">実質金利ゼロ!?
-                                        住宅ローン&家計で2,000万節約するマル秘テクニック
-                                        <input type="checkbox" value="実質金利ゼロ!?住宅ローン&家計で2,000万節約するマル秘テクニック"
+                                    <label class="unset">11/16 元号、消費税の変化に伴い、押さえておきたいお金の話！
+                                        <input type="checkbox" value="11/16 元号、消費税の変化に伴い、押さえておきたいお金の話！"
                                                name="input105"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">災害に強い安心・安全な住まいとは
-                                        <input type="checkbox" value="災害に強い安心・安全な住まいとは"
+                                    <label class="unset">11/17 実質金利ゼロ!? 住宅ローン&家計で2,000万節約するマル秘テクニック
+                                        <input type="checkbox" value="11/17 実質金利ゼロ!? 住宅ローン&家計で2,000万節約するマル秘テクニック"
                                                name="input106"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">相続・贈与時の お得な減税制度とは
-                                        <input type="checkbox" value="相続・贈与時の お得な減税制度とは"
+                                    <label class="unset">11/17 あなたの願い、設計のプロが叶えます！
+                                        　　　　メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
+                                        <input type="checkbox" value="11/17 あなたの願い、設計のプロが叶えます！
+　　　　メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）"
                                                name="input107"/><span
+                                                class="checkmark"></span></label>
+                                </div>
+                                <div class="wrapCheckmart">
+                                    <label class="unset">11/17 元号、消費税の変化に伴い、押さえておきたいお金の話！
+                                        <input type="checkbox" value="11/17 元号、消費税の変化に伴い、押さえておきたいお金の話！"
+                                               name="input108"/><span
+                                                class="checkmark"></span></label>
+                                </div>
+                                <div class="wrapCheckmart">
+                                    <label class="unset">11/17 あなたの願い、設計のプロが叶えます！
+                                        　　　　メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
+                                        <input type="checkbox" value="11/17 あなたの願い、設計のプロが叶えます！
+　　　　メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）"
+                                               name="input109"/><span
+                                                class="checkmark"></span></label>
+                                </div>
+                                <div class="wrapCheckmart">
+                                    <label class="unset">11/17 災害に強い 安心・安全な住まいとは
+                                        <input type="checkbox" value="11/17 災害に強い 安心・安全な住まいとは"
+                                               name="input1010"/><span
+                                                class="checkmark"></span></label>
+                                </div>
+                                <div class="wrapCheckmart">
+                                    <label class="unset">11/17 相続・贈与時のお得な減税制度とは
+                                        <input type="checkbox" value="11/17 相続・贈与時のお得な減税制度とは"
+                                               name="input1011"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                             </div>

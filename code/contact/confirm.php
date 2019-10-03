@@ -24,6 +24,10 @@ $input104 = isset( $_POST['input104'] ) ? 'checkedmark' : 'checkmark';
 $input105 = isset( $_POST['input105'] )? 'checkedmark' : 'checkmark';
 $input106 = isset( $_POST['input106'] ) ? 'checkedmark' : 'checkmark';
 $input107 = isset( $_POST['input107'] ) ? 'checkedmark' : 'checkmark';
+$input108 = isset( $_POST['input108'] ) ? 'checkedmark' : 'checkmark';
+$input109 = isset( $_POST['input109'] ) ? 'checkedmark' : 'checkmark';
+$input1010 = isset( $_POST['input1010'] ) ? 'checkedmark' : 'checkmark';
+$input1011 = isset( $_POST['input1011'] ) ? 'checkedmark' : 'checkmark';
 
 $input11 = isset( $_POST['input11'] ) ? 'checkedmark' : 'checkmark';
 
@@ -351,8 +355,25 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                 <div class="wrapCheckmart">
                                     <label class="unset">相続・贈与時の お得な減税制度とは
 
-                                        <span
-                                                class="<?= $input107 ?>"></span></label>
+                                        <span class="<?= $input107 ?>"></span>
+                                    </label>
+                                </div>
+                                <div class="wrapCheckmart">
+                                    <label class="unset">11/17 元号、消費税の変化に伴い、押さえておきたいお金の話！
+                                        <span class="<?= $input108 ?>"></span></label>
+                                </div>
+                                <div class="wrapCheckmart">
+                                    <label class="unset">11/17 あなたの願い、設計のプロが叶えます！
+                                        　　　　メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
+                                        <span class="<?= $input109 ?>"></span></label>
+                                </div>
+                                <div class="wrapCheckmart">
+                                    <label class="unset">11/17 災害に強い 安心・安全な住まいとは
+                                        <span class="<?= $input1010 ?>"></span></label>
+                                </div>
+                                <div class="wrapCheckmart">
+                                    <label class="unset">11/17 相続・贈与時のお得な減税制度とは
+                                        <span class="<?= $input1011 ?>"></span></label>
                                 </div>
                             </div>
                         </div>

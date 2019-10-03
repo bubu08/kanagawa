@@ -28,6 +28,10 @@ $input104 = ! empty( $_POST['input104'] ) ? $_POST['input104'] : '';
 $input105 = ! empty( $_POST['input105'] ) ? $_POST['input105'] : '';
 $input106 = ! empty( $_POST['input106'] ) ? $_POST['input106'] : '';
 $input107 = ! empty( $_POST['input107'] ) ? $_POST['input107'] : '';
+$input108 = ! empty( $_POST['input108'] ) ? $_POST['input108'] : '';
+$input109 = ! empty( $_POST['input109'] ) ? $_POST['input109'] : '';
+$input1010 = ! empty( $_POST['input1010'] ) ? $_POST['input1010'] : '';
+$input1011 = ! empty( $_POST['input1011'] ) ? $_POST['input1011'] : '';
 
 $input11 = ! empty( $_POST['input11'] ) ? $_POST['input11'] : '';
 $select111 = ! empty( $_POST['select111'] ) ? $_POST['select111'] : '';
@@ -120,6 +124,10 @@ $message = <<< maildata
 {$input105}
 {$input106}
 {$input107}
+{$input108}
+{$input109}
+{$input1010}
+{$input1011}
 
 託児所利用：{$input11}
 ▽ご利用人数: {$select111}
@@ -200,6 +208,10 @@ $message      = <<<_message
 {$input105}
 {$input106}
 {$input107}
+{$input108}
+{$input109}
+{$input1010}
+{$input1011}
 
 託児所利用：{$_POST['input11']}
 
