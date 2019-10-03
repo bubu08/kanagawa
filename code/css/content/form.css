@@ -351,6 +351,7 @@ span.checkedmark:after {
     font-weight: bold;
     font-size: 30px;
     color: white;
+    letter-spacing: 2.7px;
 }
 
 .formFooter .caption {
@@ -450,7 +451,7 @@ span.text{
     .formContent .contentBody .orderForm .wrapSelect{
         width: 100%;
     }
-    .mb-block{
+    .form-inline .mb-block{
         display: block;
     }
     .formContent .contentBody .orderForm .wrapSelect.small{
@@ -490,6 +491,20 @@ span.text{
     .formContent .contentBody .orderForm{
         padding: 50px 0;
     }
+    .formFooter .confirmBtn{
+        width: 50%;
+        padding: 10px;
+    }
+    .form-inline .form-group{
+        display: block;
+    }
+    .formFooter .confirmBtn{
+        margin-bottom: 50px !important;
+    }
+    .formFooter{
+        padding-top: 38px !important;
+        padding-bottom: 30px !important;
+    }
 }
 @media screen and (max-width: 425px){
     .formContent .contentBody .orderForm h2, .formContent .contentBody .orderForm label{
@@ -497,6 +512,9 @@ span.text{
     }
     .formContent .contentBody .orderForm .wrapSelect .selectForm{
         font-size: 16px;
+    }
+    .formFooter .confirmBtn{
+        font-size: 15px;
     }
 }
 
