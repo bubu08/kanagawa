@@ -268,7 +268,6 @@
                                 <label class="double" for="text">大人</label>
                                 <div class="wrapSelect small">
                                     <select class="selectForm" name="select8">
-                                        <option value="0人">0人</option>
                                         <option value="1人">1人</option>
                                         <option value="2人">2人</option>
                                         <option value="3人">3人</option>
