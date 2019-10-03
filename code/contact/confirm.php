@@ -16,16 +16,16 @@ $select9      = ! empty( $_POST['select9'] ) ? $_POST['select9'] : '';
 $join_date_1  = ! empty( $_POST['join_date_1'] ) ? $_POST['join_date_1'] : '';
 $join_date_2  = ! empty( $_POST['join_date_2'] ) ? $_POST['join_date_2'] : '';
 
-$input10  = ! empty( $_POST['input10'] ) ? $_POST['input10'] : '';
-$input101 = ! empty( $_POST['input101'] ) ? $_POST['input101'] : '';
-$input102 = ! empty( $_POST['input102'] ) ? $_POST['input102'] : '';
-$input103 = ! empty( $_POST['input103'] ) ? $_POST['input103'] : '';
-$input104 = ! empty( $_POST['input104'] ) ? $_POST['input104'] : '';
-$input105 = ! empty( $_POST['input105'] ) ? $_POST['input105'] : '';
-$input106 = ! empty( $_POST['input106'] ) ? $_POST['input106'] : '';
-$input107 = ! empty( $_POST['input107'] ) ? $_POST['input107'] : '';
+$input10  = isset( $_POST['input10'] ) ? 'checkedmark' : 'checkmark';
+$input101 = isset( $_POST['input101'] ) ? 'checkedmark' : 'checkmark';
+$input102 = isset( $_POST['input102'] ) ? 'checkedmark' : 'checkmark';
+$input103 = isset( $_POST['input103'] )? 'checkedmark' : 'checkmark';
+$input104 = isset( $_POST['input104'] ) ? 'checkedmark' : 'checkmark';
+$input105 = isset( $_POST['input105'] )? 'checkedmark' : 'checkmark';
+$input106 = isset( $_POST['input106'] ) ? 'checkedmark' : 'checkmark';
+$input107 = isset( $_POST['input107'] ) ? 'checkedmark' : 'checkmark';
 
-$input11 = ! empty( $_POST['input11'] ) ? $_POST['input11'] : '';
+$input11 = isset( $_POST['input11'] ) ? 'checkedmark' : 'checkmark';
 
 $input12_1 = isset( $_POST['input12_1'] ) ? 'checkedmark' : 'checkmark';
 $input12_2 = isset( $_POST['input12_2'] ) ? 'checkedmark' : 'checkmark';
@@ -309,50 +309,50 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                         広さに頼らない「心地よい住まい」のつくり方
                                         安心安全に暮らす 神奈川県の防災対策と対処法 「美人収納」
                                         捨てるが苦手な人も
-                                        <span class="text"><?= $input10 ?></span></span>
+
                                         <span
-                                                class="checkmark"></span></label>
+                                                class="<?= $input10 ?><"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">広さに頼らない「心地よい住まい」のつくり方
-                                        <span class="text"><?= $input101 ?></span></span>
+
 
                                         <span
-                                                class="checkmark"></span></label>
+                                                class="<?= $input101 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">安心安全に暮らす 神奈川県の防災対策と対処法
-                                        <span class="text"><?= $input102 ?></span></span>
-                                        <span class="checkmark"></span></label>
+
+                                        <span class="<?= $input102 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">「美人収納」 捨てるが苦手な人もできる仕分け術
-                                        <span class="text"><?= $input103 ?></span></span>
-                                        <span class="checkmark"></span></label>
+
+                                        <span class="<?= $input103 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">元号、消費税の変化に伴い、抑えておきたいお金の話！
-                                        <span class="text"><?= $input104 ?></span></span>
-                                        <span class="checkmark"></span></label>
+
+                                        <span class="<?= $input104 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">実質金利ゼロ!?
                                         住宅ローン&家計で2,000万節約するマル秘テクニック
-                                        <span class="text"><?= $input105 ?></span></span>
+
                                         <span
-                                                class="checkmark"></span></label>
+                                                class="<?= $input105 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">災害に強い安心・安全な住まいとは
-                                        <span class="text"><?= $input106 ?></span></span>
+
                                         <span
-                                                class="checkmark"></span></label>
+                                                class="<?= $input106 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">相続・贈与時の お得な減税制度とは
-                                        <span class="text"><?= $input107 ?></span></span>
+
                                         <span
-                                                class="checkmark"></span></label>
+                                                class="<?= $input107 ?>"></span></label>
                                 </div>
                             </div>
                         </div>
