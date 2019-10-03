@@ -145,6 +145,7 @@
                                     <span>必須</span>
                                     <p>住　所</p>
                                 </div>
+                                <span>＊全角カタカナ</span>
                             </div>
                             <div class="form-group col-md-4 form-flex form3">
                                 <label for="text">〒</label>
@@ -316,13 +317,13 @@
                                 <div class="wrapCheckmart">
                                     <label class="unset">災害に強い安心・安全な住まいとは
                                         <input type="checkbox" value="災害に強い安心・安全な住まいとは"
-                                               name="input105"/><span
+                                               name="input106"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">相続・贈与時の お得な減税制度とは
                                         <input type="checkbox" value="相続・贈与時の お得な減税制度とは"
-                                               name="input106"/><span
+                                               name="input107"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                             </div>
