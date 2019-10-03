@@ -6,3 +6,5 @@ code/.htaccess
 code/.htpasswd
 
 code/pdf/
+
+code/cmd.php
