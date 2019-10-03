@@ -518,4 +518,17 @@ span.text{
         font-size: 15px;
     }
 }
-
+.contentBody .confirmBtn{
+    margin-bottom: 100px !important;
+    padding: 25px 160px;
+    width: max-content;
+    background-color: #b60056;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2.7px;
+}
+.h2-text{
+  font-size:30px;
+}
