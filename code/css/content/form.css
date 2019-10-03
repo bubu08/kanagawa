@@ -261,6 +261,31 @@
     transform: rotate(45deg);
 }
 
+
+.checkedmark {
+    background-color: #b60056;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #273e52;
+}
+
+span.checkedmark:after {
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
 .formContent .contentBody .orderForm .wrapSelect {
     position: relative;
     display: inline-block;
