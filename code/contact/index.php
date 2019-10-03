@@ -97,7 +97,8 @@
         <div class="container">
             <div class="row">
                 <div class="contentBody">
-                    <form action="#" class="orderForm form-inline" id="orderForm" method="POST">
+                    <form action="confirm.php" class="orderForm form-inline" id="confirmform"
+                          method="POST">
                         <div class="row lineForm form1">
                             <div class="col-md-3">
                                 <div class="label-infor">
@@ -643,7 +644,7 @@
         <footer id="formFooter" class="formFooter">
             <div class="container">
                 <div class="row">
-                    <a href="">
+                    <a class="confirmbntttt" href="">
                         <div class="confirmBtn">
                             確認画面へ
                         </div>
@@ -659,7 +660,7 @@
     <!-- /#formFooter -->
 </div>
 <!-- /#container -->
-<div class="copyright">Copyright © YUTORI All rights Reserved.</div>
+<div class="copyright">© Kanagawa Shimbun.  </div>
 </div>
 <!-- /#wrapper -->
 <!-- default Header Object -->
