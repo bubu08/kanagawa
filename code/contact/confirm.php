@@ -314,52 +314,48 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                             </div>
                             <div class="col-md-9">
                                 <div class="wrapCheckmart">
-                                    <label class="unset">貴方の願い、設計のプロが叶えます！
-                                        メジャー8社の設計者によるトークバトル
-                                        広さに頼らない「心地よい住まい」のつくり方
-                                        安心安全に暮らす 神奈川県の防災対策と対処法 「美人収納」
-                                        捨てるが苦手な人も
-
+                                    <label class="unset">11/16 広さに頼らない「心地よい住まい」のつくり方
                                         <span
                                                 class="<?= $input10 ?><"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">広さに頼らない「心地よい住まい」のつくり方
+                                    <label class="unset">11/16 あなたの願い、設計のプロが叶えます！
+                                        　　　　メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
 
 
                                         <span
                                                 class="<?= $input101 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">安心安全に暮らす 神奈川県の防災対策と対処法
+                                    <label class="unset">11/16 安心安全に暮らす 神奈川県の防災対策と対処法
 
                                         <span class="<?= $input102 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">「美人収納」 捨てるが苦手な人もできる仕分け術
+                                    <label class="unset">11/16 あなたの願い、設計のプロが叶えます！
+                                        　　　　メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
 
                                         <span class="<?= $input103 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">元号、消費税の変化に伴い、抑えておきたいお金の話！
+                                    <label class="unset">11/16 「美人収納」  捨てるが苦手な人もできる仕分け術
 
                                         <span class="<?= $input104 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">実質金利ゼロ!?
-                                        住宅ローン&家計で2,000万節約するマル秘テクニック
-
+                                    <label class="unset">11/16 元号、消費税の変化に伴い、押さえておきたいお金の話！
                                         <span
                                                 class="<?= $input105 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">災害に強い安心・安全な住まいとは
+                                    <label class="unset">11/17 実質金利ゼロ!? 住宅ローン&家計で2,000万節約するマル秘テクニック
 
                                         <span
                                                 class="<?= $input106 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">相続・贈与時の お得な減税制度とは
+                                    <label class="unset">11/17 あなたの願い、設計のプロが叶えます！
+                                        　　　　メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
 
                                         <span class="<?= $input107 ?>"></span>
                                     </label>
