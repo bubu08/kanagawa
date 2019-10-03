@@ -46,7 +46,6 @@ $input12_6= ! empty( $_POST['input12_6'] ) ? $_POST['input12_6'] : '';
 $input12_7= ! empty( $_POST['input12_7'] ) ? $_POST['input12_7'] : '';
 $input12_8= ! empty( $_POST['input12_8'] ) ? $_POST['input12_8'] : '';
 
-$select111= ! empty( $_POST['select111'] ) ? $_POST['select111'] : '';
 $select12_1= ! empty( $_POST['select12_1'] ) ? $_POST['select12_1'] : '';
 $select12_2= ! empty( $_POST['select12_2'] ) ? $_POST['select12_2'] : '';
 $select12_3= ! empty( $_POST['select12_3'] ) ? $_POST['select12_3'] : '';
@@ -234,7 +233,7 @@ $message      = <<<_message
 {$input1010}
 {$input1011}
 
-託児所利用：{$_POST['input11']}
+託児所利用：{$input11}
 
 参加メーカーとの 個別相談希望: 
 {$input12_1}   ご希望の時間帯: {$select12_1}
