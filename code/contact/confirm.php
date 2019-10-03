@@ -1,7 +1,5 @@
 <?php
-echo '<pre>';
-print_r($_POST);
-echo '</pre>';
+
 
 $input1       = ! empty( $_POST['input1'] ) ? $_POST['input1'] : '';
 $input12      = ! empty( $_POST['input12'] ) ? $_POST['input12'] : '';
@@ -212,9 +210,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                 <label for="text">〒</label>
                                     <span class="text"><?= $input3 ?></span>
                             </div>
-                            <div class="form-group col-md-4 dropText custom-input">
-                                ＊ハイフンなしで入力
-                            </div>
+
                         </div>
                         <div class="row mT15">
                             <div class="col-md-3"></div>
@@ -235,8 +231,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                         <div class="row lineForm mT15">
                             <div class="col-md-2"></div>
                             <div class="form-group col-md-7 form6">
-                                <label for="text" class="w-100">番地・マンション名・部屋番号</label>
-                                <span class="text"><?= $input6 ?></span>
+
                             </div>
                             <div class="form-group col-md-3"></div>
                         </div>
