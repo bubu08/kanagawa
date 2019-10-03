@@ -106,15 +106,10 @@
             <div class="row">
                     <div class="row">
                         <div class="jumbotron text-center contentBody">
-                            <span class="h2-text">お問い合わせ頂きまして、誠にありがとうございます。</span>
+                            <p class="lead">お問い合わせ頂きまして、誠にありがとうございます。</p>
                             <p class="lead">お問い合わせ内容については、後日こちらよりご連絡をさせて頂きます。</p>
                             <hr>
 
-                            <a href="https://kanagawaselect8.jp">
-                                <div class="confirmBtn">
-                                    TOPへ戻る
-                                </div>
-                            </a>
                         </div>
                 </div>
             </div>
@@ -124,6 +119,11 @@
             <div class="container">
                 <div class="row">
 
+                    <a href="https://kanagawaselect8.jp">
+                        <div class="confirmBtn">
+                            TOPへ戻る
+                        </div>
+                    </a>
                     <p class="caption"> かながわ住まいづくりフェア事務局 </p>
                     <p class="dig"> 〒231−8445　神奈川新聞社デジタルビジネス局内 </p>
                     <p class="tel"> TEL.045-640-0125 （平日 10：00〜18：00）</p>
