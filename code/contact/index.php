@@ -30,22 +30,31 @@
     <link rel="stylesheet" type="text/css" media="all" href="../js/lib/bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="../js/lib/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="../css/global/import.css"/>
-    <link rel="stylesheet" type="text/css" media="all" href="../css/content/content.css"/>
     <!-- /default Header Object -->
     <!-- content Header Object -->
     <link rel="stylesheet" type="text/css" media="all" href="../css/content/form.css"/>
     <!-- /content Header Object -->
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-K4L5WF3');</script>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K4L5WF3');</script>
     <!-- End Google Tag Manager -->
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4L5WF3"
-                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4L5WF3"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
 </head>
@@ -317,13 +326,14 @@
                                 </h2>
                             </div>
                             <div class="col-md-10">
-                                <div class="lineFormchild">
+                                <div class="lineFormchild hide-line">
                                     <div class="wrapCheckmart">
-                                        <label class="unset">利用する<input type="checkbox" value="" name="input11"/><span
+                                        <label class="unset">利用する<input type="checkbox" value="利用する"
+                                                                        name="input11"/><span
                                                     class="checkmark"></span></label>
                                     </div>
                                 </div>
-                                <div class="row ml--15">
+                                <div class="row ml--15 hide">
 
                                     <div class="form-group col-md-4">
                                         <label class="w-100" for="text">▽ご利用人数</label>
@@ -346,8 +356,13 @@
                                         <label class="w-100" for="text">▽ご希望の時間帯</label>
                                         <div class="wrapSelect large">
                                             <select class="selectForm" name="select112">
+                                                <!--午前
+                                                    午後
+                                                    両方-->
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="午前">午前</option>
+                                                <option value="午前">午後</option>
+                                                <option value="午前">両方</option>
                                             </select>
                                         </div>
                                     </div>
@@ -371,7 +386,8 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">へーベルハウス<input type="checkbox" value="" name="input12"/><span
+                                            <label class="unset">へーベルハウス<input type="checkbox" value=""
+                                                                               name="input12_1"/><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -380,7 +396,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm" name="select121">
+                                            <select class="selectForm disabled" disabled name="select12_1">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
@@ -402,7 +418,7 @@
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
                                             <label class="unset">住友林業<input type="checkbox" value=""
-                                                                            name="input122"/><span
+                                                                            name="input12_2"/><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -411,7 +427,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm" name="select123">
+                                            <select class="selectForm disabled" disabled name="select12_2">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
@@ -433,7 +449,7 @@
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
                                             <label class="unset">セキスイハイム<input type="checkbox" value=""
-                                                                               name="input124"/><span
+                                                                               name="input12_3"/><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -442,7 +458,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm" name="select125">
+                                            <select class="selectForm disabled" disabled name="select12_3">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
@@ -464,7 +480,7 @@
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
                                             <label class="unset">ダイワハウス <input type="checkbox" value=""
-                                                                               name="input125"/><span
+                                                                               name="input12_4"/><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -473,7 +489,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm" name="select126">
+                                            <select class="selectForm  disabled" disabled name="select12_4">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
@@ -495,7 +511,7 @@
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
                                             <label class="unset">パナソニック ホームズ<input type="checkbox" value=""
-                                                                                   name="input127"/><span
+                                                                                   name="input12_5"/><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -504,7 +520,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm" name="select128">
+                                            <select class="selectForm disabled" disabled name="select12_5">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
@@ -525,7 +541,7 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">へーベルハウス<input type="checkbox" name="input129"
+                                            <label class="unset">へーベルハウス<input type="checkbox" name="input12_6"
                                                                                value=""/><span
                                                         class="checkmark"></span></label>
                                         </div>
@@ -535,7 +551,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm" name="select1211">
+                                            <select class="selectForm disabled" disabled name="select12_6">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
@@ -556,7 +572,7 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">ミサワホーム<input type="checkbox" name="input1212"
+                                            <label class="unset">ミサワホーム<input type="checkbox" name="input12_7"
                                                                               value=""/><span
                                                         class="checkmark"></span></label>
                                         </div>
@@ -566,7 +582,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm" name="select1213">
+                                            <select class="selectForm disabled" disabled name="select12_7">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
@@ -587,7 +603,7 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">三井ホーム<input type="checkbox" name="input1214" value=""/><span
+                                            <label class="unset">三井ホーム<input type="checkbox" name="input12_8" value=""/><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -596,7 +612,7 @@
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm" name="select1215">
+                                            <select class="selectForm disabled" disabled name="select12_8">
                                                 <option value="選択してください">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 10時半〜">11/16 11時半〜</option>
@@ -645,15 +661,9 @@
 </div>
 <!-- /#wrapper -->
 <!-- default Header Object -->
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script>
-    window.jQuery ||
-    document.write('<script src="js/lib/jquery-2.2.4.min.js"><\/script>');
-</script>
-<!-- /default Header Object -->
-<!-- content Header Object -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="../js/lib/bootstrap/js/bootstrap.min.js"></script>
-<script src="../js/global/main.js"></script>
+<script src="../js/contact.js"></script>
 <!-- /content Header Object -->
 </body>
 
