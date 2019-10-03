@@ -519,7 +519,7 @@ span.text{
     }
 }
 .contentBody .confirmBtn{
-    margin-bottom: 100px !important;
+    margin-bottom: 5px !important;
     padding: 25px 160px;
     width: max-content;
     background-color: #b60056;
