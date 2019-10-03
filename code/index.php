@@ -31,6 +31,9 @@
 <div class="page-to-top">
 	<img src="images/register.png" alt=""  class="dt-block" />
 	<img src="images/page-top.png" alt=""  class="back-to-top"/>
+	<div class="banner mb-block">
+		<img src="images/banner-pink.png" alt=""/>
+	</div>
 </div>
 <section>
 	<div class="section-1">
@@ -61,9 +64,6 @@
 			</p>
 			<p class="desc-2 mb-10">〈協賛〉
 				<br> 東急リバプル・東京ガス・トラバース・パナソニック リビング・TKC神奈川会</p>
-		</div>
-		<div class="banner mb-block">
-			<img src="images/banner-pink.png" alt=""/>
 		</div>
 	</div>
 </section>
@@ -126,7 +126,7 @@
 		</div>
 		<div class="bg-yelow">
 			<img src="images/table-sec-3_01.jpg" alt="" class="img-1">
-			<button class="btn-map">拡大して見る<span><img src="images/arrow-white.png" alt="" /></span></button>
+			<button class="btn-map btn-flex">拡大して見る<span><img src="images/arrow-white.png" alt="" /></span></button>
 		</div>
 	</div>
 	<div class="block-4 container">
@@ -167,7 +167,7 @@
 					<source media="(min-width: 768px)" srcset="images/map-g.png">
 					<img src="images/map-g-mb.png" alt="">
 				</picture>
-				<button class="btn-map width-150">拡大して見る<span><img src="images/arrow-white.png" alt="" /></span></button>
+				<button class="btn-map width-150 btn-flex">拡大して見る<span><img src="images/arrow-white.png" alt="" /></span></button>
 			</div>
 		</div>
 	</div>
