@@ -559,7 +559,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                 <div class="row">
                     <a class="submitbtn" href="">
                         <div class="confirmBtn">
-                            確認画面へ
+                            確定する -->
                         </div>
                     </a>
                     <p class="caption"> かながわ住まいづくりフェア事務局 </p>
