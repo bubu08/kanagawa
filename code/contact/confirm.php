@@ -433,7 +433,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="col-md-1">
                                     </div>
                                     <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <span class="text"><?= $select12_1 ?></span>
 
                                     </div>
@@ -448,7 +448,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="col-md-1">
                                     </div>
                                     <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <span class="text"><?= $select12_2 ?></span>
 
                                     </div>
@@ -463,7 +463,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="col-md-1">
                                     </div>
                                     <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <span class="text"><?= $select12_3 ?></span>
 
                                     </div>
@@ -478,7 +478,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="col-md-1">
                                     </div>
                                     <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <span class="text"><?= $select12_4 ?></span>
                                     </div>
                                 </div>
@@ -492,7 +492,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="col-md-1">
                                     </div>
                                     <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <span class="text"><?= $select12_5 ?></span>
 
                                     </div>
@@ -507,7 +507,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="col-md-1">
                                     </div>
                                     <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <span class="text"><?= $select12_6 ?></span>
 
                                     </div>
@@ -522,7 +522,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="col-md-1">
                                     </div>
                                     <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <span class="text"><?= $select12_7 ?></span>
 
                                     </div>
@@ -538,7 +538,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="col-md-1">
                                     </div>
                                     <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <span class="text"><?= $select12_8 ?></span>
                                     </div>
                                 </div>
