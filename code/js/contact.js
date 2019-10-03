@@ -63,15 +63,17 @@
             if ($(this).is(':checked')) {
 
                 let parents = $(this).parents('.lineFormchild.hide-line');
-                parents.siblings().removeClass('hide');
-                parents.siblings().prop('disabled', false);
+                var siblings = parents.siblings();
+                siblings.removeClass('hide');
+                siblings.find('select').prop('disabled', false);
+                siblings.find('select').removeClass('disabled');
                 parents.removeClass('hide-line');
             } else {
-                console.log('hide');
                 let parents = $(this).parents('.lineFormchild');
-
-                parents.siblings().addClass('hide');
-                parents.siblings().prop('disabled', 'disabled');
+                var siblings1 = parents.siblings();
+                siblings1.addClass('hide');
+                siblings1.find('select').prop('disabled', 'disabled');
+                siblings1.find('select').addClass('disabled');
                 parents.addClass('hide-line');
 
             }
