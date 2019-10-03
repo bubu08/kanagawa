@@ -442,6 +442,18 @@ button.btn-map{
 .btn-flex{
   display: none !important;
 }
+.brands{
+  display: flex;
+  justify-content: space-between;
+}
+.brands img{
+  width: auto;
+}
+.note{
+  width: auto;
+  margin-left: auto;
+  display: flex;
+}
 /* ================== Responsive ================== */
 @media screen and (max-width: 1000px) and (min-width: 768px){
   .block-4 .last img.dt-block{
@@ -454,6 +466,9 @@ button.btn-map{
   }
   .block-4 img.img-map{
     width: 520px;
+  }
+  .brands img{
+    width: 100%;
   }
 }
 @media screen and (max-width: 991px){
@@ -750,5 +765,9 @@ button.btn-map{
     margin: 0;
     margin-left: auto;
     margin-right: 20px;
+  }
+  .brands-wrapper.container,
+  .note-wrapper.container{
+    padding: 0 30px;
   }
 }
