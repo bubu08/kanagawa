@@ -1,4 +1,6 @@
 <?php
+
+
 $input1       = ! empty( $_POST['input1'] ) ? $_POST['input1'] : '';
 $input12      = ! empty( $_POST['input12'] ) ? $_POST['input12'] : '';
 $input2       = ! empty( $_POST['input2'] ) ? $_POST['input2'] : '';
@@ -25,14 +27,14 @@ $input107 = ! empty( $_POST['input107'] ) ? $_POST['input107'] : '';
 
 $input11 = ! empty( $_POST['input11'] ) ? $_POST['input11'] : '';
 
-$input12_1 = ! empty( $_POST['input12_1'] ) ? $_POST['input12_1'] : '';
-$input12_2 = ! empty( $_POST['input12_2'] ) ? $_POST['input12_2'] : '';
-$input12_3 = ! empty( $_POST['input12_3'] ) ? $_POST['input12_3'] : '';
-$input12_4 = ! empty( $_POST['input12_4'] ) ? $_POST['input12_4'] : '';
-$input12_5 = ! empty( $_POST['input12_5'] ) ? $_POST['input12_5'] : '';
-$input12_6 = ! empty( $_POST['input12_6'] ) ? $_POST['input12_6'] : '';
-$input12_7 = ! empty( $_POST['input12_7'] ) ? $_POST['input12_7'] : '';
-$input12_8 = ! empty( $_POST['input12_8'] ) ? $_POST['input12_8'] : '';
+$input12_1 = isset( $_POST['input12_1'] ) ? 'checkedmark' : 'checkmark';
+$input12_2 = isset( $_POST['input12_2'] ) ? 'checkedmark' : 'checkmark';
+$input12_3 = isset( $_POST['input12_3'] ) ? 'checkedmark' : 'checkmark';
+$input12_4 = isset( $_POST['input12_4'] ) ? 'checkedmark' : 'checkmark';
+$input12_5 = isset( $_POST['input12_5'] ) ? 'checkedmark' : 'checkmark';
+$input12_6 = isset( $_POST['input12_6'] ) ? 'checkedmark' : 'checkmark';
+$input12_7 = isset( $_POST['input12_7'] ) ? 'checkedmark' : 'checkmark';
+$input12_8 = isset( $_POST['input12_8'] ) ? 'checkedmark' : 'checkmark';
 
 $select12_1 = ! empty( $_POST['select12_1'] ) ? $_POST['select12_1'] : '';
 $select12_2 = ! empty( $_POST['select12_2'] ) ? $_POST['select12_2'] : '';
@@ -422,9 +424,9 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
                                             <label class="unset">へーベルハウス
-                                                <span class="text"><?= $input12_1 ?></span></span>
                                                 <span
-                                                        class="checkmark"></span></label>
+                                                        class="<?= $input12_1 ?>"></span>
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="col-md-1">
@@ -438,9 +440,8 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">住友林業<span class="text"><?= $input12_2 ?></span></span>
-                                                <span
-                                                        class="checkmark"></span></label>
+                                            <label class="unset">住友林業<span
+                                                        class="<?= $input12_2 ?>"></span></label>
                                         </div>
                                     </div>
                                     <div class="col-md-1">
@@ -455,8 +456,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
                                             <label class="unset">セキスイハイム<span
-                                                        class="text"><?= $input12_3 ?></span></span><span
-                                                        class="checkmark"></span></label>
+                                                        class="<?= $input12_3 ?>"></span></label>
                                         </div>
                                     </div>
                                     <div class="col-md-1">
@@ -471,8 +471,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
                                             <label class="unset">ダイワハウス <span
-                                                        class="text"><?= $input12_4 ?></span></span><span
-                                                        class="checkmark"></span></label>
+                                                        class="<?= $input12_4 ?>"></span></label>
                                         </div>
                                     </div>
                                     <div class="col-md-1">
@@ -486,8 +485,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
                                             <label class="unset">パナソニック ホームズ<span
-                                                        class="text"><?= $input12_5 ?></span></span><span
-                                                        class="checkmark"></span></label>
+                                                        class="<?= $input12_5 ?>"></span></label>
                                         </div>
                                     </div>
                                     <div class="col-md-1">
@@ -502,8 +500,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
                                             <label class="unset">へーベルハウス<span
-                                                        class="text"><?= $input12_6 ?></span></span><span
-                                                        class="checkmark"></span></label>
+                                                        class="<?= $input12_6 ?>"></span></label>
                                         </div>
                                     </div>
                                     <div class="col-md-1">
@@ -518,8 +515,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
                                             <label class="unset">ミサワホーム<span
-                                                        class="text"><?= $input12_7 ?></span></span><span
-                                                        class="checkmark"></span></label>
+                                                        class="<?= $input12_7 ?>"></span></label>
                                         </div>
                                     </div>
                                     <div class="col-md-1">
@@ -534,11 +530,8 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
                                             <label class="unset">三井ホーム
-                                                <span class="text">
-                                                    <?= $input12_8 ?>
-                                                    </span>
                                                 <span
-                                                        class="checkmark"></span></label>
+                                                        class="<?= $input12_8 ?>"></span></label>
                                         </div>
                                     </div>
                                     <div class="col-md-1">
