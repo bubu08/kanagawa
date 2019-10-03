@@ -8,10 +8,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>かながわ住まいづくりフェア2019</title>
-    <meta name="keywords" content=""/>
-    <meta name="description" content="神奈川県内、大手メーカーの設計士と一緒に、安心・安全・快適な家づくりについて考えましょう。"/>
-    <meta charset="utf-8">
+	<title>Kanagawa</title>
+	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="author" content="">
@@ -49,8 +47,35 @@
 	<div class="section-2">
 		<picture>
 			<source media="(min-width: 768px)" srcset="images/bg-2.png">
-			<img src="images/bg-2-mb.png" alt="" class="img-1 mb-25">
+			<img src="images/bg-2-mb.png" alt="" class="img-1 mb-10">
 		</picture>
+		<div class="brands dt-block container ">
+			<a href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png" alt="" /></a>
+			<a href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt="" /></a>
+			<a href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt="" /></a>
+			<a href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt="" /></a>
+			<a href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png" alt="" /></a>
+			<a href="https://sumai.panasonic.jp/"><img src="images/logo-6.png" alt="" /></a>
+			<a href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt="" /></a>
+			<a href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png" alt="" /></a>
+		</div>
+		<div class="brands-wrapper mb-block container ">
+			<div class="brands">
+				<a href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png" alt="" /></a>
+				<a href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt="" /></a>
+				<a href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt="" /></a>
+				<a href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt="" /></a>
+			</div>
+			<div class="brands">
+				<a href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png" alt="" /></a>
+				<a href="https://sumai.panasonic.jp/"><img src="images/logo-6.png" alt="" /></a>
+				<a href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt="" /></a>
+				<a href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png" alt="" /></a>
+			</div>
+		</div>
+		<div class="note-wrapper container">
+			<img src="images/note.png" alt="" class="note mb-25"/>
+		</div>
 		<div class="desc dt-block container">
 			<p class="desc-1 mb-10">〈主催〉神奈川新聞社　〈共催〉神奈川県住宅協議会　</p>
 			<p class="desc-2 mb-20">〈後援〉神奈川県・横浜市・川崎市・かながわ住まいまちづくり協会・全日本不動産協会神奈川県本部・神奈川県土地家屋調査士会・神奈川県司法書士会・東京地方税理士会・日本FP協会神奈川支部・優良ストック住宅推進協議会
