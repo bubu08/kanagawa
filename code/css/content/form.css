@@ -1,0 +1,305 @@
+/* form header */
+.formHeader {
+  font-family: "MontserratReg", "NotoSanReg", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+    "ＭＳ Ｐゴシック", "MS PGothic", Osaka, sans-serif;
+}
+.formHeader .contentHeader {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  margin-top: 16px;
+  margin-bottom: 23px;
+}
+.formHeader .contentHeader .leftHeader {
+  margin-top: 40px;
+}
+.formHeader .contentHeader .leftHeader .mainTitle {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 9px;
+  text-align: center;
+  color: #273e52;
+}
+.formHeader .contentHeader .leftHeader .mainTitle span {
+  padding: 0px 10px 9px 10px;
+  background-color: #273e52;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  width: max-content;
+  position: relative;
+  letter-spacing: 0;
+  z-index: 2;
+}
+
+.formHeader .contentHeader .leftHeader .mainTitle span:before {
+  top: -38px;
+  left: 0;
+  content: " ";
+  position: absolute;
+  pointer-events: none;
+  border: solid transparent;
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #273e52;
+  border-width: 19px;
+  z-index: 1;
+}
+
+.formHeader .contentHeader .leftHeader .subTitle {
+  margin-top: 16px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #b60056;
+  color: white;
+  letter-spacing: 12px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.formHeader .contentHeader .leftHeader .caption {
+  text-align: center;
+  color: #b60056;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.formHeader .contentHeader .rightHeader {
+  margin-left: 30px;
+}
+
+.formHeader .contentHeader .rightHeader a img {
+  height: 213px;
+  width: auto;
+}
+
+/* form body */
+.formContent {
+  background-color: #273e52;
+}
+
+@media (min-width: 1200px) {
+  .formContent > .container {
+    width: 1000px;
+  }
+}
+
+.formContent .contentBody {
+  background-color: #f8ebcf;
+}
+
+.formContent .contentBody .orderForm {
+  padding: 100px 0;
+}
+
+.formContent .contentBody .orderForm .row:not(.lineForm) {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.formContent .contentBody .orderForm .lineForm {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-bottom: 2px dotted #273e52;
+}
+
+.formContent .contentBody .orderForm h2,
+.formContent .contentBody .orderForm label {
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: bold;
+  color: #273e52;
+  vertical-align: middle;
+  margin-right: 13px;
+}
+
+.formContent .contentBody .orderForm h2 {
+  margin-left: 24px;
+}
+
+.formContent .contentBody .orderForm label {
+  width: 10%;
+}
+.formContent .contentBody .orderForm label.double {
+  width: 20%;
+}
+.formContent .contentBody .orderForm label.multi {
+    width: 30%;
+}
+.formContent .contentBody .orderForm label.unset {
+    width: unset;
+}
+
+.formContent .contentBody .orderForm h2 ruby rt {
+  font-size: 10px;
+  font-weight: 400;
+  background-color: #b60056;
+  color: white;
+  width: max-content;
+  letter-spacing: 5px;
+  text-align: center;
+  display: block;
+  padding-left: 5px;
+}
+
+.formContent .contentBody .orderForm h2 ruby rt.brown {
+  background-color: #666;
+}
+
+.formContent .contentBody .orderForm h2 span {
+  font-size: 12px;
+  font-weight: 600;
+  display: block;
+  line-height: 2;
+}
+
+.formContent .contentBody .orderForm input[type="text"] {
+  border: 1px solid #273e52;
+  height: 50px;
+  width: 270px;
+  border-radius: 0;
+  box-shadow: unset;
+}
+
+.formContent .contentBody .orderForm .dropText {
+  margin-left: -35px;
+  margin-top: 35px;
+}
+
+.formContent .contentBody .orderForm .wrapCheckmart {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.formContent .contentBody .orderForm .wrapCheckmart img {
+    margin-bottom: 10px;
+}
+
+/* Hide the browser's default checkbox */
+
+.formContent .contentBody .orderForm .wrapCheckmart input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border: 1px solid #273e52;
+}
+
+/* On mouse-over, add a grey background color */
+.formContent .contentBody .orderForm .wrapCheckmart:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.formContent .contentBody .orderForm .wrapCheckmart input:checked ~ .checkmark {
+  background-color: #b60056;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.formContent .contentBody .orderForm .wrapCheckmart input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.formContent .contentBody .orderForm .wrapCheckmart .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.formContent .contentBody .orderForm .wrapSelect {
+  position: relative;
+  display: inline-block;
+  width: 325px;
+}
+
+.formContent .contentBody .orderForm .wrapSelect.small {
+  width: 200px;
+}
+
+.formContent .contentBody .orderForm .wrapSelect.large {
+    width: 300px;
+  }
+  
+
+.formContent .contentBody .orderForm .wrapSelect::before {
+  content: "\f107";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 34px;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 48px;
+  color: white;
+  background-color: #0f3c52;
+  pointer-events: none;
+}
+
+.formContent .contentBody .orderForm .wrapSelect .selectForm {
+  color: #273e52;
+  border: 1px solid #273e52;
+  padding: 12px;
+  width: inherit;
+  height: 48px;
+  font-size: 20px;
+  -webkit-appearance: button;
+  appearance: button;
+}
+
+.formContent .contentBody .orderForm .wrapSelect .selectForm:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.formContent .contentBody .orderForm .wrapSelect .selectForm option {
+  padding: 30px;
+}
+
+/* global */
+.ta-end {
+  text-align: end;
+}
+
+.w-100 {
+  width: 100% !important;
+}
