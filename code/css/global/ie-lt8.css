@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*
+ * ==========================================================================
+ * 
+ * IE8以下用CSS
+ * 
+ * ==========================================================================
+ */
+/**
+ * 文字サイズ
+ */
+.s0-8r { font-size: 80%; }
+.s1-0r { font-size: 100%; }
+.s1-3r { font-size: 105%; }
+.s1-5r { font-size: 115%; }
+.s1-8r { font-size: 140%; }
+.s2-0r { font-size: 150%; }
+.s3-5r { font-size: 250%; }
+.s5-0r { font-size: 350%; }
+/**
+ * 個別スタイルのoverride
+ */
+html {
+	font-size: 100%;
+}
+body {
+	font-size: 85%;
+}
+#pageTitle {
+	padding-top: 0;
+	height: 250px;
+}
+	#pageTitle h1 {
+		margin-top: -0.5em;
+	}
+#siteFooter .contact .phone {
+	background: scroll url(../../images/global/freedial.png) no-repeat left center;
+	padding-left: 57px;
+}
+#gNavOpener { display: none; }
+.note:before {
+	content: '※';
+}
