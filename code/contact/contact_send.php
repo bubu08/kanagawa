@@ -4,9 +4,6 @@
 /*************************************************
  * //ファイルアップロード関連ここまで
  **************************************************/
-echo '<pre>';
-print_r($_POST);
-echo '</pre>';die;
 
 $input1 = ! empty( $_POST['input1'] ) ? $_POST['input1'] : '';
 $input12 = ! empty( $_POST['input12'] ) ? $_POST['input12'] : '';
@@ -59,25 +56,6 @@ $select12_8= ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
 
 
 
-/*
-{$input12_1}   ご希望の時間帯: {$select12_1}
-{$input12_2}   ご希望の時間帯: {$select12_2}
-{$input12_3}   ご希望の時間帯: {$select12_3}
-{$input12_4}   ご希望の時間帯: {$select12_4}
-{$input12_5}   ご希望の時間帯: {$select12_5}
-{$input12_6}   ご希望の時間帯: {$select12_6}
-{$input12_7}   ご希望の時間帯: {$select12_7}
-{$input12_8}   ご希望の時間帯: {$select12_8}*/
-
-
-
-/*{$_POST['input10']}　　
-{$_POST['input101']}
-{$_POST['input102']}
-{$_POST['input103']}
-{$_POST['input104']}
-{$_POST['input105']}
-{$_POST['input106']}*/
 
 
 

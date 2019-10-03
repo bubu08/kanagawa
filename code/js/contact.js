@@ -13,19 +13,20 @@
     function submitData() {
         var f = $(fName);
         var method_ = f.prop('method');
-        var formdata = new FormData(f.get(0));
-        let serialize = $('#orderForm').serialize();
-        console.log(serialize);
+        // var formdata = new FormData(f.get(0));
+        // let serialize = $('#orderForm').serialize();
+        // console.log(serialize);
+
+        var data = $('#orderForm').data('form');
+        console.log(data);
 
         // POSTでアップロード
         $.ajax({
             url: url_,
             method: method_,
             type: 'POST',
-            data: formdata,
-            cache: false,
-            contentType: false,
-            processData: false,
+            // data: formdata,
+            data: data,
             success: function (data) {
                 console.log(data);
                 $("#dialog").dialog({
@@ -105,7 +106,7 @@
         }
     }
 
-    function confirm_buttom() {
+    function submit_button() {
         $('a.submitbtn').on('click', function (e) {
             e.preventDefault();
 
@@ -134,7 +135,7 @@
 
     }
 
-    function submit_button() {
+    function confirm_buttom() {
         $('a.confirmbntttt').on('click', function (e) {
             e.preventDefault();
             $('#confirmform').submit();
