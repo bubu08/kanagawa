@@ -12,9 +12,9 @@
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>日本酒専門店「ゆとり」</title>
+    <title>かながわ住まいづくりフェア2019</title>
     <meta name="keywords" content=""/>
-    <meta name="description" content=""/>
+    <meta name="description" content="神奈川県内、大手メーカーの設計士と一緒に、安心・安全・快適な家づくりについて考えましょう。"/>
     <!-- Cache -->
     <!-- /Cache -->
     <!-- ogp -->
@@ -25,21 +25,29 @@
 
     <!-- For everything else -->
 
-    <!-- /icon -->
     <!-- default Header Object -->
     <link rel="stylesheet" type="text/css" media="all" href="../js/lib/bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="../js/lib/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="../css/global/import.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="../css/validationEngine.jquery.css">
+
     <!-- /default Header Object -->
     <!-- content Header Object -->
     <link rel="stylesheet" type="text/css" media="all" href="../css/content/form.css"/>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!--    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>-->
+    <script src="../js/lib/jquery-2.2.4.min.js"></script>
     <script src="../js/lib/bootstrap/js/bootstrap.min.js"></script>
+
     <!-- /content Header Object -->
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/additional-methods.min.js"></script>
 
     <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.4/jquery.validationEngine.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.4/languages/jquery.validationEngine-ja.js"></script>
 
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css"/>
 
@@ -98,15 +106,10 @@
             <div class="row">
                     <div class="row">
                         <div class="jumbotron text-center contentBody">
-                            <h1 class="display-3">Thank You!</h1>
-                            <p class="lead"><strong>Please check your email</strong> for further instructions on how to complete your account setup.</p>
+                            <p class="lead">お問い合わせ頂きまして、誠にありがとうございます。</p>
+                            <p class="lead">お問い合わせ内容については、後日こちらよりご連絡をさせて頂きます。</p>
                             <hr>
-                          <!--  <p>
-                                Having trouble? <a href="">Contact us</a>
-                            </p>-->
-                            <p class="lead">
-                                <a class="btn btn-primary btn-sm" href="https://kanagawaselect8.jp" role="button">Continue to homepage</a>
-                            </p>
+
                         </div>
                 </div>
             </div>
@@ -115,9 +118,10 @@
         <footer id="formFooter" class="formFooter">
             <div class="container">
                 <div class="row">
-                    <a class="confirmbntttt" href="">
+
+                    <a href="https://kanagawaselect8.jp">
                         <div class="confirmBtn">
-                            確認画面へ
+                            TOPへ戻る
                         </div>
                     </a>
                     <p class="caption"> かながわ住まいづくりフェア事務局 </p>
