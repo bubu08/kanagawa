@@ -93,6 +93,7 @@
 
 .formContent .contentBody {
     background-color: #f8ebcf;
+    border-radius:0;
 }
 
 .formContent .contentBody .orderForm {
