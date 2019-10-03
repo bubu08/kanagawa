@@ -99,65 +99,57 @@
                 <div class="contentBody">
                     <form action="#" class="orderForm form-inline" id="orderForm" method="POST">
                         <div class="row lineForm form1">
-                            <div class="col-md-2">
-                                <h2>
-                                    <ruby>お名前
-                                        <rt>必須</rt>
-                                        <rt></rt>
-                                    </ruby>
-                                </h2>
+                            <div class="col-md-3">
+                                <div class="label-infor">
+                                    <span>必須</span>
+                                    <p>お名前</p>
+                                </div>
                             </div>
-                            <div class="form-group col-md-5">
+                            <div class="form-group form-flex col-md-4">
                                 <label for="text1">姓</label>
                                 <input type="text" class="form-control" name="input1"/>
                             </div>
-                            <div class="form-group col-md-5">
+                            <div class="form-group form-flex col-md-4">
                                 <label for="text">名</label>
                                 <input type="text" class="form-control" name="input12"/>
                             </div>
                         </div>
 
                         <div class="row lineForm form2">
-                            <div class="col-md-2">
-                                <h2>
-                                    <ruby>フリガナ
-                                        <rt>必須</rt>
-                                        <rt></rt>
-                                    </ruby>
-                                </h2>
+                            <div class="col-md-3">
+                                <div class="label-infor">
+                                    <span>必須</span>
+                                    <p>フリガナ</p>
+                                </div>
                             </div>
-                            <div class="form-group col-md-5">
+                            <div class="form-group form-flex col-md-4">
                                 <label for="text">セイ</label>
                                 <input type="text" class="form-control" name="input2"/>
                             </div>
-                            <div class="form-group col-md-5">
+                            <div class="form-group form-flex col-md-4">
                                 <label for="text">メイ</label>
                                 <input type="text" class="form-control" name="input21"/>
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-md-2">
-                                <h2>
-                                    <ruby>住　所
-                                        <rt>必須</rt>
-                                        <rt></rt>
-                                    </ruby>
-
-                                    <span>＊全角カタカナ</span>
-                                </h2>
+                            <div class="col-md-3">
+                                <div class="label-infor">
+                                  <span>必須</span>
+                                  <p>住　所</p>
+                                </div>
                             </div>
-                            <div class="form-group col-md-5 form3">
+                            <div class="form-group col-md-4 form-flex form3">
                                 <label for="text">〒</label>
                                 <input type="text" class="form-control" name="input3"/>
                             </div>
-                            <div class="form-group col-md-5 dropText">
+                            <div class="form-group col-md-4 dropText">
                                 ＊ハイフンなしで入力
                             </div>
                         </div>
                         <div class="row mT15">
-                            <div class="col-md-2"></div>
-                            <div class="form-group col-md-5 form4">
+                            <div class="col-md-3"></div>
+                            <div class="form-group col-md-4 form4">
                                 <label for="text" class="w-100">都道府県名</label>
                                 <div class="wrapSelect">
                                     <select class="selectForm" name="select4" id="">
@@ -169,7 +161,7 @@
                             <div class="form-group ol-md-5"></div>
                         </div>
                         <div class="row mT15">
-                            <div class="col-md-2"></div>
+                            <div class="col-md-3"></div>
                             <div class="form-group col-md-7 form5">
                                 <label for="text" class="w-100">市町村名</label>
                                 <input type="text" class="form-control w-100" name="input5"/>
@@ -177,7 +169,7 @@
                             <div class="form-group col-md-3"></div>
                         </div>
                         <div class="row lineForm mT15">
-                            <div class="col-md-2"></div>
+                            <div class="col-md-3"></div>
                             <div class="form-group col-md-7 form6">
                                 <label for="text" class="w-100">番地・マンション名・部屋番号</label>
                                 <input type="text" class="form-control w-100" name="input6"/>
@@ -185,15 +177,12 @@
                             <div class="form-group col-md-3"></div>
                         </div>
                         <div class="row lineForm mT15">
-                            <div class="col-md-2">
-                                <h2>
-                                    <ruby>電話番号
-                                        <rt>必須</rt>
-                                        <rt></rt>
-                                    </ruby>
-
-                                    <span>＊ハイフンなしで入力</span>
-                                </h2>
+                            <div class="col-md-3">
+                              <div class="label-infor">
+                                <span>必須</span>
+                                <p>電話番号</p>
+                                <p class="text-12">＊ハイフンなしで入力</p>
+                              </div>
                             </div>
                             <div class="form-group col-md-7">
                                 <input type="text" class="form-control w-100" name="phone_number"/>
@@ -201,13 +190,11 @@
                             <div class="form-group ol-md-3"></div>
                         </div>
                         <div class="row lineForm mT15">
-                            <div class="col-md-2">
-                                <h2>
-                                    <ruby>メールアドレス
-                                        <rt>必須</rt>
-                                        <rt></rt>
-                                    </ruby>
-                                </h2>
+                            <div class="col-md-3">
+                              <div class="label-infor">
+                                <span>必須</span>
+                                <p>メールアドレス</p>
+                              </div>
                             </div>
                             <div class="form-group col-md-7 form7">
                                 <input type="text" class="form-control w-100" name="email"/>
@@ -215,13 +202,11 @@
                             <div class="form-group col-md-3"></div>
                         </div>
                         <div class="row lineForm mT15">
-                            <div class="col-md-2">
-                                <h2>
-                                    <ruby>参加人数
-                                        <rt>必須</rt>
-                                        <rt></rt>
-                                    </ruby>
-                                </h2>
+                            <div class="col-md-3">
+                              <div class="label-infor">
+                                <span>必須</span>
+                                <p>参加人数</p>
+                              </div>
                             </div>
                             <div class="form-group col-md-4 form8">
                                 <label class="double" for="text">大人</label>
@@ -241,13 +226,14 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-md-2"></div>
+                            <div class="col-md-3"></div>
                         </div>
                         <div class="row lineForm mT15">
-                            <div class="col-md-2">
-                                <h2>
-                                    <ruby>参加日</ruby>
-                                </h2>
+                            <div class="col-md-3">
+                              <div class="label-infor">
+                                <span>必須</span>
+                                <p>参加日</p>
+                              </div>
                             </div>
 
                             <div class="col-md-3">
@@ -265,20 +251,18 @@
                                     <img src="../images/content/form/form7image2.png" alt=""/>
                                 </div>
                             </div>
-                            <div class="col-md-2"></div>
+                            <div class="col-md-3"></div>
                         </div>
                         <div class="row lineForm mT15 form10">
-                            <div class="col-md-2">
-                                <h2>
-                                    <ruby>興味のある セミナー
-                                        <rt>必須</rt>
-                                        <rt></rt>
-                                    </ruby>
-
-                                    <span>＊複数選択可</span>
-                                </h2>
+                            <div class="col-md-3">
+                              <div class="label-infor">
+                                <span>必須</span>
+                                <p>興味のある
+                                  セミナー</p>
+                                  <p class="text-12">＊複数選択可</p>
+                              </div>
                             </div>
-                            <div class="col-md-10">
+                            <div class="col-md-9">
                                 <div class="wrapCheckmart">
                                     <label class="unset">貴方の願い、設計のプロが叶えます！
                                         メジャー8社の設計者によるトークバトル
@@ -337,13 +321,11 @@
                             </div>
                         </div>
                         <div class="row lineForm mT15 form11">
-                            <div class="col-md-2">
-                                <h2>
-                                    <ruby>託児所利用
-                                        <rt class="brown">任意</rt>
-                                        <rt></rt>
-                                    </ruby>
-                                </h2>
+                            <div class="col-md-3">
+                              <div class="label-infor">
+                                <span class="gray-span">必須</span>
+                                  <p>託児所利用</p>
+                              </div>
                             </div>
                             <div class="col-md-10">
                                 <div class="lineFormchild hide-line">
@@ -386,20 +368,20 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="form-group col-md-2"></div>
+                                    <div class="form-group col-md-3"></div>
                                 </div>
 
                             </div>
                         </div>
 
                         <div class="row mT15 form12">
-                            <div class="col-md-2">
-                                <h2>
-                                    <ruby>参加メーカーとの 個別相談希望
-                                        <rt class="brown">任意</rt>
-                                        <span> ＊複数選択可 </span>
-                                    </ruby>
-                                </h2>
+                            <div class="col-md-3">
+                              <div class="label-infor">
+                                <span class="gray-span">必須</span>
+                                  <p>参加メーカーとの
+                                    個別相談希望</p>
+                                    <p class="text-12">＊複数選択可</p>
+                              </div>
                             </div>
                             <div class="col-md-10">
                                 <h2 class="m0"> 希望するハウスメーカー・ご希望時間をお選びください。 </h2>
