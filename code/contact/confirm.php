@@ -13,8 +13,8 @@ $phone_number = ! empty( $_POST['phone_number'] ) ? $_POST['phone_number'] : '';
 $email        = ! empty( $_POST['email'] ) ? $_POST['email'] : '';
 $select8      = ! empty( $_POST['select8'] ) ? $_POST['select8'] : '';
 $select9      = ! empty( $_POST['select9'] ) ? $_POST['select9'] : '';
-$join_date_1  = ! empty( $_POST['join_date_1'] ) ? $_POST['join_date_1'] : '';
-$join_date_2  = ! empty( $_POST['join_date_2'] ) ? $_POST['join_date_2'] : '';
+$join_date_1  = ! empty( $_POST['join_date_1'] ) ? 'checkedmark' : 'checkmark';
+$join_date_2  = ! empty( $_POST['join_date_2'] )? 'checkedmark' : 'checkmark';
 
 $input10  = isset( $_POST['input10'] ) ? 'checkedmark' : 'checkmark';
 $input101 = isset( $_POST['input101'] ) ? 'checkedmark' : 'checkmark';
@@ -39,6 +39,9 @@ $input12_5 = isset( $_POST['input12_5'] ) ? 'checkedmark' : 'checkmark';
 $input12_6 = isset( $_POST['input12_6'] ) ? 'checkedmark' : 'checkmark';
 $input12_7 = isset( $_POST['input12_7'] ) ? 'checkedmark' : 'checkmark';
 $input12_8 = isset( $_POST['input12_8'] ) ? 'checkedmark' : 'checkmark';
+
+$select111 = ! empty( $_POST['select111'] ) ? $_POST['select111'] : '';
+$select112 = ! empty( $_POST['select112'] ) ? $_POST['select112'] : '';
 
 $select12_1 = ! empty( $_POST['select12_1'] ) ? $_POST['select12_1'] : '';
 $select12_2 = ! empty( $_POST['select12_2'] ) ? $_POST['select12_2'] : '';
@@ -92,7 +95,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
     <!-- /content Header Object -->
 
 
-    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/additional-methods.min.js"></script>
 
     <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
@@ -207,9 +210,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                 <label for="text">〒</label>
                                     <span class="text"><?= $input3 ?></span>
                             </div>
-                            <div class="form-group col-md-4 dropText custom-input">
-                                ＊ハイフンなしで入力
-                            </div>
+
                         </div>
                         <div class="row mT15">
                             <div class="col-md-3"></div>
@@ -230,8 +231,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                         <div class="row lineForm mT15">
                             <div class="col-md-2"></div>
                             <div class="form-group col-md-7 form6">
-                                <label for="text" class="w-100">番地・マンション名・部屋番号</label>
-                                <span class="text"><?= $input6 ?></span>
+
                             </div>
                             <div class="form-group col-md-3"></div>
                         </div>
@@ -288,16 +288,16 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                             <div class="col-md-3">
                                 <div class="wrapCheckmart">
                                     <label class="multi">11/16
-                                        <span class="text"><?= $join_date_1 ?></span></span>
-                                        <span class="checkmark"> </span></label>
+                                        <span class="<?= $join_date_1 ?>"> </span>
+                                    </label>
                                     <img src="../images/content/form/form7image1.png" alt=""/>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="wrapCheckmart">
                                     <label class="multi">11/17
-                                        <span class="text"><?= $join_date_2 ?></span></span>
-                                        <span class="checkmark"></span></label>
+                                        <span class="<?= $join_date_1 ?>"> </span>
+                                    </label>
                                     <img src="../images/content/form/form7image2.png" alt=""/>
                                 </div>
                             </div>
@@ -314,52 +314,48 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                             </div>
                             <div class="col-md-9">
                                 <div class="wrapCheckmart">
-                                    <label class="unset">貴方の願い、設計のプロが叶えます！
-                                        メジャー8社の設計者によるトークバトル
-                                        広さに頼らない「心地よい住まい」のつくり方
-                                        安心安全に暮らす 神奈川県の防災対策と対処法 「美人収納」
-                                        捨てるが苦手な人も
-
+                                    <label class="unset">11/16 広さに頼らない「心地よい住まい」のつくり方
                                         <span
                                                 class="<?= $input10 ?><"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">広さに頼らない「心地よい住まい」のつくり方
+                                    <label class="unset">11/16 あなたの願い、設計のプロが叶えます！
+                                        　　　　メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
 
 
                                         <span
                                                 class="<?= $input101 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">安心安全に暮らす 神奈川県の防災対策と対処法
+                                    <label class="unset">11/16 安心安全に暮らす 神奈川県の防災対策と対処法
 
                                         <span class="<?= $input102 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">「美人収納」 捨てるが苦手な人もできる仕分け術
+                                    <label class="unset">11/16 あなたの願い、設計のプロが叶えます！
+                                        　　　　メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
 
                                         <span class="<?= $input103 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">元号、消費税の変化に伴い、抑えておきたいお金の話！
+                                    <label class="unset">11/16 「美人収納」  捨てるが苦手な人もできる仕分け術
 
                                         <span class="<?= $input104 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">実質金利ゼロ!?
-                                        住宅ローン&家計で2,000万節約するマル秘テクニック
-
+                                    <label class="unset">11/16 元号、消費税の変化に伴い、押さえておきたいお金の話！
                                         <span
                                                 class="<?= $input105 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">災害に強い安心・安全な住まいとは
+                                    <label class="unset">11/17 実質金利ゼロ!? 住宅ローン&家計で2,000万節約するマル秘テクニック
 
                                         <span
                                                 class="<?= $input106 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">相続・贈与時の お得な減税制度とは
+                                    <label class="unset">11/17 あなたの願い、設計のプロが叶えます！
+                                        　　　　メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
 
                                         <span class="<?= $input107 ?>"></span>
                                     </label>
@@ -394,11 +390,11 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                 <div class="lineFormchild hide-line">
                                     <div class="wrapCheckmart">
                                         <label class="unset">利用する
-                                            <span class="text"><?= $input11 ?></span></span><span
-                                                    class="checkmark"></span></label>
+                                          <span class="<?= $input11 ?>"></span>
+                                        </label>
                                     </div>
                                 </div>
-                                <div class="row ml--15 hide">
+                                <div class="row ml--15 ">
 
                                     <div class="form-group col-md-4">
                                         <label class="w-100" for="text">▽ご利用人数</label>
@@ -559,7 +555,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                 <div class="row">
                     <a class="submitbtn" href="">
                         <div class="confirmBtn">
-                            確定する -->
+                            確定する
                         </div>
                     </a>
                     <p class="caption"> かながわ住まいづくりフェア事務局 </p>
