@@ -6,39 +6,16 @@
 //フォームid名
     var fName = '#orderForm';
 
+    $("body").append('<div id="dialog" style="display: none;"></div>');
 
-    // 送信チェック
-    function submitForm() {
-
-        $("#dialog").html('送信してよろしいですか？');
-        $("#dialog").dialog({
-            resizable: false,
-            draggable: false,
-            closeOnEscape: false,
-            open: function (event, ui) {
-                $(".ui-dialog-titlebar-close").hide();
-            },
-            modal: true,
-            title: '確認',
-            width: 400,
-            height: 150,
-            buttons: {
-                'OK': function () {
-                    submitData();
-                },
-                '閉じる': function () {
-                    $(this).dialog('close');
-                }
-            }
-        });
-    }
 
     // 送信データ処理
     function submitData() {
         var f = $(fName);
         var method_ = f.prop('method');
         var formdata = new FormData(f.get(0));
-
+        let serialize = $('#orderForm').serialize();
+        console.log(serialize);
 
         // POSTでアップロード
         $.ajax({
@@ -50,6 +27,7 @@
             contentType: false,
             processData: false,
             success: function (data) {
+                console.log(data);
                 $("#dialog").dialog({
                     buttons: {}
                 });
@@ -86,13 +64,14 @@
 
                 let parents = $(this).parents('.lineFormchild.hide-line');
                 parents.siblings().removeClass('hide');
+                parents.siblings().prop('disabled', false);
                 parents.removeClass('hide-line');
             } else {
                 console.log('hide');
                 let parents = $(this).parents('.lineFormchild');
 
                 parents.siblings().addClass('hide');
-
+                parents.siblings().prop('disabled', 'disabled');
                 parents.addClass('hide-line');
 
             }
@@ -125,9 +104,30 @@
     }
 
     function confirm_buttom() {
-        let parent = $('div.confirmBtn').parent().on('click', function (e) {
+        $('div.confirmBtn').parent().on('click', function (e) {
             e.preventDefault();
-            
+
+            $("#dialog").html('送信してよろしいですか？');
+            $("#dialog").dialog({
+                resizable: false,
+                draggable: false,
+                closeOnEscape: false,
+                open: function (event, ui) {
+                    $(".ui-dialog-titlebar-close").hide();
+                },
+                modal: true,
+                title: '確認',
+                width: 400,
+                height: 150,
+                buttons: {
+                    'OK': function () {
+                        submitData();
+                    },
+                    '閉じる': function () {
+                        $(this).dialog('close');
+                    }
+                }
+            });
         });
 
     }

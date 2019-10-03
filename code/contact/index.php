@@ -33,7 +33,15 @@
     <!-- /default Header Object -->
     <!-- content Header Object -->
     <link rel="stylesheet" type="text/css" media="all" href="../css/content/form.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../js/lib/bootstrap/js/bootstrap.min.js"></script>
     <!-- /content Header Object -->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css"/>
 
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
@@ -100,12 +108,12 @@
                                 </h2>
                             </div>
                             <div class="form-group col-md-5">
-                                <label for="text">姓</label>
-                                <input type="text" class="form-control" name=input1/>
+                                <label for="text1">姓</label>
+                                <input type="text" class="form-control" name="input1"/>
                             </div>
                             <div class="form-group col-md-5">
                                 <label for="text">名</label>
-                                <input type="text" class="form-control" name=input12/>
+                                <input type="text" class="form-control" name="input12"/>
                             </div>
                         </div>
 
@@ -120,11 +128,11 @@
                             </div>
                             <div class="form-group col-md-5">
                                 <label for="text">セイ</label>
-                                <input type="text" class="form-control" name=input2/>
+                                <input type="text" class="form-control" name="input2"/>
                             </div>
                             <div class="form-group col-md-5">
                                 <label for="text">メイ</label>
-                                <input type="text" class="form-control" name=input21/>
+                                <input type="text" class="form-control" name="input21"/>
                             </div>
                         </div>
 
@@ -188,7 +196,7 @@
                                 </h2>
                             </div>
                             <div class="form-group col-md-7">
-                                <input type="text" class="form-control w-100" id="text"/>
+                                <input type="text" class="form-control w-100" name="phone_number"/>
                             </div>
                             <div class="form-group ol-md-3"></div>
                         </div>
@@ -202,7 +210,7 @@
                                 </h2>
                             </div>
                             <div class="form-group col-md-7 form7">
-                                <input type="text" class="form-control w-100" name="input7"/>
+                                <input type="text" class="form-control w-100" name="email"/>
                             </div>
                             <div class="form-group col-md-3"></div>
                         </div>
@@ -244,14 +252,15 @@
 
                             <div class="col-md-3">
                                 <div class="wrapCheckmart">
-                                    <label class="multi">11/16 <input type="checkbox" value=""/>
+                                    <label class="multi">11/16 <input type="checkbox" name="join_date_1" value="yes"/>
                                         <span class="checkmark"> </span></label>
                                     <img src="../images/content/form/form7image1.png" alt=""/>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="wrapCheckmart">
-                                    <label class="multi">11/17<input type="checkbox" value=""/><span
+                                    <label class="multi">11/17<input type="checkbox" name="join_date_2"
+                                                                     value="yes"/><span
                                                 class="checkmark"></span></label>
                                     <img src="../images/content/form/form7image2.png" alt=""/>
                                 </div>
@@ -275,43 +284,54 @@
                                         メジャー8社の設計者によるトークバトル
                                         広さに頼らない「心地よい住まい」のつくり方
                                         安心安全に暮らす 神奈川県の防災対策と対処法 「美人収納」
-                                        捨てるが苦手な人も<input type="checkbox" value="" name="input10"/><span
+                                        捨てるが苦手な人も<input type="checkbox"
+                                                        value="貴方の願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル広さに頼らない「心地よい住まい」のつくり方安心安全に暮らす 神奈川県の防災対策と対処法 「美人収納」捨てるが苦手な人も"
+                                                        name="input10"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">広さに頼らない「心地よい住まい」のつくり方<input type="checkbox" value=""
-                                                                                     name="input101"/><span
+                                    <label class="unset">広さに頼らない「心地よい住まい」のつくり方
+                                        <input type="checkbox" value="広さに頼らない「心地よい住まい」のつくり方"
+                                               name="input101"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">安心安全に暮らす 神奈川県の防災対策と対処法<input type="checkbox" value=""
-                                                                                      name="input102"/><span
+                                    <label class="unset">安心安全に暮らす 神奈川県の防災対策と対処法
+                                        <input type="checkbox" value="安心安全に暮らす 神奈川県の防災対策と対処法"
+                                               name="input102"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">「美人収納」 捨てるが苦手な人もできる仕分け術<input type="checkbox" value=""
-                                                                                       name="input103"/><span
+                                    <label class="unset">「美人収納」 捨てるが苦手な人もできる仕分け術
+                                        <input type="checkbox"
+                                               value="「美人収納」 捨てるが苦手な人もできる仕分け術"
+                                               name="input103"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">元号、消費税の変化に伴い、抑えておきたいお金の話！<input type="checkbox" value=""
-                                                                                         name="input104"/><span
+                                    <label class="unset">元号、消費税の変化に伴い、抑えておきたいお金の話！
+                                        <input type="checkbox"
+                                               value="元号、消費税の変化に伴い、抑えておきたいお金の話！"
+                                               name="input104"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">実質金利ゼロ!?
-                                        住宅ローン&家計で2,000万節約するマル秘テクニック<input type="checkbox" value=""
-                                                                          name="input105"/><span
+                                        住宅ローン&家計で2,000万節約するマル秘テクニック
+                                        <input type="checkbox" value="実質金利ゼロ!?住宅ローン&家計で2,000万節約するマル秘テクニック"
+                                               name="input105"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">災害に強い安心・安全な住まいとは<input type="checkbox" value=""
-                                                                                name="input105"/><span
+                                    <label class="unset">災害に強い安心・安全な住まいとは
+                                        <input type="checkbox" value="災害に強い安心・安全な住まいとは"
+                                               name="input105"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">相続・贈与時の お得な減税制度とは<input type="checkbox" value=""
-                                                                                 name="input106"/><span
+                                    <label class="unset">相続・贈与時の お得な減税制度とは
+                                        <input type="checkbox" value="相続・贈与時の お得な減税制度とは"
+                                               name="input106"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                             </div>
@@ -338,7 +358,7 @@
                                     <div class="form-group col-md-4">
                                         <label class="w-100" for="text">▽ご利用人数</label>
                                         <div class="wrapSelect small">
-                                            <select class="selectForm" name="select111">
+                                            <select class="selectForm disabled" disabled name="select111">
                                                 <option value="選択してください" selected>選択してください</option>
                                                 <option value="1人">1人</option>
                                                 <option value="2人">2人</option>
@@ -355,7 +375,7 @@
                                     <div class="form-group col-md-6">
                                         <label class="w-100" for="text">▽ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm" name="select112">
+                                            <select class="selectForm disabled" disabled name="select112">
                                                 <!--午前
                                                     午後
                                                     両方-->
@@ -661,8 +681,6 @@
 </div>
 <!-- /#wrapper -->
 <!-- default Header Object -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="../js/lib/bootstrap/js/bootstrap.min.js"></script>
 <script src="../js/contact.js"></script>
 <!-- /content Header Object -->
 </body>
