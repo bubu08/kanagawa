@@ -19,7 +19,28 @@
 
         var data = $('#orderForm').data('form');
         console.log(data);
+        $("#dialog").dialog({
+            buttons: {}
+        });
 
+        $("#dialog").html('メールを配信しました。');
+        $("#dialog").dialog({
+            resizable: false,
+            draggable: false,
+            closeOnEscape: false,
+            open: function (event, ui) {
+                $(".ui-dialog-titlebar-close").hide();
+            },
+            modal: true,
+            title: '配信完了',
+            width: 400,
+            height: 150,
+            buttons: {
+                '閉じる': function () {
+                    $(this).dialog('close');
+                }
+            }
+        });
         // POSTでアップロード
         $.ajax({
             url: url_,
@@ -29,28 +50,8 @@
             data: data,
             success: function (data) {
                 console.log(data);
-                $("#dialog").dialog({
-                    buttons: {}
-                });
+                window.location.href = 'thankyou.php';
 
-                $("#dialog").html('メールを配信しました。');
-                $("#dialog").dialog({
-                    resizable: false,
-                    draggable: false,
-                    closeOnEscape: false,
-                    open: function (event, ui) {
-                        $(".ui-dialog-titlebar-close").hide();
-                    },
-                    modal: true,
-                    title: '配信完了',
-                    width: 400,
-                    height: 150,
-                    buttons: {
-                        '閉じる': function () {
-                            $(this).dialog('close');
-                        }
-                    }
-                });
 
             }
         }).fail(function (data) {
