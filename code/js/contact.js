@@ -106,7 +106,7 @@
     }
 
     function confirm_buttom() {
-        $('div.confirmBtn').parent().on('click', function (e) {
+        $('a.submitbtn').on('click', function (e) {
             e.preventDefault();
 
             $("#dialog").html('送信してよろしいですか？');
@@ -134,10 +134,18 @@
 
     }
 
+    function submit_button() {
+        $('a.confirmbntttt').on('click', function (e) {
+            e.preventDefault();
+            $('#confirmform').submit();
+        })
+    }
+
 
     $(document).ready(function () {
         inputcheckhideshow();
         input_select_disable();
         confirm_buttom();
+        submit_button();
     });
 })(jQuery);

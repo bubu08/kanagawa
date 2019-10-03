@@ -1,3 +1,50 @@
+<?php
+
+$input1       = ! empty( $_POST['input1'] ) ? $_POST['input1'] : '';
+$input12      = ! empty( $_POST['input12'] ) ? $_POST['input12'] : '';
+$input2       = ! empty( $_POST['input2'] ) ? $_POST['input2'] : '';
+$input21      = ! empty( $_POST['input21'] ) ? $_POST['input21'] : '';
+$input3       = ! empty( $_POST['input3'] ) ? $_POST['input3'] : '';
+$select4      = ! empty( $_POST['select4'] ) ? $_POST['select4'] : '';
+$input5       = ! empty( $_POST['input5'] ) ? $_POST['input5'] : '';
+$input6       = ! empty( $_POST['input6'] ) ? $_POST['input6'] : '';
+$phone_number = ! empty( $_POST['phone_number'] ) ? $_POST['phone_number'] : '';
+$email        = ! empty( $_POST['email'] ) ? $_POST['email'] : '';
+$select8      = ! empty( $_POST['select8'] ) ? $_POST['select8'] : '';
+$select9      = ! empty( $_POST['select9'] ) ? $_POST['select9'] : '';
+$join_date_1  = ! empty( $_POST['join_date_1'] ) ? $_POST['join_date_1'] : '';
+$join_date_2  = ! empty( $_POST['join_date_2'] ) ? $_POST['join_date_2'] : '';
+
+$input10  = ! empty( $_POST['input10'] ) ? $_POST['input10'] : '';
+$input101 = ! empty( $_POST['input101'] ) ? $_POST['input101'] : '';
+$input102 = ! empty( $_POST['input102'] ) ? $_POST['input102'] : '';
+$input103 = ! empty( $_POST['input103'] ) ? $_POST['input103'] : '';
+$input104 = ! empty( $_POST['input104'] ) ? $_POST['input104'] : '';
+$input105 = ! empty( $_POST['input105'] ) ? $_POST['input105'] : '';
+$input106 = ! empty( $_POST['input106'] ) ? $_POST['input106'] : '';
+$input107 = ! empty( $_POST['input107'] ) ? $_POST['input107'] : '';
+
+$input11 = ! empty( $_POST['input11'] ) ? $_POST['input11'] : '';
+
+$input12_1 = ! empty( $_POST['input12_1'] ) ? $_POST['input12_1'] : '';
+$input12_2 = ! empty( $_POST['input12_2'] ) ? $_POST['input12_2'] : '';
+$input12_3 = ! empty( $_POST['input12_3'] ) ? $_POST['input12_3'] : '';
+$input12_4 = ! empty( $_POST['input12_4'] ) ? $_POST['input12_4'] : '';
+$input12_5 = ! empty( $_POST['input12_5'] ) ? $_POST['input12_5'] : '';
+$input12_6 = ! empty( $_POST['input12_6'] ) ? $_POST['input12_6'] : '';
+$input12_7 = ! empty( $_POST['input12_7'] ) ? $_POST['input12_7'] : '';
+$input12_8 = ! empty( $_POST['input12_8'] ) ? $_POST['input12_8'] : '';
+
+$select12_1 = ! empty( $_POST['select12_1'] ) ? $_POST['select12_1'] : '';
+$select12_2 = ! empty( $_POST['select12_2'] ) ? $_POST['select12_2'] : '';
+$select12_3 = ! empty( $_POST['select12_3'] ) ? $_POST['select12_3'] : '';
+$select12_4 = ! empty( $_POST['select12_4'] ) ? $_POST['select12_4'] : '';
+$select12_5 = ! empty( $_POST['select12_5'] ) ? $_POST['select12_5'] : '';
+$select12_6 = ! empty( $_POST['select12_6'] ) ? $_POST['select12_6'] : '';
+$select12_7 = ! empty( $_POST['select12_7'] ) ? $_POST['select12_7'] : '';
+$select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
+
+?>
 <!DOCTYPE html>
 <!--[if IE 7]>
 <html class="ie7" prefix="og: http://ogp.me/ns#"><![endif]-->
@@ -97,8 +144,7 @@
         <div class="container">
             <div class="row">
                 <div class="contentBody">
-                    <form action="confirm.php" class="orderForm form-inline" id="confirmform"
-                          method="POST">
+                    <form action="#" class="orderForm form-inline" id="orderForm" method="POST">
                         <div class="row lineForm form1">
                             <div class="col-md-2">
                                 <h2>
@@ -110,12 +156,16 @@
                             </div>
                             <div class="form-group col-md-5">
                                 <label for="text1">姓</label>
-                                <input type="text" class="form-control" name="input1"/>
+                                <span class="text">
+                                    <span class="text"><?= $input1 ?></span>
+                                </span>
+
                             </div>
                             <div class="form-group col-md-5">
                                 <label for="text">名</label>
-                                <input type="text" class="form-control" name="input12"/>
-                            </div>
+                                <span class="text">
+                                    <span class="text"><?= $input12 ?></span>
+                                </span></div>
                         </div>
 
                         <div class="row lineForm form2">
@@ -129,11 +179,14 @@
                             </div>
                             <div class="form-group col-md-5">
                                 <label for="text">セイ</label>
-                                <input type="text" class="form-control" name="input2"/>
-                            </div>
+                                <span class="text">
+                                    <span class="text"><?= $input2 ?></span>
+                                </span></div>
                             <div class="form-group col-md-5">
                                 <label for="text">メイ</label>
-                                <input type="text" class="form-control" name="input21"/>
+                                <span class="text">
+                                    <span class="text"><?= $input21 ?></span>
+                                </span>
                             </div>
                         </div>
 
@@ -150,7 +203,9 @@
                             </div>
                             <div class="form-group col-md-5 form3">
                                 <label for="text">〒</label>
-                                <input type="text" class="form-control" name="input3"/>
+                                <span class="text">
+                                    <span class="text"><?= $input3 ?></span>
+                                </span>
                             </div>
                             <div class="form-group col-md-5 dropText">
                                 ＊ハイフンなしで入力
@@ -160,12 +215,7 @@
                             <div class="col-md-2"></div>
                             <div class="form-group col-md-5 form4">
                                 <label for="text" class="w-100">都道府県名</label>
-                                <div class="wrapSelect">
-                                    <select class="selectForm" name="select4" id="">
-                                        <option value="test">test</option>
-                                        <option value="test1">test1</option>
-                                    </select>
-                                </div>
+								<span class="text"><?= $select4 ?></span>
                             </div>
                             <div class="form-group ol-md-5"></div>
                         </div>
@@ -173,7 +223,7 @@
                             <div class="col-md-2"></div>
                             <div class="form-group col-md-7 form5">
                                 <label for="text" class="w-100">市町村名</label>
-                                <input type="text" class="form-control w-100" name="input5"/>
+								<span class="text"><?= $input5 ?></span>
                             </div>
                             <div class="form-group col-md-3"></div>
                         </div>
@@ -181,7 +231,7 @@
                             <div class="col-md-2"></div>
                             <div class="form-group col-md-7 form6">
                                 <label for="text" class="w-100">番地・マンション名・部屋番号</label>
-                                <input type="text" class="form-control w-100" name="input6"/>
+								<span class="text"><?= $input6 ?></span>
                             </div>
                             <div class="form-group col-md-3"></div>
                         </div>
@@ -197,7 +247,7 @@
                                 </h2>
                             </div>
                             <div class="form-group col-md-7">
-                                <input type="text" class="form-control w-100" name="phone_number"/>
+								<span class="text"><?= $phone_number ?></span>
                             </div>
                             <div class="form-group ol-md-3"></div>
                         </div>
@@ -211,7 +261,7 @@
                                 </h2>
                             </div>
                             <div class="form-group col-md-7 form7">
-                                <input type="text" class="form-control w-100" name="email"/>
+								<span class="text"><?= $email ?></span>
                             </div>
                             <div class="form-group col-md-3"></div>
                         </div>
@@ -226,21 +276,11 @@
                             </div>
                             <div class="form-group col-md-4 form8">
                                 <label class="double" for="text">大人</label>
-                                <div class="wrapSelect small">
-                                    <select class="selectForm" name="select8">
-                                        <option value="test">test</option>
-                                        <option value="test1">test1</option>
-                                    </select>
-                                </div>
+								<span class="text"><?= $select8 ?></span>
                             </div>
                             <div class="form-group col-md-4 form9">
                                 <label class="double" for="text">こども</label>
-                                <div class="wrapSelect small">
-                                    <select class="selectForm" name="select9">
-                                        <option value="test">test</option>
-                                        <option value="test1">test1</option>
-                                    </select>
-                                </div>
+								<span class="text"><?= $select9 ?></span>
                             </div>
                             <div class="col-md-2"></div>
                         </div>
@@ -253,16 +293,17 @@
 
                             <div class="col-md-3">
                                 <div class="wrapCheckmart">
-                                    <label class="multi">11/16 <input type="checkbox" name="join_date_1" value="yes"/>
+                                    <label class="multi">11/16
+										<span class="text"><?= $join_date_1 ?></span></span>
                                         <span class="checkmark"> </span></label>
                                     <img src="../images/content/form/form7image1.png" alt=""/>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="wrapCheckmart">
-                                    <label class="multi">11/17<input type="checkbox" name="join_date_2"
-                                                                     value="yes"/><span
-                                                class="checkmark"></span></label>
+                                    <label class="multi">11/17
+										<span class="text"><?= $join_date_2 ?></span></span>
+                                        <span class="checkmark"></span></label>
                                     <img src="../images/content/form/form7image2.png" alt=""/>
                                 </div>
                             </div>
@@ -285,54 +326,50 @@
                                         メジャー8社の設計者によるトークバトル
                                         広さに頼らない「心地よい住まい」のつくり方
                                         安心安全に暮らす 神奈川県の防災対策と対処法 「美人収納」
-                                        捨てるが苦手な人も<input type="checkbox"
-                                                        value="貴方の願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル広さに頼らない「心地よい住まい」のつくり方安心安全に暮らす 神奈川県の防災対策と対処法 「美人収納」捨てるが苦手な人も"
-                                                        name="input10"/><span
+                                        捨てるが苦手な人も
+										<span class="text"><?= $input10 ?></span></span>
+                                        <span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">広さに頼らない「心地よい住まい」のつくり方
-                                        <input type="checkbox" value="広さに頼らない「心地よい住まい」のつくり方"
-                                               name="input101"/><span
+										<span class="text"><?= $input101 ?></span></span>
+
+                                        <span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">安心安全に暮らす 神奈川県の防災対策と対処法
-                                        <input type="checkbox" value="安心安全に暮らす 神奈川県の防災対策と対処法"
-                                               name="input102"/><span
-                                                class="checkmark"></span></label>
+										<span class="text"><?= $input102 ?></span></span>
+                                        <span class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">「美人収納」 捨てるが苦手な人もできる仕分け術
-                                        <input type="checkbox"
-                                               value="「美人収納」 捨てるが苦手な人もできる仕分け術"
-                                               name="input103"/><span
-                                                class="checkmark"></span></label>
+										<span class="text"><?= $input103 ?></span></span>
+                                        <span class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">元号、消費税の変化に伴い、抑えておきたいお金の話！
-                                        <input type="checkbox"
-                                               value="元号、消費税の変化に伴い、抑えておきたいお金の話！"
-                                               name="input104"/><span
-                                                class="checkmark"></span></label>
+										<span class="text"><?= $input104 ?></span></span>
+                                        <span class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">実質金利ゼロ!?
                                         住宅ローン&家計で2,000万節約するマル秘テクニック
-                                        <input type="checkbox" value="実質金利ゼロ!?住宅ローン&家計で2,000万節約するマル秘テクニック"
-                                               name="input105"/><span
+										<span class="text"><?= $input105 ?></span></span>
+                                        <span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">災害に強い安心・安全な住まいとは
-                                        <input type="checkbox" value="災害に強い安心・安全な住まいとは"
-                                               name="input105"/><span
+										<span class="text"><?= $input106 ?></span></span>
+                                        <span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">相続・贈与時の お得な減税制度とは
-                                        <input type="checkbox" value="相続・贈与時の お得な減税制度とは"
-                                               name="input106"/><span
+										<span class="text"><?= $input107 ?></span></span>
+                                        <span
                                                 class="checkmark"></span></label>
                                 </div>
                             </div>
@@ -349,8 +386,8 @@
                             <div class="col-md-10">
                                 <div class="lineFormchild hide-line">
                                     <div class="wrapCheckmart">
-                                        <label class="unset">利用する<input type="checkbox" value="利用する"
-                                                                        name="input11"/><span
+                                        <label class="unset">利用する
+											<span class="text"><?= $input11 ?></span></span><span
                                                     class="checkmark"></span></label>
                                     </div>
                                 </div>
@@ -358,34 +395,11 @@
 
                                     <div class="form-group col-md-4">
                                         <label class="w-100" for="text">▽ご利用人数</label>
-                                        <div class="wrapSelect small">
-                                            <select class="selectForm disabled" disabled name="select111">
-                                                <option value="選択してください" selected>選択してください</option>
-                                                <option value="1人">1人</option>
-                                                <option value="2人">2人</option>
-                                                <option value="3人">3人</option>
-                                                <option value="4人">4人</option>
-                                                <option value="5人">5人</option>
-                                                <option value="6人">6人</option>
-                                                <option value="7人">7人</option>
-                                                <option value="8人">8人</option>
-                                                <option value="9人">9人</option>
-                                            </select>
-                                        </div>
+										<span class="text"><?= $select111 ?></span>
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label class="w-100" for="text">▽ご希望の時間帯</label>
-                                        <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select112">
-                                                <!--午前
-                                                    午後
-                                                    両方-->
-                                                <option value="選択してください">選択してください</option>
-                                                <option value="午前">午前</option>
-                                                <option value="午前">午後</option>
-                                                <option value="午前">両方</option>
-                                            </select>
-                                        </div>
+										<span class="text"><?= $select112 ?></span>
                                     </div>
                                     <div class="form-group col-md-2"></div>
                                 </div>
@@ -407,8 +421,9 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">へーベルハウス<input type="checkbox" value=""
-                                                                               name="input12_1"/><span
+                                            <label class="unset">へーベルハウス
+												<span class="text"><?= $input12_1 ?></span></span>
+                                                <span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -416,30 +431,14 @@
                                     </div>
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
-                                        <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select12_1">
-                                                <option value="選択してください">選択してください</option>
-                                                <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
-                                            </select>
-                                        </div>
+										<span class="text"><?= $select12_1 ?></span>
+
                                     </div>
                                 </div>
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">住友林業<input type="checkbox" value=""
-                                                                            name="input12_2"/><span
+                                            <label class="unset">住友林業<span class="text"><?= $input12_2 ?></span></span><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -447,30 +446,14 @@
                                     </div>
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
-                                        <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select12_2">
-                                                <option value="選択してください">選択してください</option>
-                                                <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
-                                            </select>
-                                        </div>
+										<span class="text"><?= $select12_2 ?></span>
+
                                     </div>
                                 </div>
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">セキスイハイム<input type="checkbox" value=""
-                                                                               name="input12_3"/><span
+                                            <label class="unset">セキスイハイム<span class="text"><?= $input12_3 ?></span></span><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -478,30 +461,14 @@
                                     </div>
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
-                                        <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select12_3">
-                                                <option value="選択してください">選択してください</option>
-                                                <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
-                                            </select>
-                                        </div>
+										<span class="text"><?= $select12_3 ?></span>
+
                                     </div>
                                 </div>
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">ダイワハウス <input type="checkbox" value=""
-                                                                               name="input12_4"/><span
+                                            <label class="unset">ダイワハウス <span class="text"><?= $input12_4 ?></span></span><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -509,30 +476,13 @@
                                     </div>
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
-                                        <div class="wrapSelect large">
-                                            <select class="selectForm  disabled" disabled name="select12_4">
-                                                <option value="選択してください">選択してください</option>
-                                                <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
-                                            </select>
-                                        </div>
+											<span class="text"><?= $select12_4 ?></span>
                                     </div>
                                 </div>
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">パナソニック ホームズ<input type="checkbox" value=""
-                                                                                   name="input12_5"/><span
+                                            <label class="unset">パナソニック ホームズ<span class="text"><?= $input12_5 ?></span></span><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -540,30 +490,14 @@
                                     </div>
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
-                                        <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select12_5">
-                                                <option value="選択してください">選択してください</option>
-                                                <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
-                                            </select>
-                                        </div>
+										<span class="text"><?= $select12_5 ?></span>
+
                                     </div>
                                 </div>
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">へーベルハウス<input type="checkbox" name="input12_6"
-                                                                               value=""/><span
+                                            <label class="unset">へーベルハウス<span class="text"><?= $input12_6 ?></span></span><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -571,30 +505,14 @@
                                     </div>
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
-                                        <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select12_6">
-                                                <option value="選択してください">選択してください</option>
-                                                <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
-                                            </select>
-                                        </div>
+										<span class="text"><?= $select12_6 ?></span>
+
                                     </div>
                                 </div>
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">ミサワホーム<input type="checkbox" name="input12_7"
-                                                                              value=""/><span
+                                            <label class="unset">ミサワホーム<span class="text"><?= $input12_7 ?></span></span><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -602,29 +520,18 @@
                                     </div>
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
-                                        <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select12_7">
-                                                <option value="選択してください">選択してください</option>
-                                                <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
-                                            </select>
-                                        </div>
+										<span class="text"><?= $select12_7 ?></span>
+
                                     </div>
                                 </div>
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">三井ホーム<input type="checkbox" name="input12_8" value=""/><span
+                                            <label class="unset">三井ホーム
+                                                <span class="text">
+                                                    <?= $input12_8 ?>
+                                                    </span>
+                                                <span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -632,23 +539,7 @@
                                     </div>
                                     <div class="form-group col-md-8">
                                         <label class="double" for="text">ご希望の時間帯</label>
-                                        <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select12_8">
-                                                <option value="選択してください">選択してください</option>
-                                                <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
-                                            </select>
-                                        </div>
+                                        <span class="text"><?= $select12_8 ?></span>
                                     </div>
                                 </div>
                             </div>
@@ -662,7 +553,7 @@
         <footer id="formFooter" class="formFooter">
             <div class="container">
                 <div class="row">
-                    <a class="confirmbntttt" href="">
+                    <a class="submitbtn" href="">
                         <div class="confirmBtn">
                             確認画面へ
                         </div>
@@ -678,7 +569,7 @@
     <!-- /#formFooter -->
 </div>
 <!-- /#container -->
-<div class="copyright">© Kanagawa Shimbun.  </div>
+<div class="copyright">© Kanagawa Shimbun.</div>
 </div>
 <!-- /#wrapper -->
 <!-- default Header Object -->
