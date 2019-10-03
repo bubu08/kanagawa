@@ -288,36 +288,46 @@
                   </h2>
                 </div>
                 <div class="col-md-10">
-                  <div class="lineForm">
+                  <div class="lineFormchild">
                     <div class="wrapCheckmart">
                       <label class="unset">利用する<input type="checkbox" value="" /><span class="checkmark"></span></label>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="form-group col-md-4">
-                      <label class="w-100" for="text">こども</label>
-                      <div class="wrapSelect small">
-                        <select class="selectForm" name="" id="">
-                          <option value="test">test</option>
-                          <option value="test1">test1</option>
-                        </select>
+                  <div class="row ml--15">
+                   
+                      <div class="form-group col-md-4">
+                        <label class="w-100" for="text">▽ご利用人数</label>
+                        <div class="wrapSelect small">
+                          <select class="selectForm" name="" id="">
+                            <option value="選択してください" selected >選択してください</option>
+                            <option value="1人">1人</option>
+                            <option value="2人">2人</option>
+                            <option value="3人">3人</option>
+                            <option value="4人">4人</option>
+                            <option value="5人">5人</option>
+                            <option value="6人">6人</option>
+                            <option value="7人">7人</option>
+                            <option value="8人">8人</option>
+                            <option value="9人">9人</option>
+                          </select>
+                        </div>
                       </div>
-                    </div>
-                    <div class="form-group col-md-6">
-                      <label class="w-100" for="text">こども</label>
-                      <div class="wrapSelect large">
-                        <select class="selectForm" name="" id="">
-                          <option value="test">test</option>
-                          <option value="test1">test1</option>
-                        </select>
+                      <div class="form-group col-md-6">
+                        <label class="w-100" for="text">▽ご希望の時間帯</label>
+                        <div class="wrapSelect large">
+                          <select class="selectForm" name="" id="">
+                            <option value="選択してください">選択してください</option>
+                            <option value="午前">午前</option>
+                          </select>
+                        </div>
                       </div>
+                      <div class="form-group col-md-2"></div>
                     </div>
-                    <div class="form-group col-md-2"></div>
-                  </div>
+
                 </div>
               </div>
 
-              <div class="row lineForm mT15">
+              <div class="row mT15">
                 <div class="col-md-2">
                   <h2>
                     <ruby>参加メーカーとの 個別相談希望
@@ -327,8 +337,8 @@
                   </h2>
                 </div>
                 <div class="col-md-10">
-                  <h2> 希望するハウスメーカー・ご希望時間をお選びください。 </h2>
-                  <div class="row mT20">
+                  <h2 class="m0"> 希望するハウスメーカー・ご希望時間をお選びください。 </h2>
+                  <div class="row mT20 ml--15">
                     <div class="form-group col-md-4">
                       <div class="wrapCheckmart">
                         <label class="unset">へーベルハウス<input type="checkbox" value="" /><span
@@ -341,13 +351,24 @@
                       <label class="double" for="text">ご希望の時間帯</label>
                       <div class="wrapSelect large">
                         <select class="selectForm" name="" id="">
-                          <option value="test">test</option>
-                          <option value="test1">test1</option>
+                          <option value="選択してください">選択してください</option>
+                          <option value="11/16 10時半〜">11/16 10時半〜</option>
+                          <option value="11/16 10時半〜">11/16 11時半〜</option>
+                          <option value="11/16 10時半〜">11/16 12時半〜</option>
+                          <option value="11/16 10時半〜">11/16 13時半〜</option>
+                          <option value="11/16 10時半〜">11/16 14時半〜</option>
+                          <option value="11/16 10時半〜">11/16 15時半〜</option>
+                          <option value="11/16 10時半〜">11/17 10時半〜</option>
+                          <option value="11/16 10時半〜">11/17 11時半〜</option>
+                          <option value="11/16 10時半〜">11/17 12時半〜</option>
+                          <option value="11/16 10時半〜">11/17 13時半〜</option>
+                          <option value="11/16 10時半〜">11/17 14時半〜</option>
+                          <option value="11/16 10時半〜">11/17 15時半〜</option>
                         </select>
                       </div>
                     </div>
                   </div>
-                  <div class="row mT20">
+                  <div class="row mT20 ml--15">
                     <div class="form-group col-md-4">
                       <div class="wrapCheckmart">
                         <label class="unset">住友林業<input type="checkbox" value="" /><span
@@ -360,13 +381,24 @@
                       <label class="double" for="text">ご希望の時間帯</label>
                       <div class="wrapSelect large">
                         <select class="selectForm" name="" id="">
-                          <option value="test">test</option>
-                          <option value="test1">test1</option>
+                        <option value="選択してください">選択してください</option>
+                          <option value="11/16 10時半〜">11/16 10時半〜</option>
+                          <option value="11/16 10時半〜">11/16 11時半〜</option>
+                          <option value="11/16 10時半〜">11/16 12時半〜</option>
+                          <option value="11/16 10時半〜">11/16 13時半〜</option>
+                          <option value="11/16 10時半〜">11/16 14時半〜</option>
+                          <option value="11/16 10時半〜">11/16 15時半〜</option>
+                          <option value="11/16 10時半〜">11/17 10時半〜</option>
+                          <option value="11/16 10時半〜">11/17 11時半〜</option>
+                          <option value="11/16 10時半〜">11/17 12時半〜</option>
+                          <option value="11/16 10時半〜">11/17 13時半〜</option>
+                          <option value="11/16 10時半〜">11/17 14時半〜</option>
+                          <option value="11/16 10時半〜">11/17 15時半〜</option>
                         </select>
                       </div>
                     </div>
                   </div>
-                  <div class="row mT20">
+                  <div class="row mT20 ml--15">
                     <div class="form-group col-md-4">
                       <div class="wrapCheckmart">
                         <label class="unset">セキスイハイム<input type="checkbox" value="" /><span
@@ -379,13 +411,24 @@
                       <label class="double" for="text">ご希望の時間帯</label>
                       <div class="wrapSelect large">
                         <select class="selectForm" name="" id="">
-                          <option value="test">test</option>
-                          <option value="test1">test1</option>
+                        <option value="選択してください">選択してください</option>
+                          <option value="11/16 10時半〜">11/16 10時半〜</option>
+                          <option value="11/16 10時半〜">11/16 11時半〜</option>
+                          <option value="11/16 10時半〜">11/16 12時半〜</option>
+                          <option value="11/16 10時半〜">11/16 13時半〜</option>
+                          <option value="11/16 10時半〜">11/16 14時半〜</option>
+                          <option value="11/16 10時半〜">11/16 15時半〜</option>
+                          <option value="11/16 10時半〜">11/17 10時半〜</option>
+                          <option value="11/16 10時半〜">11/17 11時半〜</option>
+                          <option value="11/16 10時半〜">11/17 12時半〜</option>
+                          <option value="11/16 10時半〜">11/17 13時半〜</option>
+                          <option value="11/16 10時半〜">11/17 14時半〜</option>
+                          <option value="11/16 10時半〜">11/17 15時半〜</option>
                         </select>
                       </div>
                     </div>
                   </div>
-                  <div class="row mT20">
+                  <div class="row mT20 ml--15">
                     <div class="form-group col-md-4">
                       <div class="wrapCheckmart">
                         <label class="unset">ダイワハウス <input type="checkbox" value="" /><span
@@ -398,13 +441,24 @@
                       <label class="double" for="text">ご希望の時間帯</label>
                       <div class="wrapSelect large">
                         <select class="selectForm" name="" id="">
-                          <option value="test">test</option>
-                          <option value="test1">test1</option>
+                        <option value="選択してください">選択してください</option>
+                          <option value="11/16 10時半〜">11/16 10時半〜</option>
+                          <option value="11/16 10時半〜">11/16 11時半〜</option>
+                          <option value="11/16 10時半〜">11/16 12時半〜</option>
+                          <option value="11/16 10時半〜">11/16 13時半〜</option>
+                          <option value="11/16 10時半〜">11/16 14時半〜</option>
+                          <option value="11/16 10時半〜">11/16 15時半〜</option>
+                          <option value="11/16 10時半〜">11/17 10時半〜</option>
+                          <option value="11/16 10時半〜">11/17 11時半〜</option>
+                          <option value="11/16 10時半〜">11/17 12時半〜</option>
+                          <option value="11/16 10時半〜">11/17 13時半〜</option>
+                          <option value="11/16 10時半〜">11/17 14時半〜</option>
+                          <option value="11/16 10時半〜">11/17 15時半〜</option>
                         </select>
                       </div>
                     </div>
                   </div>
-                  <div class="row mT20">
+                  <div class="row mT20 ml--15">
                     <div class="form-group col-md-4">
                       <div class="wrapCheckmart">
                         <label class="unset">パナソニック ホームズ<input type="checkbox" value="" /><span
@@ -417,13 +471,24 @@
                       <label class="double" for="text">ご希望の時間帯</label>
                       <div class="wrapSelect large">
                         <select class="selectForm" name="" id="">
-                          <option value="test">test</option>
-                          <option value="test1">test1</option>
+                        <option value="選択してください">選択してください</option>
+                          <option value="11/16 10時半〜">11/16 10時半〜</option>
+                          <option value="11/16 10時半〜">11/16 11時半〜</option>
+                          <option value="11/16 10時半〜">11/16 12時半〜</option>
+                          <option value="11/16 10時半〜">11/16 13時半〜</option>
+                          <option value="11/16 10時半〜">11/16 14時半〜</option>
+                          <option value="11/16 10時半〜">11/16 15時半〜</option>
+                          <option value="11/16 10時半〜">11/17 10時半〜</option>
+                          <option value="11/16 10時半〜">11/17 11時半〜</option>
+                          <option value="11/16 10時半〜">11/17 12時半〜</option>
+                          <option value="11/16 10時半〜">11/17 13時半〜</option>
+                          <option value="11/16 10時半〜">11/17 14時半〜</option>
+                          <option value="11/16 10時半〜">11/17 15時半〜</option>
                         </select>
                       </div>
                     </div>
                   </div>
-                  <div class="row mT20">
+                  <div class="row mT20 ml--15">
                     <div class="form-group col-md-4">
                       <div class="wrapCheckmart">
                         <label class="unset">へーベルハウス<input type="checkbox" value="" /><span
@@ -436,13 +501,24 @@
                       <label class="double" for="text">ご希望の時間帯</label>
                       <div class="wrapSelect large">
                         <select class="selectForm" name="" id="">
-                          <option value="test">test</option>
-                          <option value="test1">test1</option>
+                        <option value="選択してください">選択してください</option>
+                          <option value="11/16 10時半〜">11/16 10時半〜</option>
+                          <option value="11/16 10時半〜">11/16 11時半〜</option>
+                          <option value="11/16 10時半〜">11/16 12時半〜</option>
+                          <option value="11/16 10時半〜">11/16 13時半〜</option>
+                          <option value="11/16 10時半〜">11/16 14時半〜</option>
+                          <option value="11/16 10時半〜">11/16 15時半〜</option>
+                          <option value="11/16 10時半〜">11/17 10時半〜</option>
+                          <option value="11/16 10時半〜">11/17 11時半〜</option>
+                          <option value="11/16 10時半〜">11/17 12時半〜</option>
+                          <option value="11/16 10時半〜">11/17 13時半〜</option>
+                          <option value="11/16 10時半〜">11/17 14時半〜</option>
+                          <option value="11/16 10時半〜">11/17 15時半〜</option>
                         </select>
                       </div>
                     </div>
                   </div>
-                  <div class="row mT20">
+                  <div class="row mT20 ml--15">
                     <div class="form-group col-md-4">
                       <div class="wrapCheckmart">
                         <label class="unset">ミサワホーム<input type="checkbox" value="" /><span
@@ -455,13 +531,24 @@
                       <label class="double" for="text">ご希望の時間帯</label>
                       <div class="wrapSelect large">
                         <select class="selectForm" name="" id="">
-                          <option value="test">test</option>
-                          <option value="test1">test1</option>
+                        <option value="選択してください">選択してください</option>
+                          <option value="11/16 10時半〜">11/16 10時半〜</option>
+                          <option value="11/16 10時半〜">11/16 11時半〜</option>
+                          <option value="11/16 10時半〜">11/16 12時半〜</option>
+                          <option value="11/16 10時半〜">11/16 13時半〜</option>
+                          <option value="11/16 10時半〜">11/16 14時半〜</option>
+                          <option value="11/16 10時半〜">11/16 15時半〜</option>
+                          <option value="11/16 10時半〜">11/17 10時半〜</option>
+                          <option value="11/16 10時半〜">11/17 11時半〜</option>
+                          <option value="11/16 10時半〜">11/17 12時半〜</option>
+                          <option value="11/16 10時半〜">11/17 13時半〜</option>
+                          <option value="11/16 10時半〜">11/17 14時半〜</option>
+                          <option value="11/16 10時半〜">11/17 15時半〜</option>
                         </select>
                       </div>
                     </div>
                   </div>
-                  <div class="row mT20">
+                  <div class="row mT20 ml--15">
                     <div class="form-group col-md-4">
                       <div class="wrapCheckmart">
                         <label class="unset">三井ホーム<input type="checkbox" value="" /><span
@@ -474,8 +561,19 @@
                       <label class="double" for="text">ご希望の時間帯</label>
                       <div class="wrapSelect large">
                         <select class="selectForm" name="" id="">
-                          <option value="test">test</option>
-                          <option value="test1">test1</option>
+                        <option value="選択してください">選択してください</option>
+                          <option value="11/16 10時半〜">11/16 10時半〜</option>
+                          <option value="11/16 10時半〜">11/16 11時半〜</option>
+                          <option value="11/16 10時半〜">11/16 12時半〜</option>
+                          <option value="11/16 10時半〜">11/16 13時半〜</option>
+                          <option value="11/16 10時半〜">11/16 14時半〜</option>
+                          <option value="11/16 10時半〜">11/16 15時半〜</option>
+                          <option value="11/16 10時半〜">11/17 10時半〜</option>
+                          <option value="11/16 10時半〜">11/17 11時半〜</option>
+                          <option value="11/16 10時半〜">11/17 12時半〜</option>
+                          <option value="11/16 10時半〜">11/17 13時半〜</option>
+                          <option value="11/16 10時半〜">11/17 14時半〜</option>
+                          <option value="11/16 10時半〜">11/17 15時半〜</option>
                         </select>
                       </div>
                     </div>
@@ -487,75 +585,26 @@
           </div>
         </div>
       </div>
-    </div>
-    <!-- /#container -->
 
-    <footer id="siteFooter" class="site-footer">
+      <footer id="formFooter" class="formFooter">
       <div class="container">
-        <div class="footer-nav">
-          <ul class="list-inline">
-            <li>
-              <a href="../">Top</a>
-            </li>
-            <li>
-              <a href="../concept/">ゆとりについて</a>
-            </li>
-            <li>
-              <a href="../menu/">料理・コース</a>
-            </li>
-            <li class="active">
-              <a href="../drink/">日本酒・飲み物</a>
-            </li>
-            <li>
-              <a href="../souvenir/">お取り寄せ</a>
-            </li>
-            <li>
-              <a href="../access/">アクセス</a>
-            </li>
-            <li>
-              <a href="../recruit/">求人情報</a>
-            </li>
-          </ul>
-        </div>
+          <div class="row">
+            <div class="confirmBtn">
+                確認画面へ
+            </div>
 
-        <div class="footer-main">
-          <div class="footer-logo">
-            <a href="../" class="logo">
-              <img src="../images/global/logo-footer.png" alt="" />
-            </a>
+            <p class="caption"> かながわ住まいづくりフェア事務局 </p>
+            <p class="dig"> 〒231−8445　神奈川新聞社デジタルビジネス局内 </p>
+            <p class="tel"> TEL.045-640-0125 （平日 10：00〜18：00）</p>
+            <p class="mal"> info@kanagawaselect8.jp </p>
           </div>
-          <div class="divided"></div>
-          <div class="footer-address">
-            <h1>TEL.052-971-7366</h1>
-            <p>
-              愛知県名古屋市中区栄錦三丁目中央マンション<br />定休日／不定休
-            </p>
-          </div>
-          <div class="divided"></div>
-          <div class="footer-hours">
-            <p>営業時間</p>
-            <table class="table-news">
-              <tr>
-                <td>ランチ</td>
-                <td>11:30〜15:00</td>
-              </tr>
-
-              <tr>
-                <td>日〜木</td>
-                <td>11:30〜26:00</td>
-              </tr>
-
-              <tr>
-                <td>金・土</td>
-                <td>16:30〜27:30</td>
-              </tr>
-            </table>
-          </div>
-          <div class="copyright">Copyright © YUTORI All rights Reserved.</div>
         </div>
       </div>
     </footer>
-    <!-- /#siteFooter -->
+    <!-- /#formFooter -->
+    </div>
+    <!-- /#container -->
+    <div class="copyright">Copyright © YUTORI All rights Reserved.</div>
   </div>
   <!-- /#wrapper -->
   <!-- default Header Object -->
