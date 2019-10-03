@@ -298,7 +298,7 @@ span.checkedmark:after {
 }
 
 .formContent .contentBody .orderForm .wrapSelect.large {
-    width: 300px;
+    width: 295px;
 }
 
 .formContent .contentBody .orderForm .wrapSelect::before {
@@ -404,6 +404,13 @@ span.checkedmark:after {
   display: flex;
   align-items: center;
 }
+.formContent .contentBody .orderForm label.double.width-auto{
+    width: auto;
+    margin-bottom: 0;
+}
+.flex-sp{
+    justify-content: space-between;
+}
 /* global */
 .ta-end {
     text-align: end;
@@ -439,7 +446,6 @@ span.text{
 @media screen and (max-width: 991px){
     .label-infor{
         margin: 10px 0;
-        text-align: center;
     }
     .formContent .contentBody .orderForm input[type="text"]{
         flex-grow: 1;
@@ -516,6 +522,9 @@ span.text{
     }
     .formFooter .confirmBtn{
         font-size: 15px;
+    }
+    .formFooter .caption{
+        font-size: 18px;
     }
 }
 .contentBody .confirmBtn{

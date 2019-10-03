@@ -498,8 +498,8 @@
                                     </div>
                                     <div class="col-md-1">
                                     </div>
-                                    <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                    <div class="form-group form-flex flex-sp col-md-8">
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
                                             <select class="selectForm " name="select12_1">
                                                 <option value="">選択してください</option>
@@ -529,8 +529,8 @@
                                     </div>
                                     <div class="col-md-1">
                                     </div>
-                                    <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                    <div class="form-group form-flex flex-sp  col-md-8">
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
                                             <select class="selectForm " name="select12_2">
                                                 <option value="">選択してください</option>
@@ -560,8 +560,8 @@
                                     </div>
                                     <div class="col-md-1">
                                     </div>
-                                    <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                    <div class="form-group form-flex flex-sp  col-md-8">
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
                                             <select class="selectForm " name="select12_3">
                                                 <option value="">選択してください</option>
@@ -591,8 +591,8 @@
                                     </div>
                                     <div class="col-md-1">
                                     </div>
-                                    <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                    <div class="form-group form-flex flex-sp  col-md-8">
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
                                             <select class="selectForm  " name="select12_4">
                                                 <option value="">選択してください</option>
@@ -622,8 +622,8 @@
                                     </div>
                                     <div class="col-md-1">
                                     </div>
-                                    <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                    <div class="form-group form-flex flex-sp col-md-8">
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
                                             <select class="selectForm " name="select12_5">
                                                 <option value="">選択してください</option>
@@ -653,8 +653,8 @@
                                     </div>
                                     <div class="col-md-1">
                                     </div>
-                                    <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                    <div class="form-group form-flex flex-sp  col-md-8">
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
                                             <select class="selectForm " name="select12_6">
                                                 <option value="">選択してください</option>
@@ -684,8 +684,8 @@
                                     </div>
                                     <div class="col-md-1">
                                     </div>
-                                    <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                    <div class="form-group form-flex flex-sp col-md-8">
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
                                             <select class="selectForm " name="select12_7">
                                                 <option value="">選択してください</option>
@@ -714,8 +714,8 @@
                                     </div>
                                     <div class="col-md-1">
                                     </div>
-                                    <div class="form-group col-md-8">
-                                        <label class="double" for="text">ご希望の時間帯</label>
+                                    <div class="form-group form-flex flex-sp  col-md-8">
+                                        <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
                                             <select class="selectForm " name="select12_8">
                                                 <option value="">選択してください</option>
