@@ -13,6 +13,10 @@
     function submitData() {
         var f = $(fName);
         var method_ = f.prop('method');
+
+        var formdata = new FormData(f.get(0));
+        let serialize = $('#orderForm').serialize();
+        console.log(formdata);
         // var formdata = new FormData(f.get(0));
         // let serialize = $('#orderForm').serialize();
         // console.log(serialize);
@@ -41,6 +45,7 @@
                 }
             }
         });
+
         // POSTでアップロード
         $.ajax({
             url: url_,
