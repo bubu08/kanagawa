@@ -13,19 +13,25 @@
     function submitData() {
         var f = $(fName);
         var method_ = f.prop('method');
+
         var formdata = new FormData(f.get(0));
         let serialize = $('#orderForm').serialize();
         console.log(formdata);
+        // var formdata = new FormData(f.get(0));
+        // let serialize = $('#orderForm').serialize();
+        // console.log(serialize);
+
+        var data = $('#orderForm').data('form');
+        console.log(data);
+
 
         // POSTでアップロード
         $.ajax({
             url: url_,
             method: method_,
             type: 'POST',
-            data: formdata,
-            cache: false,
-            contentType: false,
-            processData: false,
+            // data: formdata,
+            data: data,
             success: function (data) {
                 console.log(data);
                 $("#dialog").dialog({
@@ -105,8 +111,8 @@
         }
     }
 
-    function confirm_buttom() {
-        $('div.confirmBtn').parent().on('click', function (e) {
+    function submit_button() {
+        $('a.submitbtn').on('click', function (e) {
             e.preventDefault();
 
             $("#dialog").html('送信してよろしいですか？');
@@ -134,10 +140,18 @@
 
     }
 
+    function confirm_buttom() {
+        $('a.confirmbntttt').on('click', function (e) {
+            e.preventDefault();
+            $('#confirmform').submit();
+        })
+    }
+
 
     $(document).ready(function () {
         inputcheckhideshow();
         input_select_disable();
         confirm_buttom();
+        submit_button();
     });
 })(jQuery);

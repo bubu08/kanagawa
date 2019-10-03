@@ -133,7 +133,9 @@
 }
 
 .formContent .contentBody .orderForm label {
-    width: 10%;
+    width: 14%;
+    margin-right: 0;
+    font-weight: normal;
 }
 
 .formContent .contentBody .orderForm label.double {
@@ -177,11 +179,13 @@
     width: 270px;
     border-radius: 0;
     box-shadow: unset;
+    font-size: 18px;
 }
 
 .formContent .contentBody .orderForm .dropText {
-    margin-left: -35px;
-    margin-top: 35px;
+    display: flex;
+    align-items: flex-end;
+    height: 50px;
 }
 
 .formContent .contentBody .orderForm .wrapCheckmart {
@@ -346,6 +350,33 @@
     font-weight: normal;
 }
 
+.label-infor{
+    text-align: left;
+}
+
+.label-infor span{
+    background: #b60056;
+    padding: 2px 5px;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+.label-infor p{
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1.8px;
+  color: #273e52;
+}
+.label-infor p.text-12{
+  font-size: 12px;
+}
+.label-infor .gray-span{
+  background: #666;
+}
+.form-inline .form-group.form-flex{
+  display: flex;
+  align-items: center;
+}
 /* global */
 .ta-end {
     text-align: end;
@@ -371,7 +402,13 @@
     opacity: 0.5;
 }
 
-
+span.text{
+    font-size: 18px;
+    font-weight: bold;
+    color: #273e52;
+    vertical-align: middle;
+    margin-right: 13px;
+}
 
 
 
