@@ -60,9 +60,9 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>日本酒専門店「ゆとり」</title>
+    <title>かながわ住まいづくりフェア2019</title>
     <meta name="keywords" content=""/>
-    <meta name="description" content=""/>
+    <meta name="description" content="神奈川県内、大手メーカーの設計士と一緒に、安心・安全・快適な家づくりについて考えましょう。"/>
     <!-- Cache -->
     <!-- /Cache -->
     <!-- ogp -->

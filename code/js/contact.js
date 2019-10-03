@@ -4,25 +4,26 @@
     var url_ = 'contact_send.php';
 
 //フォームid名
-    var fName = '#orderForm';
+    var fName = '#confirmform';
 
     $("body").append('<div id="dialog" style="display: none;"></div>');
 
-
+    $(fName).validationEngine('attach', {
+        ajaxFormValidation         : false,
+        onBeforeAjaxFormValidation : confirm_buttom
+    });
     // 送信データ処理
     function submitData() {
         var f = $(fName);
         var method_ = f.prop('method');
 
-        var formdata = new FormData(f.get(0));
-        let serialize = $('#orderForm').serialize();
-        console.log(formdata);
+        // var formdata = new FormData(f.get(0));
+        // let serialize = $('#orderForm').serialize();
         // var formdata = new FormData(f.get(0));
         // let serialize = $('#orderForm').serialize();
         // console.log(serialize);
 
         var data = $('#orderForm').data('form');
-        console.log(data);
         $("#dialog").dialog({
             buttons: {}
         });
@@ -144,7 +145,8 @@
     function confirm_buttom() {
         $('a.confirmbntttt').on('click', function (e) {
             e.preventDefault();
-            $('#confirmform').submit();
+            console.log('cormfirn');
+            $("#confirmform").submit();
         })
     }
 

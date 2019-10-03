@@ -12,9 +12,9 @@
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>日本酒専門店「ゆとり」</title>
+    <title>かながわ住まいづくりフェア2019</title>
     <meta name="keywords" content=""/>
-    <meta name="description" content=""/>
+    <meta name="description" content="神奈川県内、大手メーカーの設計士と一緒に、安心・安全・快適な家づくりについて考えましょう。"/>
     <!-- Cache -->
     <!-- /Cache -->
     <!-- ogp -->
@@ -30,22 +30,25 @@
     <link rel="stylesheet" type="text/css" media="all" href="../js/lib/bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="../js/lib/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="../css/global/import.css"/>
+    <link rel="stylesheet" type="text/css" media="all" href="../css/validationEngine.jquery.css">
+
     <!-- /default Header Object -->
     <!-- content Header Object -->
     <link rel="stylesheet" type="text/css" media="all" href="../css/content/form.css"/>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!--    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>-->
+    <script src="../js/lib/jquery-2.2.4.min.js"></script>
     <script src="../js/lib/bootstrap/js/bootstrap.min.js"></script>
+
     <!-- /content Header Object -->
 
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/additional-methods.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/additional-methods.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 
     <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.4/jquery.validationEngine.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.4/languages/jquery.validationEngine-ja.js"></script>
 
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css"/>
 
@@ -114,11 +117,11 @@
                             </div>
                             <div class="form-group form-flex col-md-4">
                                 <label for="text1">姓</label>
-                                <input type="text" class="form-control" name="input1" required/>
+                                <input type="text" class="form-control validate[required]" name="input1" required/>
                             </div>
                             <div class="form-group form-flex col-md-4">
                                 <label for="text">名</label>
-                                <input type="text" class="form-control" name="input12"/>
+                                <input type="text" class="form-control validate[required]" name="input12"/>
                             </div>
                         </div>
 
@@ -131,11 +134,11 @@
                             </div>
                             <div class="form-group form-flex col-md-4">
                                 <label for="text">セイ</label>
-                                <input type="text" class="form-control" name="input2"/>
+                                <input type="text" class="form-control validate[required]" name="input2"/>
                             </div>
                             <div class="form-group form-flex col-md-4">
                                 <label for="text">メイ</label>
-                                <input type="text" class="form-control" name="input21"/>
+                                <input type="text" class="form-control validate[required]" name="input21"/>
                             </div>
                         </div>
 
@@ -149,7 +152,7 @@
                             </div>
                             <div class="form-group col-md-4 form-flex form3">
                                 <label for="text">〒</label>
-                                <input type="text" class="form-control" name="input3"/>
+                                <input type="text" class="form-control validate[required]" name="input3"/>
                             </div>
                             <div class="form-group col-md-4 dropText custom-input">
                                 ＊ハイフンなしで入力
@@ -172,7 +175,7 @@
                             <div class="col-md-3"></div>
                             <div class="form-group col-md-7 form5">
                                 <label for="text" class="w-100">市町村名</label>
-                                <input type="text" class="form-control w-100" name="input5"/>
+                                <input type="text" class="form-control w-100 validate[required]" name="input5"/>
                             </div>
                             <div class="form-group col-md-3"></div>
                         </div>
@@ -180,7 +183,7 @@
                             <div class="col-md-3"></div>
                             <div class="form-group col-md-7 form6">
                                 <label for="text" class="w-100">番地・マンション名・部屋番号</label>
-                                <input type="text" class="form-control w-100" name="input6"/>
+                                <input type="text" class="form-control w-100 validate[required]" name="input6"/>
                             </div>
                             <div class="form-group col-md-3"></div>
                         </div>
@@ -193,7 +196,7 @@
                                 </div>
                             </div>
                             <div class="form-group col-md-7">
-                                <input type="text" class="form-control w-100" name="phone_number"/>
+                                <input type="text" class="form-control w-100 validate[required]" name="phone_number"/>
                             </div>
                             <div class="form-group ol-md-3"></div>
                         </div>
@@ -205,7 +208,7 @@
                                 </div>
                             </div>
                             <div class="form-group col-md-7 form7">
-                                <input type="text" class="form-control w-100" name="email"/>
+                                <input type="text" class="form-control w-100 validate[required]" name="email"/>
                             </div>
                             <div class="form-group col-md-3"></div>
                         </div>
@@ -246,14 +249,18 @@
 
                             <div class="col-md-3">
                                 <div class="wrapCheckmart">
-                                    <label class="multi">11/16 <input type="checkbox" name="join_date_1" value="yes"/>
+                                    <label class="multi">11/16 <input type="checkbox"
+                                                                      class="checkbox"
+                                                                      name="join_date_1" value="yes"/>
                                         <span class="checkmark"> </span></label>
                                     <img src="../images/content/form/form7image1.png" alt=""/>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="wrapCheckmart">
-                                    <label class="multi">11/17<input type="checkbox" name="join_date_2"
+                                    <label class="multi">11/17<input type="checkbox"
+                                                                     class="checkbox"
+                                                                     name="join_date_2"
                                                                      value="yes"/><span
                                                 class="checkmark"></span></label>
                                     <img src="../images/content/form/form7image2.png" alt=""/>
