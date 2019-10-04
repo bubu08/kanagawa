@@ -434,7 +434,7 @@
                                     <div class="form-group col-md-4">
                                         <label class="w-100" for="text">▽ご利用人数</label>
                                         <div class="wrapSelect small">
-                                            <select class="selectForm disabled" disabled name="select111">
+                                            <select class="selectForm disabled validate[required]" disabled name="select111">
                                                 <option value="" selected>選択してください</option>
                                                 <option value="1人">1人</option>
                                                 <option value="2人">2人</option>
@@ -451,7 +451,7 @@
                                     <div class="form-group col-md-6">
                                         <label class="w-100" for="text">▽ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm disabled" disabled name="select112">
+                                            <select class="selectForm disabled validate[required]" disabled name="select112">
                                                 <!--午前
                                                     午後
                                                     両方-->
