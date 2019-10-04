@@ -109,7 +109,7 @@
             <div class="container">
                 <div class="row">
 
-                    <a href="https://kanagawaselect8.jp">
+                    <a class="confirmbntttt" href="https://kanagawaselect8.jp">
                         <div class="confirmBtn">
                             TOPへ戻る
                         </div>
