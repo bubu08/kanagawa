@@ -378,7 +378,7 @@ button{
   padding-top: 10px;
   line-height: 2;
   letter-spacing: 3.6px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   border-bottom: 1px solid #ffffff;
 }
 .contact{
@@ -456,6 +456,11 @@ button.btn-map{
   margin-left: auto;
   display: flex;
 }
+
+.list-items a{
+  color:white;
+}
+
 /* ================== Responsive ================== */
 @media screen and (max-width: 1000px) and (min-width: 768px){
   .block-4 .last img.dt-block{
