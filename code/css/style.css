@@ -10,14 +10,6 @@
     max-width: 1000px;
 }
 @font-face{
-    font-family: yugo-b;
-    src: url('../css/fonts/YuGothic-Bold.otf');
-}
-@font-face{
-  font-family: yugo-m;
-  src: url('../css/fonts/YuGothic-Medium.otf');
-}
-@font-face{
   font-family: noto-b;
   src: url('../css/fonts/NotoSansCJKjp-Bold.otf');
 }
@@ -27,11 +19,13 @@
 }
 body{
     font-size: 16px;
-    font-family: yugo-b;
+    font-family:  'YuGothic', 'Yu Gothic', '游ゴシック', '游ゴシック体', "メイリオ", Meiryo,  
+    "ヒラギノ角ゴ Pro","ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro",  "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     color: #273e52;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-weight: bold;
 }
 /* ----- Flex -------- */
 .flex{
@@ -256,9 +250,11 @@ h1{
   margin: 0;
   color: #ffffff;
   line-height: 1.36;
-  font-family: yugo-b;
+  font-family:  'YuGothic', 'Yu Gothic', '游ゴシック', '游ゴシック体', "メイリオ", Meiryo,  
+  "ヒラギノ角ゴ Pro","ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro",  "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   line-height: 45px;
   font-size: 20px;
+  font-weight: bold;
 }
 .block-1 .desc-wrapper{
   display: flex;
@@ -277,7 +273,9 @@ h1 span{
   line-height: 1.6;
   letter-spacing: 1.8px;
   color: #ffffff;
-  font-family: yugo-m;
+  font-family:  'YuGothic', 'Yu Gothic', '游ゴシック', '游ゴシック体', "メイリオ", Meiryo,  
+  "ヒラギノ角ゴ Pro","ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro",  "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-weight: normal;
   padding-left: 10px;
 }
 .max-width-595{
@@ -316,7 +314,10 @@ button{
   height: 38px;
   line-height: 38px;
   letter-spacing: 2.2px;
-  font-family: yugo-b;
+  font-family:  'YuGothic', 'Yu Gothic', '游ゴシック', '游ゴシック体', "メイリオ", Meiryo,  
+  "ヒラギノ角ゴ Pro","ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro",  "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  color: #273e52;
+  font-weight: bold;
 }
 .button-yiss{
   background: #ffffff;
@@ -325,7 +326,10 @@ button{
   height: 38px;
   line-height: 38px;
   letter-spacing: 2.2px;
-  font-family: yugo-b;
+  font-family:  'YuGothic', 'Yu Gothic', '游ゴシック', '游ゴシック体', "メイリオ", Meiryo,  
+  "ヒラギノ角ゴ Pro","ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro",  "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  color: #273e52;
+  font-weight: bold;
 }
 .block-4 button{
   width: 120px;
@@ -362,12 +366,18 @@ button{
 .block-5 button{
   width: 283px;
   font-size: 18px;
-  font-family: yugo-b;
+  font-family:  'YuGothic', 'Yu Gothic', '游ゴシック', '游ゴシック体', "メイリオ", Meiryo,  
+  "ヒラギノ角ゴ Pro","ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro",  "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  color: #273e52;
+  font-weight: bold;
 }
 .block-5 .button-yiss{
   width: 283px;
   font-size: 18px;
-  font-family: yugo-b;
+  font-family:  'YuGothic', 'Yu Gothic', '游ゴシック', '游ゴシック体', "メイリオ", Meiryo,  
+  "ヒラギノ角ゴ Pro","ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro",  "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  color: #273e52;
+  font-weight: bold;
   margin: 25px auto 0;
 }
 .block-5 .content.flex{
