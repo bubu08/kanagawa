@@ -163,7 +163,7 @@
 }
 
 .formContent .contentBody .orderForm label.unset {
-    width: unset;
+    width: auto;
 }
 
 .formContent .contentBody .orderForm h2 ruby rt {
