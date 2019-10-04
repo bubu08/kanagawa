@@ -339,7 +339,7 @@ span.checkedmark:after {
 
 .formFooter {
     text-align: center;
-    padding-top: 75px !important;
+    padding-top: 38px !important;
     padding-bottom: 60px !important;
 }
 
@@ -455,8 +455,11 @@ span.text{
     margin-right: 13px;
 }
 
-.backingbtn{
-
+.alert-text{
+    margin-bottom: 30px;
+    display: block;
+    color: white;
+    font-size: 13px;
 }
 
 @media screen and (max-width: 991px){
