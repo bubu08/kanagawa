@@ -11,12 +11,9 @@
 }
 @font-face{
   font-family: noto-b;
-  src: url('../css/fonts/NotoSansCJKjp-Bold.otf');
+  src: url('../css/fonts/NotoSansCJKjp-Bold.woff');
 }
-@font-face{
-  font-family: noto-r;
-  src: url('../css/fonts/NotoSansCJKjp-Regular.otf');
-}
+
 body{
     font-size: 16px;
     font-family:  'YuGothic', 'Yu Gothic', '游ゴシック', '游ゴシック体', "メイリオ", Meiryo,  
