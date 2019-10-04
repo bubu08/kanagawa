@@ -302,8 +302,8 @@
                 </div>
             </div>
             <picture>
-                <source media="(min-width: 768px)" srcset="images/quo.png">
-                <img src="images/quo-mb.png" alt="" class="img-quo">
+                <source media="(max-width: 767px)" srcset="images/quo-mb.png">
+                <img src="images/quo.png" alt="" class="img-quo">
             </picture>
             <div class="title-h1-wrapper mt-50">
                 <img src="images/rec-icon-3.png" alt="" class="rec-title-1"/>
