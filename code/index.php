@@ -280,6 +280,9 @@
                     <a href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt=""/></a>
                     <a href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png" alt=""/></a>
                 </div>
+            </div>
+        </div>
+    </div>
     <div class="block-6 container mt-80">
         <div class="title-list">
             <div class="line"></div>
