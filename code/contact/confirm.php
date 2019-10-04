@@ -204,7 +204,6 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <span>必須</span>
                                     <p>住　所</p>
                                 </div>
-                                <span>＊全角カタカナ</span>
                             </div>
                             <div class="form-group col-md-4 form-flex form3">
                                 <label for="text">〒</label>
