@@ -745,7 +745,8 @@
                     <p class="caption"> かながわ住まいづくりフェア事務局 </p>
                     <p class="dig"> 〒231−8445　神奈川新聞社デジタルビジネス局内 </p>
                     <p class="tel"> TEL.045-640-0125 （平日 10：00〜18：00）</p>
-                    <p class="mal"> info@kanagawaselect8.jp </p>
+                    <a href="mailto:info@kanagawaselect8.jp"><p class="mal"> info@kanagawaselect8.jp </p></a>
+
                 </div>
             </div>
     </div>
