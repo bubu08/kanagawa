@@ -669,7 +669,7 @@
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
                                             <label class="unset">ミサワホーム<input type="checkbox" name="input12_7"
-                                                                              value=""/><span
+                                                                              /><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -699,7 +699,7 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">三井ホーム<input type="checkbox" name="input12_8" value=""/><span
+                                            <label class="unset">三井ホーム<input type="checkbox" name="input12_8" /><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
