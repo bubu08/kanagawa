@@ -759,6 +759,12 @@
         <footer id="formFooter" class="formFooter">
             <div class="container">
                 <div class="row">
+                    <span class="alert-text">
+                        ※個人情報は、セミナーの受付と個別相談会、出展企業からの住宅情報のご案内、ご提供に使用させていただく場合がございます。あらかじめご了承の上お申込みください。
+                    </span>
+                </div>
+                <div class="row">
+
                     <a class="confirmbntttt" href="">
                         <div class="confirmBtn">
                             確認画面へ
