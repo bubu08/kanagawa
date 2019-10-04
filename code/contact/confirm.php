@@ -408,8 +408,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                             <div class="col-md-3">
                                 <div class="label-infor">
                                     <span class="gray-span">任意</span>
-                                    <p>参加メーカーとの
-                                        個別相談希望</p>
+                                    <p>参加メーカーとの個別相談希望</p>
                                     <p class="text-12">＊複数選択可</p>
                                 </div>
                             </div>

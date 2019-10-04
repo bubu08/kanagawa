@@ -499,8 +499,7 @@
                             <div class="col-md-3">
                                 <div class="label-infor">
                                     <span class="gray-span">任意</span>
-                                    <p>参加メーカーとの
-                                        個別相談希望</p>
+                                    <p>参加メーカーとの個別相談希望</p>
                                     <p class="text-12">＊複数選択可</p>
                                 </div>
                             </div>
@@ -664,7 +663,7 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">パナソニック ホームズ<input type="checkbox"
+                                            <label class="unset">パナソニックホームズ<input type="checkbox"
                                                                                    name="input12_6"/><span
                                                         class="checkmark"></span></label>
                                         </div>
