@@ -5,60 +5,55 @@
  * //ファイルアップロード関連ここまで
  **************************************************/
 
-$input1 = ! empty( $_POST['input1'] ) ? $_POST['input1'] : '';
-$input12 = ! empty( $_POST['input12'] ) ? $_POST['input12'] : '';
-$input2 = ! empty( $_POST['input2'] ) ? $_POST['input2'] : '';
-$input21 = ! empty( $_POST['input21'] ) ? $_POST['input21'] : '';
-$input3 = ! empty( $_POST['input3'] ) ? $_POST['input3'] : '';
-$select4 = ! empty( $_POST['select4'] ) ? $_POST['select4'] : '';
-$input5 = ! empty( $_POST['input5'] ) ? $_POST['input5'] : '';
-$input6 = ! empty( $_POST['input6'] ) ? $_POST['input6'] : '';
+$input1       = ! empty( $_POST['input1'] ) ? $_POST['input1'] : '';
+$input12      = ! empty( $_POST['input12'] ) ? $_POST['input12'] : '';
+$input2       = ! empty( $_POST['input2'] ) ? $_POST['input2'] : '';
+$input21      = ! empty( $_POST['input21'] ) ? $_POST['input21'] : '';
+$input3       = ! empty( $_POST['input3'] ) ? $_POST['input3'] : '';
+$select4      = ! empty( $_POST['select4'] ) ? $_POST['select4'] : '';
+$input5       = ! empty( $_POST['input5'] ) ? $_POST['input5'] : '';
+$input6       = ! empty( $_POST['input6'] ) ? $_POST['input6'] : '';
 $phone_number = ! empty( $_POST['phone_number'] ) ? $_POST['phone_number'] : '';
-$email = ! empty( $_POST['email'] ) ? $_POST['email'] : '';
-$select8 = ! empty( $_POST['select8'] ) ? $_POST['select8'] : '';
-$select9 = ! empty( $_POST['select9'] ) ? $_POST['select9'] : '';
-$join_date_1 = ! empty( $_POST['join_date_1'] ) ? $_POST['join_date_1'] : '';
-$join_date_2 = ! empty( $_POST['join_date_2'] ) ? $_POST['join_date_2'] : '';
+$email        = ! empty( $_POST['email'] ) ? $_POST['email'] : '';
+$select8      = ! empty( $_POST['select8'] ) ? $_POST['select8'] : '';
+$select9      = ! empty( $_POST['select9'] ) ? $_POST['select9'] : '';
+$join_date_1  = ! empty( $_POST['join_date_1'] ) ? $_POST['join_date_1'] : '';
+$join_date_2  = ! empty( $_POST['join_date_2'] ) ? $_POST['join_date_2'] : '';
 
-$input10 = ! empty( $_POST['input10'] ) ? $_POST['input10'] : '';
-$input101 = ! empty( $_POST['input101'] ) ? $_POST['input101'] : '';
-$input102 = ! empty( $_POST['input102'] ) ? $_POST['input102'] : '';
-$input103 = ! empty( $_POST['input103'] ) ? $_POST['input103'] : '';
-$input104 = ! empty( $_POST['input104'] ) ? $_POST['input104'] : '';
-$input105 = ! empty( $_POST['input105'] ) ? $_POST['input105'] : '';
-$input106 = ! empty( $_POST['input106'] ) ? $_POST['input106'] : '';
-$input107 = ! empty( $_POST['input107'] ) ? $_POST['input107'] : '';
-$input108 = ! empty( $_POST['input108'] ) ? $_POST['input108'] : '';
-$input109 = ! empty( $_POST['input109'] ) ? $_POST['input109'] : '';
+$input10   = ! empty( $_POST['input10'] ) ? $_POST['input10'] : '';
+$input101  = ! empty( $_POST['input101'] ) ? $_POST['input101'] : '';
+$input102  = ! empty( $_POST['input102'] ) ? $_POST['input102'] : '';
+$input103  = ! empty( $_POST['input103'] ) ? $_POST['input103'] : '';
+$input104  = ! empty( $_POST['input104'] ) ? $_POST['input104'] : '';
+$input105  = ! empty( $_POST['input105'] ) ? $_POST['input105'] : '';
+$input106  = ! empty( $_POST['input106'] ) ? $_POST['input106'] : '';
+$input107  = ! empty( $_POST['input107'] ) ? $_POST['input107'] : '';
+$input108  = ! empty( $_POST['input108'] ) ? $_POST['input108'] : '';
+$input109  = ! empty( $_POST['input109'] ) ? $_POST['input109'] : '';
 $input1010 = ! empty( $_POST['input1010'] ) ? $_POST['input1010'] : '';
 $input1011 = ! empty( $_POST['input1011'] ) ? $_POST['input1011'] : '';
 
-$input11 = ! empty( $_POST['input11'] ) ? $_POST['input11'] : '';
+$input11   = ! empty( $_POST['input11'] ) ? $_POST['input11'] : '';
 $select111 = ! empty( $_POST['select111'] ) ? $_POST['select111'] : '';
 $select112 = ! empty( $_POST['select112'] ) ? $_POST['select112'] : '';
 
-$input12_1= ! empty( $_POST['input12_1'] ) ? $_POST['input12_1'] : '';
-$input12_2= ! empty( $_POST['input12_2'] ) ? $_POST['input12_2'] : '';
-$input12_3= ! empty( $_POST['input12_3'] ) ? $_POST['input12_3'] : '';
-$input12_4= ! empty( $_POST['input12_4'] ) ? $_POST['input12_4'] : '';
-$input12_5= ! empty( $_POST['input12_5'] ) ? $_POST['input12_5'] : '';
-$input12_6= ! empty( $_POST['input12_6'] ) ? $_POST['input12_6'] : '';
-$input12_7= ! empty( $_POST['input12_7'] ) ? $_POST['input12_7'] : '';
-$input12_8= ! empty( $_POST['input12_8'] ) ? $_POST['input12_8'] : '';
+$input12_1 = ! empty( $_POST['input12_1'] ) ? $_POST['input12_1'] : '';
+$input12_2 = ! empty( $_POST['input12_2'] ) ? $_POST['input12_2'] : '';
+$input12_3 = ! empty( $_POST['input12_3'] ) ? $_POST['input12_3'] : '';
+$input12_4 = ! empty( $_POST['input12_4'] ) ? $_POST['input12_4'] : '';
+$input12_5 = ! empty( $_POST['input12_5'] ) ? $_POST['input12_5'] : '';
+$input12_6 = ! empty( $_POST['input12_6'] ) ? $_POST['input12_6'] : '';
+$input12_7 = ! empty( $_POST['input12_7'] ) ? $_POST['input12_7'] : '';
+$input12_8 = ! empty( $_POST['input12_8'] ) ? $_POST['input12_8'] : '';
 
-$select12_1= ! empty( $_POST['select12_1'] ) ? $_POST['select12_1'] : '';
-$select12_2= ! empty( $_POST['select12_2'] ) ? $_POST['select12_2'] : '';
-$select12_3= ! empty( $_POST['select12_3'] ) ? $_POST['select12_3'] : '';
-$select12_4= ! empty( $_POST['select12_4'] ) ? $_POST['select12_4'] : '';
-$select12_5= ! empty( $_POST['select12_5'] ) ? $_POST['select12_5'] : '';
-$select12_6= ! empty( $_POST['select12_6'] ) ? $_POST['select12_6'] : '';
-$select12_7= ! empty( $_POST['select12_7'] ) ? $_POST['select12_7'] : '';
-$select12_8= ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
-
-
-
-
-
+$select12_1 = ! empty( $_POST['select12_1'] ) ? $_POST['select12_1'] : '';
+$select12_2 = ! empty( $_POST['select12_2'] ) ? $_POST['select12_2'] : '';
+$select12_3 = ! empty( $_POST['select12_3'] ) ? $_POST['select12_3'] : '';
+$select12_4 = ! empty( $_POST['select12_4'] ) ? $_POST['select12_4'] : '';
+$select12_5 = ! empty( $_POST['select12_5'] ) ? $_POST['select12_5'] : '';
+$select12_6 = ! empty( $_POST['select12_6'] ) ? $_POST['select12_6'] : '';
+$select12_7 = ! empty( $_POST['select12_7'] ) ? $_POST['select12_7'] : '';
+$select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
 
 
 // ホームページ運営者に返信するメール
@@ -78,7 +73,7 @@ $mail_title = "『かながわ住まいづくりフェア』";
 //$mailto = $infomail;
 //$mailto = "truongcongluan@gmail.com";
 //$mailto = "thang.pham@365dep.vn";
-$mailto = $email;
+$mailto = ' form@kanagawaselect8.jp';
 
 /* エンドユーザー返信メール末尾の案件アドレス */
 $site_url_mail = "https://kanagawaselect8.jp/contact/";
