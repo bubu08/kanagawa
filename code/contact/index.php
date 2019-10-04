@@ -331,8 +331,7 @@
                             <div class="col-md-3">
                                 <div class="label-infor">
                                     <span>必須</span>
-                                    <p>興味のある
-                                        セミナー</p>
+                                    <p>興味のあるセミナー</p>
                                     <p class="text-12">＊複数選択可</p>
                                 </div>
                             </div>
