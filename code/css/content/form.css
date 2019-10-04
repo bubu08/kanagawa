@@ -3,7 +3,22 @@
     font-family: "MontserratReg", "NotoSanReg", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
     "ＭＳ Ｐゴシック", "MS PGothic", Osaka, sans-serif;
 }
-
+@font-face{
+    font-family: yugo-b;
+    src: url('../fonts/YuGothic-Bold.otf');
+}
+@font-face{
+    font-family: yugo-m;
+    src: url('../fonts/YuGothic-Medium.otf');
+}
+@font-face{
+    font-family: noto-b;
+    src: url('../fonts/NotoSansCJKjp-Bold.otf');
+}
+@font-face{
+    font-family: noto-r;
+    src: url('../fonts/NotoSansCJKjp-Regular.otf');
+}
 .formHeader .contentHeader {
     display: flex;
     justify-content: center;
@@ -460,6 +475,19 @@ span.text{
     display: block;
     color: white;
     font-size: 13px;
+}
+.mal a{
+    color:white ;
+}
+
+.copyright{
+    font-size: 10px;
+    letter-spacing: 0.6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: yugo-b;
+    color: #273e52;
 }
 
 @media screen and (max-width: 991px){

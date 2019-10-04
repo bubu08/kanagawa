@@ -160,7 +160,7 @@
         <div class="title-gradient-wrapper pt-60 pb-20 sp-pt-25">
             <img src="images/gra-2.png" alt="" class="gra"/>
         </div>
-        <div class="bg-yelow" style="background-image: url(images/bg-diff.jpg)">
+        <div class="bg-yelow" style="background-image: url(images/bg-diff2.png)">
             <div class="title-h1-wrapper">
                 <img src="images/rec-present.png" alt="" class="rec-title-1"/>
                 <h1 class="dt-block">農家直送！新鮮な季節の「朝採れよこはま野菜」をプレゼント！ <span class="dt-block">   11：00～16：00</span></h1>
@@ -355,7 +355,7 @@
         <div class="title">かながわ住まいづくりフェア事務局</div>
         <p>〒231−8445　神奈川新聞社デジタルビジネス局内
             <br>TEL.045-640-0125 （平日 10：00〜18：00）
-            　<br><a href="mailto:info@kanagawaselect8.jp">お問合せメールアドレス：info@kanagawaselect8.jp</a></p>
+            　<br>お問合せメールアドレス：<a href="mailto:info@kanagawaselect8.jp">info@kanagawaselect8.jp</a></p>
     </div>
 </section>
 <footer>

@@ -81,20 +81,10 @@
         <div class="container">
             <div class="row">
                 <div class="contentHeader">
-                    <div class="leftHeader">
-                        <h2 class="mainTitle">
-                            かながわ <span> 住 </span> まいづくりフェア
-                        </h2>
 
-                        <p class="subTitle">お申込フォーム</p>
+                    <img style="max-width:100%;
+    height:auto;" src="../images/content/form/banner.png" alt=""/>
 
-                        <p class="caption">後日、参加券を郵送いたします。</p>
-                    </div>
-                    <div class="rightHeader">
-                        <a href="#">
-                            <img src="../images/content/form/logo.png" alt=""/>
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -127,7 +117,7 @@
                     <p class="caption"> かながわ住まいづくりフェア事務局 </p>
                     <p class="dig"> 〒231−8445　神奈川新聞社デジタルビジネス局内 </p>
                     <p class="tel"> TEL.045-640-0125 （平日 10：00〜18：00）</p>
-                    <a href="mailto:info@kanagawaselect8.jp"><p class="mal">お問合せメールアドレス：info@kanagawaselect8.jp</p></a>
+                    <p class="mal">お問合せメールアドレス：<a href="mailto:info@kanagawaselect8.jp">info@kanagawaselect8.jp</a></p>
                 </div>
             </div>
     </div>
