@@ -462,10 +462,10 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
 
                                     </div>
                                 </div>
-                                <div class="row mT20 ml--15">
+                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">ダイワハウス <span
+                                            <label class="unset">積水ハウス <span
                                                         class="<?= $input12_4 ?>"></span></label>
                                         </div>
                                     </div>
@@ -479,7 +479,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">パナソニック ホームズ<span
+                                            <label class="unset">ダイワハウス <span
                                                         class="<?= $input12_5 ?>"></span></label>
                                         </div>
                                     </div>
@@ -488,13 +488,12 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                     <div class="form-group col-md-8">
                                         <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <span class="text"><?= $select12_5 ?></span>
-
                                     </div>
                                 </div>
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">へーベルハウス<span
+                                            <label class="unset">パナソニック ホームズ<span
                                                         class="<?= $input12_6 ?>"></span></label>
                                         </div>
                                     </div>
@@ -506,6 +505,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
 
                                     </div>
                                 </div>
+
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">

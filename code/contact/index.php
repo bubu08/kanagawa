@@ -602,7 +602,7 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">ダイワハウス <input type="checkbox"
+                                            <label class="unset">積水ハウス<input type="checkbox"
                                                                                name="input12_4"/><span
                                                         class="checkmark"></span></label>
                                         </div>
@@ -633,17 +633,17 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">パナソニック ホームズ<input type="checkbox"
-                                                                                   name="input12_5"/><span
+                                            <label class="unset">ダイワハウス <input type="checkbox"
+                                                                               name="input12_5"/><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
                                     <div class="col-md-1">
                                     </div>
-                                    <div class="form-group form-flex flex-sp col-md-8">
+                                    <div class="form-group form-flex flex-sp  col-md-8">
                                         <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm " name="select12_5">
+                                            <select class="selectForm  " name="select12_5">
                                                 <option value="">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 11時半〜">11/16 11時半〜</option>
@@ -664,14 +664,14 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">へーベルハウス<input type="checkbox"
-                                                                               name="input12_6"/><span
+                                            <label class="unset">パナソニック ホームズ<input type="checkbox"
+                                                                                   name="input12_6"/><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
                                     <div class="col-md-1">
                                     </div>
-                                    <div class="form-group form-flex flex-sp  col-md-8">
+                                    <div class="form-group form-flex flex-sp col-md-8">
                                         <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
                                             <select class="selectForm " name="select12_6">
