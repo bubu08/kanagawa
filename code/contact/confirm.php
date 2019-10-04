@@ -334,7 +334,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                         <span class="<?= $input103 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/16 「美人収納」  捨てるが苦手な人もできる仕分け術
+                                    <label class="unset">11/16 「美人収納」捨てるのが苦手な人もできる仕分け術
 
                                         <span class="<?= $input104 ?>"></span></label>
                                 </div>
