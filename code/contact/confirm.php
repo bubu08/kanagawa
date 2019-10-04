@@ -546,16 +546,17 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
         <footer id="formFooter" class="formFooter">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6"><a class="submitbtn" href="">
-                            <div class="confirmBtn">
-                                確定する
-                            </div>
-                        </a></div>
                     <div class="col-md-6"><a class="" href="javascript:history.back()">
                             <div class="confirmBtn1 backingbtn">
                                 編集画面に戻る
                             </div>
                         </a></div>
+                    <div class="col-md-6"><a class="submitbtn" href="">
+                            <div class="confirmBtn">
+                                確定する
+                            </div>
+                        </a></div>
+
 
                 </div>
                 <div class="row">
