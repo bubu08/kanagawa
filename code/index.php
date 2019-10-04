@@ -94,7 +94,7 @@
             <p class="desc-1 mb-10">〈主催〉神奈川新聞社　〈共催〉神奈川県住宅協議会　</p>
             <p class="desc-2 mb-20">
                 〈後援〉神奈川県・横浜市・川崎市・かながわ住まいまちづくり協会・全日本不動産協会神奈川県本部・神奈川県土地家屋調査士会・神奈川県司法書士会・東京地方税理士会・日本FP協会神奈川支部・優良ストック住宅推進協議会
-                <br>〈協賛〉東急リバプル・東京ガス・トラバース・パナソニック リビング</p>
+                <br>〈協賛〉東急リバブル・東京ガス・トラバース・パナソニック リビング</p>
         </div>
         <div class="desc mb-block container">
             <p class="desc-1 mb-10">〈主催〉神奈川新聞社　〈共催〉神奈川県住宅協議会　</p>
@@ -105,7 +105,7 @@
                 <br>優良ストック住宅推進協議会
             </p>
             <p class="desc-2 mb-10">〈協賛〉
-                <br> 東急リバプル・東京ガス・トラバース・パナソニック リビング</p>
+                <br> 東急リバブル・東京ガス・トラバース・パナソニック リビング</p>
         </div>
     </div>
 </section>
@@ -308,7 +308,7 @@
             <div class="line"></div>
         </div>
         <div class="list-items">
-            <a href="https://www.livable.co.jp/" target="_blank">▶︎ 東急リバプル （不動産仲介）</a>
+            <a href="https://www.livable.co.jp/" target="_blank">▶︎ 東急リバブル （不動産仲介）</a>
             <br><a href="https://home.tokyo-gas.co.jp" target="_blank">▶︎ 東京ガス （光熱費）</a>
             <br><a href="http://www.travers.co.jp/" target="_blank">▶︎ トラバース （測量）</a>
             <br><a href="https://sumai.panasonic.jp/" target="_blank">▶︎ パナソニック リビング （キッチン・バス・洗面台）</a>
