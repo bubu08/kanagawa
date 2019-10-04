@@ -411,6 +411,7 @@ button.btn-map{
   display: flex;
   margin: 25px auto 0;
   justify-content: center;
+  cursor: pointer;
 }
 .block-4 button.btn-map span{
   margin-left: 5px;
