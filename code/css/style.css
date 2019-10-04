@@ -473,6 +473,12 @@ button.btn-map{
   margin-bottom: 24px;
 }
 
+.arrow-button{
+  padding-bottom:9px;
+}
+
+
+
 /* ================== Responsive ================== */
 @media screen and (max-width: 1000px) and (min-width: 768px){
   .block-4 .last img.dt-block{
