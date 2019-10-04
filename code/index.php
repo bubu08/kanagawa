@@ -291,7 +291,7 @@
             <div class="line"></div>
         </div>
         <div class="list-items">
-            <a href="https://www.livable.co.jp/" target="_blank">▶︎ 東急リバプル （不動産仲介）</a>
+            <a href="https://www.livable.co.jp/" target="_blank">▶︎ 東急リバブル （不動産仲介）</a>
             <br><a href="https://home.tokyo-gas.co.jp" target="_blank">▶︎ 東京ガス （光熱費）</a>
             <br><a href="http://www.travers.co.jp/" target="_blank">▶︎ トラバース （測量）</a>
             <br><a href="https://sumai.panasonic.jp/" target="_blank">▶︎ パナソニック リビング （キッチン・バス・洗面台）</a>
