@@ -708,7 +708,7 @@ button.btn-map{
   }
   .block-4 .flex .btn-map.mb-block{
     display: flex;
-    width: 150px;
+    width: auto;
     height: 28px;
     margin: 12px auto;
   }
