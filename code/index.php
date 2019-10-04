@@ -48,18 +48,20 @@
 </div>
 <section>
     <div class="section-1">
-        <picture>
-            <source media="(min-width: 768px)" srcset="images/bg-1.png">
-            <img src="images/bg-1-mb.jpg" alt="">
-        </picture>
+        <div class="bg-1 dt-block">
+            <img src="images/banner-top.png" alt="" />
+        </div>
+        <img src="images/bg-1-mb.jpg" alt="" class="mb-block">
     </div>
 </section>
 <section>
     <div class="section-2">
-        <picture>
-            <source media="(min-width: 768px)" srcset="images/bg-2.png">
-            <img src="images/bg-2-mb.png" alt="" class="img-1 mb-10">
-        </picture>
+        <div class="bg-2 dt-block mb-10">
+            <div class="container">
+                <img src="images/select.png" alt="" />
+            </div>
+        </div>
+        <img src="images/bg-2-mb.png" alt="" class="img-1 mb-10 mb-block">
         <div class="brands dt-block container ">
             <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/model/kanagawa.shtml/"><img
                         src="images/logo-1.png"

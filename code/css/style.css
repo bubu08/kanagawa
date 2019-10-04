@@ -175,6 +175,27 @@ a{
 }
 
 /* ------ Main style ------ */
+.bg-1{
+  background-image: url('../images/bg-1.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bg-2{
+  background-image: url('../images/bg-2.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bg-1 img,
+.bg-2 img{
+  width: auto;
+  display: flex;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1072px){
+  .bg-1 img{
+    width: 100%;
+  }
+}
 img{
   width: 100%;
   vertical-align: middle;
@@ -237,7 +258,7 @@ h1{
   line-height: 1.36;
   font-family: yugo-b;
   line-height: 45px;
-  font-size: 22px;
+  font-size: 20px;
 }
 .block-1 .desc-wrapper{
   display: flex;
@@ -428,7 +449,9 @@ button.btn-map{
   line-height: 34px;
   display: flex;
   margin: 25px auto 0;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   cursor: pointer;
 }
 .block-4 button.btn-map span{
@@ -517,6 +540,9 @@ button.btn-map{
     width: 520px;
   }
   .brands img{
+    width: 100%;
+  }
+  .bg-2 img{
     width: 100%;
   }
 }
@@ -813,6 +839,7 @@ button.btn-map{
   .page-to-top{
     right: 0;
     bottom: 0;
+    left: 0;
   }
   .page-to-top .banner img{
     width: 100%;
