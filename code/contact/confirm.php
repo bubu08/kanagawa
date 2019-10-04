@@ -141,7 +141,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
 
                         <p class="subTitle">お申込フォーム</p>
 
-                        <p class="caption">後日、参加券を郵送いたします。</p>
+                        <p class="caption">後日、参加証を郵送いたします。</p>
                     </div>
                     <div class="rightHeader">
                         <a href="#">
