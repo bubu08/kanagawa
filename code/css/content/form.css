@@ -101,7 +101,7 @@
 }
 
 @media (min-width: 1200px) {
-    .formContent > .container {
+    .formContent .container {
         width: 1000px;
     }
 }
