@@ -65,11 +65,11 @@
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-K4L5WF3');</script>
+        })(window, document, 'script', 'dataLayer', 'GTM-XXXX');</script>
     <!-- End Google Tag Manager -->
     <!-- Google Tag Manager (noscript) -->
     <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4L5WF3"
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXX"
                 height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
@@ -417,7 +417,7 @@
                         <div class="row lineForm mT15 form11">
                             <div class="col-md-3">
                                 <div class="label-infor">
-                                    <span class="gray-span">必須</span>
+                                    <span class="gray-span">任意</span>
                                     <p>託児所利用</p>
                                 </div>
                             </div>
@@ -471,7 +471,7 @@
                         <div class="row mT15 form12">
                             <div class="col-md-3">
                                 <div class="label-infor">
-                                    <span class="gray-span">必須</span>
+                                    <span class="gray-span">任意</span>
                                     <p>参加メーカーとの
                                         個別相談希望</p>
                                     <p class="text-12">＊複数選択可</p>
