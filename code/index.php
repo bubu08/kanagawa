@@ -145,14 +145,14 @@
                     <br>オーナーの願いを叶えた渾身の物件について語っていただきます。</p>
                 <div class="right">
                     <picture>
-                        <source media="(min-width: 768px)" srcset="images/desc-sec-1.png">
-                        <img src="images/dec-sec-1-mb.jpg" alt="" class="img-1 mb-25">
+                        <source media="(max-width: 767px)" srcset="images/dec-sec-1-mb.jpg">
+                        <img src="images/desc-sec-1.png" alt="" class="img-1 mb-25">
                     </picture>
                 </div>
             </div>
             <picture>
-                <source media="(min-width: 768px)" srcset="images/table-sec-1.png">
-                <img src="images/table-sec-1-mb.jpg" alt="" class="img-1">
+                <source media="(max-width: 767px)" srcset="images/table-sec-1-mb.jpg">
+                <img src="images/table-sec-1.png" alt="" class="img-1">
             </picture>
         </div>
     </div>
@@ -168,16 +168,16 @@
                     <br>「朝採れよこはま野菜」をプレゼント！</h1>
             </div>
             <picture>
-                <source media="(min-width: 768px)" srcset="images/present-sec-2.png">
-                <img src="images/present-sec-2-mb.png" alt="" class="img-1 block-mt-10">
+                <source media="(max-width: 767px)" srcset="images/present-sec-2-mb.png">
+                <img src="images/present-sec-2.png" alt="" class="img-1 block-mt-10">
             </picture>
             <div class="title-h1-wrapper max-width-595 mt-50 title-mt-20">
                 <img src="images/rec-service.png" alt="" class="rec-title-1"/>
                 <h1>ドーナツ＆コーヒーサービス <span class="dt-block">   11：00～16：00</span></h1>
             </div>
             <picture>
-                <source media="(min-width: 768px)" srcset="images/service-sec-2.png">
-                <img src="images/service-sec-2-mb.png" alt="" class="img-1 mb-10 max-width-595 add-desc-present">
+                <source media="(max-width: 767px)" srcset="images/service-sec-2-mb.png">
+                <img src="images/service-sec-2.png" alt="" class="img-1 mb-10 max-width-595 add-desc-present">
             </picture>
         </div>
     </div>
@@ -195,8 +195,8 @@
     <div class="block-4 container">
         <div class="title-gradient-wrapper pt-60 pb-20 sp-pt-25">
             <picture>
-                <source media="(min-width: 768px)" srcset="images/gra-4.png">
-                <img src="images/gra-4-mb.png" alt="" class="gra">
+                <source media="(max-width: 767px)" srcset="images/gra-4-mb.png">
+                <img src="images/gra-4.png" alt="" class="gra">
             </picture>
         </div>
         <div class="bg-yelow">
@@ -234,8 +234,8 @@
             <div class="map-wrapper">
                 <img class="mb-block" src="images/rec-map.png" alt=""/>
                 <picture>
-                    <source media="(min-width: 768px)" srcset="images/map-g.png">
-                    <img src="images/map-g-mb.png" alt="">
+                    <source media="(max-width: 767px)" srcset="images/map-g-mb.png">
+                    <img src="images/map-g.png" alt="">
                 </picture>
                 <a href="images/map-g-mb_w.png" target="_blank">
                     <button class="btn-map width-150 btn-flex">拡大して見る<span><img src="images/arrow-white.png"
@@ -248,8 +248,8 @@
     <div class="block-5 container">
         <div class="title-gradient-wrapper pt-60 pb-20 sp-pt-25">
             <picture>
-                <source media="(min-width: 768px)" srcset="images/gra-5.png">
-                <img src="images/gra-5-mb.png" alt="" class="gra">
+                <source media="(max-width: 767px)" srcset="images/gra-5-mb.png">
+                <img src="images/gra-5.png" alt="" class="gra">
             </picture>
         </div>
         <div class="bg-yelow">
@@ -302,8 +302,8 @@
                 </div>
             </div>
             <picture>
-                <source media="(max-width: 767px)" srcset="images/quo-mb.png">
-                <img src="images/quo.png" alt="" class="img-quo">
+                <source media="(max-width: 767px)" srcset="images/quo.png">
+                <img src="images/quo-mb.png" alt="" class="img-quo">
             </picture>
             <div class="title-h1-wrapper mt-50">
                 <img src="images/rec-icon-3.png" alt="" class="rec-title-1"/>
