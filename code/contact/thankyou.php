@@ -129,7 +129,7 @@
 </div>
 <!-- /#wrapper -->
 <!-- default Header Object -->
-<script src="../js/contact.js"></script>
+
 <!-- /content Header Object -->
 </body>
 
