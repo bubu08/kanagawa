@@ -9,14 +9,8 @@
     padding: 0;
     max-width: 1000px;
 }
-@font-face{
-  font-family: noto-b;
-  src: url('../css/fonts/NotoSansCJKjp-Bold.otf');
-}
-@font-face{
-  font-family: noto-r;
-  src: url('../css/fonts/NotoSansCJKjp-Regular.otf');
-}
+
+
 body{
     font-size: 16px;
     font-family:  'YuGothic', 'Yu Gothic', '游ゴシック', '游ゴシック体', "メイリオ", Meiryo,  
@@ -202,14 +196,14 @@ p{
 }
 .section-2 .desc{
   color: #000000;
-  font-family: noto-b;
+    font-family: 'Noto Sans', sans-serif;
   text-align: center;
   font-size: 13px
 }
 .section-2 .desc-2{
   font-size: 9px;
   line-height: 1.67;
-  letter-spacing: 0.36px;
+  letter-spacing: -0.1px;
 }
 .content-wrapper{
   background: #273e52;
