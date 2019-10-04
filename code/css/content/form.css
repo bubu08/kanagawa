@@ -361,7 +361,7 @@ span.checkedmark:after {
 .formFooter .confirmBtn {
     margin-bottom: 100px !important;
     padding: 25px 160px;
-    width: 50%;
+    width: max-content;
     background-color: #b60056;
     margin: 0 auto;
     font-weight: bold;
@@ -380,7 +380,9 @@ span.checkedmark:after {
     color: #0E3F65;
     letter-spacing: 2.7px;
 }
-
+.formFooter .confirmbntttt .confirmBtn{
+    width: 50%;
+}
 .formFooter .caption {
     font-size: 22px;
     font-weight: bold;
