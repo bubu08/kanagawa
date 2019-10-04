@@ -354,6 +354,17 @@ span.checkedmark:after {
     color: white;
     letter-spacing: 2.7px;
 }
+.formFooter .backingbtn{
+    margin-bottom: 100px !important;
+    padding: 25px 110px;
+    width: max-content;
+    background-color: white;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 30px;
+    color: #0E3F65;
+    letter-spacing: 2.7px;
+}
 
 .formFooter .caption {
     font-size: 22px;
@@ -443,6 +454,11 @@ span.text{
     vertical-align: middle;
     margin-right: 13px;
 }
+
+.backingbtn{
+
+}
+
 @media screen and (max-width: 991px){
     .label-infor{
         margin: 10px 0;
@@ -502,10 +518,17 @@ span.text{
         width: 50%;
         padding: 10px;
     }
+    .formFooter .backingbtn{
+        width: 50%;
+        padding: 10px;
+    }
     .form-inline .form-group{
         display: block;
     }
     .formFooter .confirmBtn{
+        margin-bottom: 50px !important;
+    }
+    .formFooter .backingbtn{
         margin-bottom: 50px !important;
     }
     .formFooter{
@@ -521,6 +544,9 @@ span.text{
         font-size: 14px;
     }
     .formFooter .confirmBtn{
+        font-size: 15px;
+    }
+    .formFooter .backingbtn{
         font-size: 15px;
     }
     .formFooter .caption{
