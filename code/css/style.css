@@ -462,6 +462,17 @@ button.btn-map{
   text-decoration: none;
 }
 
+.block-5 .brands-wrapper{
+  background: #ffffff;
+  max-width: 692px;
+  padding: 40px 35px;
+  border: 1px solid #223b51;
+}
+
+.block-5 .brands-wrapper .brands:first-child{
+  margin-bottom: 24px;
+}
+
 /* ================== Responsive ================== */
 @media screen and (max-width: 1000px) and (min-width: 768px){
   .block-4 .last img.dt-block{
@@ -778,5 +789,11 @@ button.btn-map{
   .brands-wrapper.container,
   .note-wrapper.container{
     padding: 0 30px;
+  }
+  .block-5 .brands-wrapper{
+    padding: 22px 18px;
+  }
+  .block-5 .brands-wrapper .brands:first-child{
+    margin-bottom: 12px;
   }
 }

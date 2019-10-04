@@ -265,11 +265,24 @@
             </picture>
             <div class="title-h1-wrapper mt-50">
                 <img src="images/rec-icon-3.png" alt="" class="rec-title-1"/>
-                <h1>大手住宅メーカー8社の個別相談会</h1>
+                <h1>大手メーカー8社の個別相談会</h1>
             </div>
             <p class="desc mt-15 mb-35">下記大手住宅メーカー8社のスペシャリストが、家づくりに関する疑問や悩みをじっくり伺い、
                 <br>ご相談・アドバイスさせていただきます。</p>
-            <img src="images/brands-bottom.jpg" alt="" class="brands-bottom"/>
+            <div class="brands-wrapper container ">
+                <div class="brands">
+                    <a href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png" alt=""/></a>
+                    <a href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt=""/></a>
+                    <a href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt=""/></a>
+                    <a href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt=""/></a>
+                </div>
+                <div class="brands">
+                    <a href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png" alt=""/></a>
+                    <a href="https://sumai.panasonic.jp/"><img src="images/logo-6.png" alt=""/></a>
+                    <a href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt=""/></a>
+                    <a href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png" alt=""/></a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="block-6 container mt-80">
