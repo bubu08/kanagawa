@@ -194,7 +194,7 @@
                             <button>アクセス</button>
                             <p>ＪＲ・京急・相鉄・東急・横浜市営地下鉄線　
                                 <span>「横浜駅」西口　徒歩約６分 <br>（ハマボール イアスとなり）</span></p>
-                            <a href="https://goo.gl/maps/pMyz3ygJ6BEPG5SU9" target="_blank">
+                            <a style="text-decoration: none;" href="https://goo.gl/maps/pMyz3ygJ6BEPG5SU9" target="_blank">
                                 <button class="btn-map dt-block">Google MAPへ <span><img src="images/arrow-white.png"
                                                                                         alt=""/></span></button>
                             </a>
