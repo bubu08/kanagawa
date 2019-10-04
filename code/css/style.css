@@ -496,7 +496,10 @@ button.btn-map{
   display:inline-block;
 }
 
-
+.image-arrow{
+  display:inline-block;
+  padding-bottom:2px !important;
+}
 
 
 

@@ -214,7 +214,7 @@
                                 <span>「横浜駅」西口　徒歩約６分 <br>（ハマボール イアスとなり）</span></p>
                             <a style="text-decoration: none;" href="https://goo.gl/maps/pMyz3ygJ6BEPG5SU9"
                                target="_blank">
-                                <button class="btn-map dt-block">Google MAPへ <span><img src="images/arrow-white.png"
+                                <button class="btn-map dt-block">Google MAPへ <span><img class="image-arrow" src="images/arrow-white.png"
                                                                                         alt=""/></span></button>
                             </a>
                         </div>
