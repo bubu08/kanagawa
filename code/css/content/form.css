@@ -567,6 +567,13 @@ span.text{
         padding-bottom: 30px !important;
     }
 }
+@media screen and (max-width: 767px){
+    .ct-img{
+        width: 70%;
+        display: flex;
+        margin: 0 auto;
+    }
+}
 @media screen and (max-width: 425px){
     .formContent .contentBody .orderForm h2, .formContent .contentBody .orderForm label{
         font-size: 14px;

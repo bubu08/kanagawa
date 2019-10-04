@@ -82,10 +82,10 @@
         <div class="container">
             <div class="row">
                 <div class="contentHeader">
-
-                            <img style="max-width:100%;
-    height:auto;" src="../images/content/form/banner.png" alt=""/>
-
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="../images/content/form/banner.png">
+                        <img src="../images/content/form/banner-mb.png" alt="" class="ct-img" />
+                    </picture>
                 </div>
             </div>
         </div>
