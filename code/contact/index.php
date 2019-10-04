@@ -372,13 +372,14 @@
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/16 「美人収納」捨てるのが苦手な人もできる仕分け術
+                                    <label class="unset">11/16 「美人収納」捨てるのが苦手な人もできる仕分け術"
                                         <input type="checkbox"
                                                class="validate[minCheckbox[1]]"
                                                value="11/16 「美人収納」捨てるのが苦手な人もできる仕分け術"
                                                name="input10[]"/>
                                         <span class="checkmark"></span>
                                     </label>
+
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">11/16 元号、消費税の変化に伴い、押さえておきたいお金の話！
