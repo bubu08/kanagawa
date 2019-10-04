@@ -459,6 +459,7 @@ button.btn-map{
 
 .list-items a{
   color:white;
+  text-decoration: none;
 }
 
 /* ================== Responsive ================== */
