@@ -70,23 +70,25 @@ $today = date( "Y/m/d H:i:s" );
 ------------------------------------------------------------ */
 
 /* 件名、本文冒頭 */
-$mail_title = "■■■";
+$mail_title = "『かながわ住まいづくりフェア』";
 //$mail_title = $passmaster_array['hptitle'];
 
 /* クライアントメールアドレス */
 //$mailto   = "system@extlink.co.jp";
 //$mailto = $infomail;
 //$mailto = "truongcongluan@gmail.com";
-$mailto = "thang.pham@365dep.vn";
+//$mailto = "thang.pham@365dep.vn";
+$mailto = $email;
 
 /* エンドユーザー返信メール末尾の案件アドレス */
-$site_url_mail = "http://●●●.net/●●●/●●●/";
+$site_url_mail = "https://kanagawaselect8.jp/contact/";
 //$site_url_mail = $site_url;
 
 /* --------------------------------------------------------- */
 
 
-$subject = "{$mail_title}ホームページの『お問い合わせ』より送信";
+//$subject = "{$mail_title}『かながわ住まいづくりフェア』ホームページの『お問い合わせ』より送信";
+$subject = "『かながわ住まいづくりフェア』ホームページの『お問い合わせ』より送信";
 
 $message = <<< maildata
 {$mail_title}ホームページの『お問い合わせ』よりメールがありました。
