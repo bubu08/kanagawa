@@ -230,4 +230,4 @@ _message;
 
 
 //メール送信
-mb_send_mail( $mailto_guest, $subject, $message, $header );
+//mb_send_mail( $mailto_guest, $subject, $message, $header );

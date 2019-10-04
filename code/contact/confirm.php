@@ -296,7 +296,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                             <div class="col-md-3">
                                 <div class="wrapCheckmart">
                                     <label class="multi">11/17
-                                        <span class="<?= $join_date_1 ?>"> </span>
+                                        <span class="<?= $join_date_2 ?>"> </span>
                                     </label>
                                     <img src="../images/content/form/form7image2.png" alt=""/>
                                 </div>
