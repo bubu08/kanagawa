@@ -82,20 +82,10 @@
         <div class="container">
             <div class="row">
                 <div class="contentHeader">
-                    <div class="leftHeader">
-                        <h2 class="mainTitle">
-                            かながわ <span> 住 </span> まいづくりフェア
-                        </h2>
 
-                        <p class="subTitle">お申込フォーム</p>
+                            <img style="max-width:100%;
+    height:auto;" src="../images/content/form/banner.png" alt=""/>
 
-                        <p class="caption">後日、参加証を郵送いたします。</p>
-                    </div>
-                    <div class="rightHeader">
-                        <a href="#">
-                            <img src="../images/content/form/logo.png" alt=""/>
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
