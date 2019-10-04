@@ -40,10 +40,10 @@
 </head>
 <body>
 <div class="page-to-top">
-    <a href="https://kanagawaselect8.jp/contact/"><img src="images/register.png" alt="" class="dt-block"/></a>
+    <a href="contact/"><img src="images/register.png" alt="" class="dt-block"/></a>
     <img src="images/page-top.png" alt="" class="back-to-top"/>
     <div class="banner mb-block">
-        <a href="https://kanagawaselect8.jp/contact/"><img src="images/banner-pink.png" alt=""/></a>
+        <a href="contact/"><img src="images/banner-pink.png" alt=""/></a>
     </div>
 </div>
 <section>
