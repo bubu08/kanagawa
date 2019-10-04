@@ -268,7 +268,10 @@
                         <br> 当日、会場・受付コーナーへお持ちください。
                     </p>
                     <a href="pdf/kanagawaselect8_plan.pdf" target="_blank">
-                        <button class="mt-25">シートダウンロード <span><img src="images/arrow.png" alt=""/></span></button>
+                        <div class="mt-25 button-yiss">
+                            <span class="button-text">シートダウンロード</span>
+                            <span class="button-arrow">
+                                <img class="image-arrow" src="images/arrow.png" alt="button"/></span></div>
                     </a>
                 </div>
                 <div class="left-50">
@@ -287,7 +290,12 @@
                         <br>当日、会場・受付コーナーへお持ちください。
                     </p>
                     <a href="pdf/kanagawaselect8_order.pdf" target="_blank">
-                        <button class="mt-25">シートダウンロード <span><img src="images/arrow.png" alt=""/></span></button>
+                        <div class="mt-25 button-yiss">
+                            <span class="button-text">シートダウンロード</span>
+                            <span class="button-arrow">
+                                <img class="image-arrow" src="images/arrow.png" alt=""/>
+                            </span>
+                        </div>
                     </a>
                 </div>
             </div>

@@ -88,6 +88,9 @@ h2.h2{
 .text-14{
   font-size: 14px;
 }
+a{
+  text-decoration: none;
+}
 /* ------ Spacing ------ */
 .mt-80{
   margin-top: 80px;
@@ -294,6 +297,15 @@ button{
   letter-spacing: 2.2px;
   font-family: yugo-b;
 }
+.button-yiss{
+  background: #ffffff;
+  color: #273e52;
+  border: 1px solid #273e52;
+  height: 38px;
+  line-height: 38px;
+  letter-spacing: 2.2px;
+  font-family: yugo-b;
+}
 .block-4 button{
   width: 120px;
   font-size: 20px;
@@ -330,6 +342,12 @@ button{
   width: 283px;
   font-size: 18px;
   font-family: yugo-b;
+}
+.block-5 .button-yiss{
+  width: 283px;
+  font-size: 18px;
+  font-family: yugo-b;
+  margin: 25px auto 0;
 }
 .block-5 .content.flex{
   justify-content: space-between;
@@ -473,9 +491,12 @@ button.btn-map{
   margin-bottom: 24px;
 }
 
-.arrow-button{
-  padding-bottom:9px;
+
+.button-arrow{
+  display:inline-block;
 }
+
+
 
 
 
@@ -717,6 +738,13 @@ button.btn-map{
     width: auto;
     padding: 0 17px;
     line-height: 28px;
+  }
+  .block-5 .button-yiss{
+    margin-top: 10px;
+    margin-bottom: 16px;
+    width: auto;
+    padding: 0 17px;
+    line-height: 37px;
   }
   .block-5 button img{
     width: 15px;
