@@ -315,14 +315,14 @@
             <div class="brands-wrapper container ">
                 <div class="brands">
                     <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/model/kanagawa.shtml/"><img
-                                src="images/logo-1.png" alt=""/></a>
-                    <a target="_blank" href="https://sfc.jp/ie/area/modelhouse/ken/14/"><img src="images/logo-2.png"
+                                src="images/logo-1-bt.png" alt=""/></a>
+                    <a target="_blank" href="https://sfc.jp/ie/area/modelhouse/ken/14/"><img src="images/logo-2-bt.png"
                                                                                              alt=""/></a>
-                    <a target="_blank" href="https://modelhouse.tokyo816.jp/area/kanagawa/"><img src="images/logo-3.png"
+                    <a target="_blank" href="https://modelhouse.tokyo816.jp/area/kanagawa/"><img src="images/logo-3-bt.png"
                                                                                                  alt=""/></a>
                     <a target="_blank"
                        href="https://www.sekisuihouse.com/liaison/region/reg14_sp.html?_ga=2.160200766.2071828498.1570168545-1065487071.1554096050"><img
-                                src="images/logo-4.png" alt=""/></a>
+                                src="images/logo-4-bt.png" alt=""/></a>
                 </div>
                 <div class="brands">
                     <a target="_blank" href="https://www.daiwahouse.co.jp/jutaku/tenji/kanto/kanagawa.html"><img
