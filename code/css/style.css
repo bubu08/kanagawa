@@ -505,13 +505,13 @@ button.btn-map{
 
 .block-5 .brands-wrapper{
   background: #ffffff;
-  max-width: 692px;
-  padding: 40px 35px;
+  max-width: 618px;
+  padding: 30px 35px;
   border: 1px solid #223b51;
 }
 
 .block-5 .brands-wrapper .brands:first-child{
-  margin-bottom: 24px;
+  margin-bottom: 36px;
 }
 
 
@@ -855,9 +855,9 @@ button.btn-map{
     padding: 0 30px;
   }
   .block-5 .brands-wrapper{
-    padding: 22px 18px;
+    padding: 13px;
   }
   .block-5 .brands-wrapper .brands:first-child{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
   }
 }
