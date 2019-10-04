@@ -17,21 +17,21 @@ $phone_number = ! empty( $_POST['phone_number'] ) ? $_POST['phone_number'] : '';
 $email        = ! empty( $_POST['email'] ) ? $_POST['email'] : '';
 $select8      = ! empty( $_POST['select8'] ) ? $_POST['select8'] : '';
 $select9      = ! empty( $_POST['select9'] ) ? $_POST['select9'] : '';
-$join_date_1  = ! empty( $_POST['join_date_1'] ) ? $_POST['join_date_1'] : '';
-$join_date_2  = ! empty( $_POST['join_date_2'] ) ? $_POST['join_date_2'] : '';
+$join_date_1  = ! empty( $_POST['join_date'][0] ) ? 'on' : '';
+$join_date_2  = ! empty( $_POST['join_date'][1] ) ? 'on' : '';
 
-$input10   = ! empty( $_POST['input10'] ) ? $_POST['input10'] : '';
-$input101  = ! empty( $_POST['input101'] ) ? $_POST['input101'] : '';
-$input102  = ! empty( $_POST['input102'] ) ? $_POST['input102'] : '';
-$input103  = ! empty( $_POST['input103'] ) ? $_POST['input103'] : '';
-$input104  = ! empty( $_POST['input104'] ) ? $_POST['input104'] : '';
-$input105  = ! empty( $_POST['input105'] ) ? $_POST['input105'] : '';
-$input106  = ! empty( $_POST['input106'] ) ? $_POST['input106'] : '';
-$input107  = ! empty( $_POST['input107'] ) ? $_POST['input107'] : '';
-$input108  = ! empty( $_POST['input108'] ) ? $_POST['input108'] : '';
-$input109  = ! empty( $_POST['input109'] ) ? $_POST['input109'] : '';
-$input1010 = ! empty( $_POST['input1010'] ) ? $_POST['input1010'] : '';
-$input1011 = ! empty( $_POST['input1011'] ) ? $_POST['input1011'] : '';
+$input10   = ! empty( $_POST['input10'][0] ) ? $_POST['input10'][0] : '';
+$input101  = ! empty( $_POST['input10'][1] ) ? $_POST['input10'][1] : '';
+$input102  = ! empty( $_POST['input10'][2] ) ? $_POST['input10'][2] : '';
+$input103  = ! empty( $_POST['input10'][3] ) ? $_POST['input10'][3] : '';
+$input104  = ! empty( $_POST['input10'][4] ) ? $_POST['input10'][4] : '';
+$input105  = ! empty( $_POST['input10'][5] ) ? $_POST['input10'][5] : '';
+$input106  = ! empty( $_POST['input10'][6] ) ? $_POST['input10'][6] : '';
+$input107  = ! empty( $_POST['input10'][7] ) ? $_POST['input10'][7] : '';
+$input108  = ! empty( $_POST['input10'][8] ) ? $_POST['input10'][8] : '';
+$input109  = ! empty( $_POST['input10'][9] ) ? $_POST['input10'][9] : '';
+$input1010 = ! empty( $_POST['input10'][10] ) ? $_POST['input10'][10] : '';
+$input1011 = ! empty( $_POST['input10'][11] ) ? $_POST['input10'][11] : '';
 
 $input11   = ! empty( $_POST['input11'] ) ? $_POST['input11'] : '';
 $select111 = ! empty( $_POST['select111'] ) ? $_POST['select111'] : '';
@@ -160,7 +160,7 @@ headerdata;
 mb_send_mail( $mailto, $subject, $message, $header );
 
 
-$mailt_title_to_guest='【『かながわ住まいづくりフェア』】お問い合わせフォーム確認メール';
+$mailt_title_to_guest = '【『かながわ住まいづくりフェア』】お問い合わせフォーム確認メール';
 // ユーザー宛
 $header       = "From:" . mb_encode_mimeheader( $mailt_title_to_guest ) . "<" . $mailto . ">\r\n";
 $mailto_guest = $email;

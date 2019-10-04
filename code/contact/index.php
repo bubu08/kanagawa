@@ -310,8 +310,8 @@
                             <div class="col-md-3">
                                 <div class="wrapCheckmart">
                                     <label class="multi">11/16 <input type="checkbox"
-                                                                      class="checkbox"
-                                                                      name="join_date_1" />
+                                                                      class="checkbox validate[minCheckbox[1]]"
+                                                                      name="join_date[]"/>
                                         <span class="checkmark"> </span></label>
                                     <img src="../images/content/form/form7image1.png" alt=""/>
                                 </div>
@@ -319,9 +319,9 @@
                             <div class="col-md-3">
                                 <div class="wrapCheckmart">
                                     <label class="multi">11/17<input type="checkbox"
-                                                                     class="checkbox"
-                                                                     name="join_date_2"
-                                                                     /><span
+                                                                     class="checkbox validate[minCheckbox[1]]"
+                                                                     name="join_date[]"
+                                        /><span
                                                 class="checkmark"></span></label>
                                     <img src="../images/content/form/form7image2.png" alt=""/>
                                 </div>
@@ -339,77 +339,101 @@
                             </div>
                             <div class="col-md-9">
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/16 広さに頼らない「心地よい住まい」のつくり方<input type="checkbox"
-                                                        value="11/16 広さに頼らない「心地よい住まい」のつくり方"
-                                                        name="input10"/><span
-                                                class="checkmark"></span></label>
+                                    <label class="unset">11/16 広さに頼らない「心地よい住まい」のつくり方
+                                        <input type="checkbox" class="validate[minCheckbox[1]]"
+                                               value="11/16 広さに頼らない「心地よい住まい」のつくり方"
+                                               name="input10[]"/>
+                                        <span
+                                                class="checkmark "></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/16 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
-                                        <input type="checkbox" value="11/16 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）"
-                                               name="input101"/><span
+                                    <label class="unset">11/16
+                                        あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
+                                        <input type="checkbox" class="validate[minCheckbox[1]]"
+                                               value="11/16 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）"
+                                               name="input10[]"/>
+                                        <span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">11/16 安心安全に暮らす 神奈川県の防災対策と対処法
-                                        <input type="checkbox" value="11/16 安心安全に暮らす 神奈川県の防災対策と対処法"
-                                               name="input102"/><span
+                                        <input type="checkbox"
+                                               class="validate[minCheckbox[1]]"
+                                               value="11/16 安心安全に暮らす 神奈川県の防災対策と対処法"
+                                               name="input10[]"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/16 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
+                                    <label class="unset">11/16
+                                        あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
                                         <input type="checkbox"
+                                               class="validate[minCheckbox[1]]"
                                                value="11/16 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）"
-                                               name="input103"/><span
+                                               name="input10[]"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/16 「美人収納」  捨てるが苦手な人もできる仕分け術
+                                    <label class="unset">11/16 「美人収納」 捨てるが苦手な人もできる仕分け術
                                         <input type="checkbox"
+                                               class="validate[minCheckbox[1]]"
                                                value="11/16 「美人収納」  捨てるが苦手な人もできる仕分け術"
-                                               name="input104"/><span
+                                               name="input10[]"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">11/16 元号、消費税の変化に伴い、押さえておきたいお金の話！
-                                        <input type="checkbox" value="11/16 元号、消費税の変化に伴い、押さえておきたいお金の話！"
-                                               name="input105"/><span
+                                        <input type="checkbox"
+                                               class="validate[minCheckbox[1]]"
+                                               value="11/16 元号、消費税の変化に伴い、押さえておきたいお金の話！"
+                                               name="input10[]"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">11/17 実質金利ゼロ!? 住宅ローン&家計で2,000万節約するマル秘テクニック
-                                        <input type="checkbox" value="11/17 実質金利ゼロ!? 住宅ローン&家計で2,000万節約するマル秘テクニック"
-                                               name="input106"/><span
+                                        <input type="checkbox"
+                                               class="validate[minCheckbox[1]]"
+                                               value="11/17 実質金利ゼロ!? 住宅ローン&家計で2,000万節約するマル秘テクニック"
+                                               name="input10[]"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/17 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
-                                        <input type="checkbox" value="11/17 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）"
-                                               name="input107"/><span
+                                    <label class="unset">11/17
+                                        あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
+                                        <input type="checkbox"
+                                               class="validate[minCheckbox[1]]"
+                                               value="11/17 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）"
+                                               name="input10[]"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">11/17 元号、消費税の変化に伴い、押さえておきたいお金の話！
-                                        <input type="checkbox" value="11/17 元号、消費税の変化に伴い、押さえておきたいお金の話！"
-                                               name="input108"/><span
+                                        <input type="checkbox"
+                                               class="validate[minCheckbox[1]]"
+                                               value="11/17 元号、消費税の変化に伴い、押さえておきたいお金の話！"
+                                               name="input10[]"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/17 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
-                                        <input type="checkbox" value="11/17 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）"
-                                               name="input109"/><span
+                                    <label class="unset">11/17
+                                        あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
+                                        <input type="checkbox"
+                                               class="validate[minCheckbox[1]]"
+                                               value="11/17 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）"
+                                               name="input10[]"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">11/17 災害に強い 安心・安全な住まいとは
-                                        <input type="checkbox" value="11/17 災害に強い 安心・安全な住まいとは"
-                                               name="input1010"/><span
+                                        <input type="checkbox"
+                                               value="11/17 災害に強い 安心・安全な住まいとは"
+                                               name="input10[]" class="validate[minCheckbox[1]]"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
                                     <label class="unset">11/17 相続・贈与時のお得な減税制度とは
-                                        <input type="checkbox" value="11/17 相続・贈与時のお得な減税制度とは"
-                                               name="input1011"/><span
+                                        <input type="checkbox"
+                                               value="11/17 相続・贈与時のお得な減税制度とは"
+                                               name="input10[]" class="validate[minCheckbox[1]]"/><span
                                                 class="checkmark"></span></label>
                                 </div>
                             </div>
@@ -434,7 +458,8 @@
                                     <div class="form-group col-md-4">
                                         <label class="w-100" for="text">▽ご利用人数</label>
                                         <div class="wrapSelect small">
-                                            <select class="selectForm disabled validate[required]" disabled name="select111">
+                                            <select class="selectForm disabled validate[required]" disabled
+                                                    name="select111">
                                                 <option value="" selected>選択してください</option>
                                                 <option value="1人">1人</option>
                                                 <option value="2人">2人</option>
@@ -451,7 +476,8 @@
                                     <div class="form-group col-md-6">
                                         <label class="w-100" for="text">▽ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm disabled validate[required]" disabled name="select112">
+                                            <select class="selectForm disabled validate[required]" disabled
+                                                    name="select112">
                                                 <!--午前
                                                     午後
                                                     両方-->
@@ -669,7 +695,7 @@
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
                                             <label class="unset">ミサワホーム<input type="checkbox" name="input12_7"
-                                                                              /><span
+                                                /><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
@@ -699,7 +725,7 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">三井ホーム<input type="checkbox" name="input12_8" /><span
+                                            <label class="unset">三井ホーム<input type="checkbox" name="input12_8"/><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>

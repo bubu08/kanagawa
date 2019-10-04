@@ -13,21 +13,21 @@ $phone_number = ! empty( $_POST['phone_number'] ) ? $_POST['phone_number'] : '';
 $email        = ! empty( $_POST['email'] ) ? $_POST['email'] : '';
 $select8      = ! empty( $_POST['select8'] ) ? $_POST['select8'] : '';
 $select9      = ! empty( $_POST['select9'] ) ? $_POST['select9'] : '';
-$join_date_1  = ! empty( $_POST['join_date_1'] ) ? 'checkedmark' : 'checkmark';
-$join_date_2  = ! empty( $_POST['join_date_2'] )? 'checkedmark' : 'checkmark';
+$join_date_1  = ! empty( $_POST['join_date'][0] ) ? 'checkedmark' : 'checkmark';
+$join_date_2  = ! empty( $_POST['join_date'][1] ) ? 'checkedmark' : 'checkmark';
 
-$input10  = isset( $_POST['input10'] ) ? 'checkedmark' : 'checkmark';
-$input101 = isset( $_POST['input101'] ) ? 'checkedmark' : 'checkmark';
-$input102 = isset( $_POST['input102'] ) ? 'checkedmark' : 'checkmark';
-$input103 = isset( $_POST['input103'] )? 'checkedmark' : 'checkmark';
-$input104 = isset( $_POST['input104'] ) ? 'checkedmark' : 'checkmark';
-$input105 = isset( $_POST['input105'] )? 'checkedmark' : 'checkmark';
-$input106 = isset( $_POST['input106'] ) ? 'checkedmark' : 'checkmark';
-$input107 = isset( $_POST['input107'] ) ? 'checkedmark' : 'checkmark';
-$input108 = isset( $_POST['input108'] ) ? 'checkedmark' : 'checkmark';
-$input109 = isset( $_POST['input109'] ) ? 'checkedmark' : 'checkmark';
-$input1010 = isset( $_POST['input1010'] ) ? 'checkedmark' : 'checkmark';
-$input1011 = isset( $_POST['input1011'] ) ? 'checkedmark' : 'checkmark';
+$input10   = isset( $_POST['input10'][0] ) ? 'checkedmark' : 'checkmark';
+$input101  = isset( $_POST['input10'][1] ) ? 'checkedmark' : 'checkmark';
+$input102  = isset( $_POST['input10'][2] ) ? 'checkedmark' : 'checkmark';
+$input103  = isset( $_POST['input10'][3] ) ? 'checkedmark' : 'checkmark';
+$input104  = isset( $_POST['input10'][4] ) ? 'checkedmark' : 'checkmark';
+$input105  = isset( $_POST['input10'][5] ) ? 'checkedmark' : 'checkmark';
+$input106  = isset( $_POST['input10'][6] ) ? 'checkedmark' : 'checkmark';
+$input107  = isset( $_POST['input10'][7] ) ? 'checkedmark' : 'checkmark';
+$input108  = isset( $_POST['input10'][8] ) ? 'checkedmark' : 'checkmark';
+$input109  = isset( $_POST['input10'][9] ) ? 'checkedmark' : 'checkmark';
+$input1010 = isset( $_POST['input10'][10] ) ? 'checkedmark' : 'checkmark';
+$input1011 = isset( $_POST['input10'][11] ) ? 'checkedmark' : 'checkmark';
 
 $input11 = isset( $_POST['input11'] ) ? 'checkedmark' : 'checkmark';
 
@@ -208,7 +208,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                             </div>
                             <div class="form-group col-md-4 form-flex form3">
                                 <label for="text">〒</label>
-                                    <span class="text"><?= $input3 ?></span>
+                                <span class="text"><?= $input3 ?></span>
                             </div>
 
                         </div>
@@ -385,7 +385,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                 <div class="lineFormchild hide-line">
                                     <div class="wrapCheckmart">
                                         <label class="unset">利用する
-                                          <span class="<?= $input11 ?>"></span>
+                                            <span class="<?= $input11 ?>"></span>
                                         </label>
                                     </div>
                                 </div>
