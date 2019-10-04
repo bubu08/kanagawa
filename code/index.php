@@ -61,27 +61,27 @@
             <img src="images/bg-2-mb.png" alt="" class="img-1 mb-10">
         </picture>
         <div class="brands dt-block container ">
-            <a href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png" alt=""/></a>
-            <a href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt=""/></a>
-            <a href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt=""/></a>
-            <a href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt=""/></a>
-            <a href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png" alt=""/></a>
-            <a href="https://sumai.panasonic.jp/"><img src="images/logo-6.png" alt=""/></a>
-            <a href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt=""/></a>
-            <a href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png" alt=""/></a>
+            <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png" alt=""/></a>
+            <a target="_blank" href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt=""/></a>
+            <a target="_blank" href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt=""/></a>
+            <a target="_blank" href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt=""/></a>
+            <a target="_blank" href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png" alt=""/></a>
+            <a target="_blank" href="https://sumai.panasonic.jp/"><img src="images/logo-6.png" alt=""/></a>
+            <a target="_blank" href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt=""/></a>
+            <a target="_blank" href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png" alt=""/></a>
         </div>
         <div class="brands-wrapper mb-block container ">
             <div class="brands">
-                <a href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png" alt=""/></a>
-                <a href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt=""/></a>
-                <a href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt=""/></a>
-                <a href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt=""/></a>
+                <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png" alt=""/></a>
+                <a target="_blank" href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt=""/></a>
+                <a target="_blank" href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt=""/></a>
+                <a target="_blank" href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt=""/></a>
             </div>
             <div class="brands">
-                <a href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png" alt=""/></a>
-                <a href="https://sumai.panasonic.jp/"><img src="images/logo-6.png" alt=""/></a>
-                <a href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt=""/></a>
-                <a href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png" alt=""/></a>
+                <a target="_blank" href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png" alt=""/></a>
+                <a target="_blank" href="https://sumai.panasonic.jp/"><img src="images/logo-6.png" alt=""/></a>
+                <a target="_blank" href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt=""/></a>
+                <a target="_blank" href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png" alt=""/></a>
             </div>
         </div>
         <div class="note-wrapper container">
@@ -270,16 +270,16 @@
                 <br>ご相談・アドバイスさせていただきます。</p>
             <div class="brands-wrapper container ">
                 <div class="brands">
-                    <a href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png" alt=""/></a>
-                    <a href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt=""/></a>
-                    <a href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt=""/></a>
-                    <a href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt=""/></a>
+                    <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png" alt=""/></a>
+                    <a target="_blank" href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt=""/></a>
+                    <a target="_blank" href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt=""/></a>
+                    <a target="_blank" href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt=""/></a>
                 </div>
                 <div class="brands">
-                    <a href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png" alt=""/></a>
-                    <a href="https://sumai.panasonic.jp/"><img src="images/logo-6.png" alt=""/></a>
-                    <a href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt=""/></a>
-                    <a href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png" alt=""/></a>
+                    <a target="_blank" href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png" alt=""/></a>
+                    <a target="_blank" href="https://sumai.panasonic.jp/"><img src="images/logo-6.png" alt=""/></a>
+                    <a target="_blank" href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt=""/></a>
+                    <a target="_blank" href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png" alt=""/></a>
                 </div>
             </div>
         </div>
