@@ -101,7 +101,7 @@
                 <br>優良ストック住宅推進協議会
             </p>
             <p class="desc-2 mb-10">〈協賛〉
-                <br> 東急リバプル・東京ガス・トラバース・パナソニック リビング</p>
+                <br> 東急リバプル・東京ガス・トラバース・パナソニック リビング・TKC神奈川会</p>
         </div>
     </div>
 </section>
@@ -164,7 +164,7 @@
         </div>
         <div class="bg-yelow">
             <img src="images/table-sec-3_01.jpg" alt="" class="img-1">
-            <a href="images/table-sec-3_01.jpg" target="_blank"><button class="btn-map btn-flex">拡大して見る<span><img src="images/arrow-white.png" alt=""/></span></button></a>
+            <button class="btn-map btn-flex">拡大して見る<span><img src="images/arrow-white.png" alt=""/></span></button>
         </div>
     </div>
     <div class="block-4 container">
@@ -210,8 +210,8 @@
                     <source media="(min-width: 768px)" srcset="images/map-g.png">
                     <img src="images/map-g-mb.png" alt="">
                 </picture>
-                <a href="images/map-g-mb_w.png" target="_blank"><button class="btn-map width-150 btn-flex">拡大して見る<span><img src="images/arrow-white.png" alt=""/></span>
-                </button></a>
+                <button class="btn-map width-150 btn-flex">拡大して見る<span><img src="images/arrow-white.png" alt=""/></span>
+                </button>
             </div>
         </div>
     </div>
@@ -234,12 +234,12 @@
                         <br>下記よりシートをダウンロードして必要事項をご記入の上、
                         <br>当日、会場・受付コーナーへお持ちください。</p>
                     <p class="mt-20 mb-block">
-                        ご希望の住宅メーカーの設計士が
+                        ご希望のハウスメーカーの設計士が
                         <br> マイホームプランを作成します。下記よりシートを
                         <br> ダウンロードして必要事項をご記入の上、
                         <br> 当日、会場・受付コーナーへお持ちください。
                     </p>
-                    <a href="pdf/kanagawaselect8_plan.pdf" target="_blank"><button class="mt-25">シートダウンロード <span><img src="images/arrow.png" alt=""/></span></button></a>
+                    <button class="mt-25">シートダウンロード <span><img src="images/arrow.png" alt=""/></span></button>
                 </div>
                 <div class="left-50">
                     <div class="title-h1-wrapper mt-50">
@@ -256,7 +256,7 @@
                         <br>ダウンロードして必要事項をご記入の上、
                         <br>当日、会場・受付コーナーへお持ちください。
                     </p>
-                    <a href="pdf/kanagawaselect8_order.pdf" target="_blank"><button class="mt-25">シートダウンロード <span><img src="images/arrow.png" alt=""/></span></button></a>
+                    <button class="mt-25">シートダウンロード <span><img src="images/arrow.png" alt=""/></span></button>
                 </div>
             </div>
             <picture>
@@ -265,17 +265,30 @@
             </picture>
             <div class="title-h1-wrapper mt-50">
                 <img src="images/rec-icon-3.png" alt="" class="rec-title-1"/>
-                <h1>大手住宅メーカー8社の個別相談会</h1>
+                <h1>大手メーカー8社の個別相談会</h1>
             </div>
             <p class="desc mt-15 mb-35">下記大手住宅メーカー8社のスペシャリストが、家づくりに関する疑問や悩みをじっくり伺い、
                 <br>ご相談・アドバイスさせていただきます。</p>
-            <img src="images/brands-bottom.jpg" alt="" class="brands-bottom"/>
+            <div class="brands-wrapper container ">
+                <div class="brands">
+                    <a href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png" alt=""/></a>
+                    <a href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt=""/></a>
+                    <a href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt=""/></a>
+                    <a href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt=""/></a>
+                </div>
+                <div class="brands">
+                    <a href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png" alt=""/></a>
+                    <a href="https://sumai.panasonic.jp/"><img src="images/logo-6.png" alt=""/></a>
+                    <a href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt=""/></a>
+                    <a href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png" alt=""/></a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="block-6 container mt-80">
         <div class="title-list">
             <div class="line"></div>
-            <p>協賛社（団体）</p>
+            <p>協賛社（団体</p>
             <div class="line"></div>
         </div>
         <div class="list-items">
@@ -283,13 +296,14 @@
             <br><a href="">▶︎ 東京ガス （光熱費）</a>
             <br><a href="">▶︎ トラバース （測量）</a>
             <br><a href="">▶︎ パナソニック リビング （キッチン・バス・洗面台）</a>
+            <br><a href="">▶︎ TKC神奈川会 （税理士）</a>
         </div>
     </div>
     <div class="contact mt-80">
         <div class="title">かながわ住まいづくりフェア事務局</div>
         <p>〒231−8445　神奈川新聞社デジタルビジネス局内
             <br>TEL.045-640-0125 （平日 10：00〜18：00）
-            　<br>info@kanagawaselect8.jp</p>
+            　<br>info@kanagawaselect8.jp）</p>
     </div>
 </section>
 <footer>
