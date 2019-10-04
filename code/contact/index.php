@@ -346,8 +346,7 @@
                                                 class="checkmark "></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/16
-                                        あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
+                                    <label class="unset">11/16 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
                                         <input type="checkbox" class="validate[minCheckbox[1]]"
                                                value="11/16 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）"
                                                name="input10[]"/>
@@ -363,8 +362,7 @@
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/16
-                                        あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
+                                    <label class="unset">11/16 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
                                         <input type="checkbox"
                                                class="validate[minCheckbox[1]]"
                                                value="11/16 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）"
@@ -372,10 +370,10 @@
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/16 「美人収納」捨てるのが苦手な人もできる仕分け術"
+                                    <label class="unset">11/16「美人収納」捨てるのが苦手な人もできる仕分け術
                                         <input type="checkbox"
                                                class="validate[minCheckbox[1]]"
-                                               value="11/16 「美人収納」捨てるのが苦手な人もできる仕分け術"
+                                               value="11/16「美人収納」捨てるのが苦手な人もできる仕分け術"
                                                name="input10[]"/>
                                         <span class="checkmark"></span>
                                     </label>
@@ -398,8 +396,7 @@
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/17
-                                        あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
+                                    <label class="unset">11/17 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
                                         <input type="checkbox"
                                                class="validate[minCheckbox[1]]"
                                                value="11/17 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）"
@@ -415,8 +412,7 @@
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/17
-                                        あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
+                                    <label class="unset">11/17 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
                                         <input type="checkbox"
                                                class="validate[minCheckbox[1]]"
                                                value="11/17 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）"
