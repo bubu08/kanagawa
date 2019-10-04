@@ -109,7 +109,7 @@ $message = <<< maildata
 
 参加人数： 大人: {$select8}　　こども： {$select9}
 
-参加日： 11/16 : {$join_date_1}　　こども： {$join_date_2}
+参加日： 11/16 : {$join_date_1}　　11/17： {$join_date_2}
 
 興味のある セミナー : 
 {$input10}　　
