@@ -316,13 +316,11 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                 <div class="wrapCheckmart">
                                     <label class="unset">11/16 広さに頼らない「心地よい住まい」のつくり方
                                         <span
-                                                class="<?= $input10 ?><"></span></label>
+                                                class="<?= $input10 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/16 あなたの願い、設計のプロが叶えます！
-                                        　　　　メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
-
-
+                                    <label class="unset">
+                                        11/16 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
                                         <span
                                                 class="<?= $input101 ?>"></span></label>
                                 </div>
@@ -332,8 +330,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                         <span class="<?= $input102 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/16 あなたの願い、設計のプロが叶えます！
-                                        　　　　メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
+                                    <label class="unset">11/16 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
 
                                         <span class="<?= $input103 ?>"></span></label>
                                 </div>
@@ -354,8 +351,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                                 class="<?= $input106 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/17 あなたの願い、設計のプロが叶えます！
-                                        　　　　メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
+                                    <label class="unset">11/17 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ダイワハウス、パナソニックホームズ、ミサワホーム、三井ホーム）
 
                                         <span class="<?= $input107 ?>"></span>
                                     </label>
@@ -365,8 +361,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                                         <span class="<?= $input108 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/17 あなたの願い、設計のプロが叶えます！
-                                        　　　　メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
+                                    <label class="unset">11/17 あなたの願い、設計のプロが叶えます！メジャー8社の設計者によるトークバトル（ヘーベルハウス、住友林業、セキスイハイム、積水ハウス）
                                         <span class="<?= $input109 ?>"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
