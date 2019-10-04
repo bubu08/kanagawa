@@ -65,11 +65,11 @@
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-XXXX');</script>
+        })(window, document, 'script', 'dataLayer', 'GTM-K4L5WF3');</script>
     <!-- End Google Tag Manager -->
     <!-- Google Tag Manager (noscript) -->
     <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXX"
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4L5WF3"
                 height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
@@ -89,7 +89,7 @@
 
                         <p class="subTitle">お申込フォーム</p>
 
-                        <p class="caption">後日、参加券を郵送いたします。</p>
+                        <p class="caption">後日、参加証を郵送いたします。</p>
                     </div>
                     <div class="rightHeader">
                         <a href="#">
@@ -495,17 +495,17 @@
                                             <select class="selectForm " name="select12_1">
                                                 <option value="">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
+                                                <option value="11/16 11時半〜">11/16 11時半〜</option>
+                                                <option value="11/16 12時半〜">11/16 12時半〜</option>
+                                                <option value="11/16 13時半〜">11/16 13時半〜</option>
+                                                <option value="11/16 14時半〜">11/16 14時半〜</option>
+                                                <option value="11/16 15時半〜">11/16 15時半〜</option>
+                                                <option value="11/17 10時半〜">11/17 10時半〜</option>
+                                                <option value="11/17 11時半〜">11/17 11時半〜</option>
+                                                <option value="11/17 12時半〜">11/17 12時半〜</option>
+                                                <option value="11/17 13時半〜">11/17 13時半〜</option>
+                                                <option value="11/17 14時半〜">11/17 14時半〜</option>
+                                                <option value="11/17 15時半〜">11/17 15時半〜</option>
                                             </select>
                                         </div>
                                     </div>
@@ -526,17 +526,17 @@
                                             <select class="selectForm " name="select12_2">
                                                 <option value="">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
+                                                <option value="11/16 11時半〜">11/16 11時半〜</option>
+                                                <option value="11/16 12時半〜">11/16 12時半〜</option>
+                                                <option value="11/16 13時半〜">11/16 13時半〜</option>
+                                                <option value="11/16 14時半〜">11/16 14時半〜</option>
+                                                <option value="11/16 15時半〜">11/16 15時半〜</option>
+                                                <option value="11/17 10時半〜">11/17 10時半〜</option>
+                                                <option value="11/17 11時半〜">11/17 11時半〜</option>
+                                                <option value="11/17 12時半〜">11/17 12時半〜</option>
+                                                <option value="11/17 13時半〜">11/17 13時半〜</option>
+                                                <option value="11/17 14時半〜">11/17 14時半〜</option>
+                                                <option value="11/17 15時半〜">11/17 15時半〜</option>
                                             </select>
                                         </div>
                                     </div>
@@ -557,17 +557,17 @@
                                             <select class="selectForm " name="select12_3">
                                                 <option value="">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
+                                                <option value="11/16 11時半〜">11/16 11時半〜</option>
+                                                <option value="11/16 12時半〜">11/16 12時半〜</option>
+                                                <option value="11/16 13時半〜">11/16 13時半〜</option>
+                                                <option value="11/16 14時半〜">11/16 14時半〜</option>
+                                                <option value="11/16 15時半〜">11/16 15時半〜</option>
+                                                <option value="11/17 10時半〜">11/17 10時半〜</option>
+                                                <option value="11/17 11時半〜">11/17 11時半〜</option>
+                                                <option value="11/17 12時半〜">11/17 12時半〜</option>
+                                                <option value="11/17 13時半〜">11/17 13時半〜</option>
+                                                <option value="11/17 14時半〜">11/17 14時半〜</option>
+                                                <option value="11/17 15時半〜">11/17 15時半〜</option>
                                             </select>
                                         </div>
                                     </div>
@@ -588,17 +588,17 @@
                                             <select class="selectForm  " name="select12_4">
                                                 <option value="">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
+                                                <option value="11/16 11時半〜">11/16 11時半〜</option>
+                                                <option value="11/16 12時半〜">11/16 12時半〜</option>
+                                                <option value="11/16 13時半〜">11/16 13時半〜</option>
+                                                <option value="11/16 14時半〜">11/16 14時半〜</option>
+                                                <option value="11/16 15時半〜">11/16 15時半〜</option>
+                                                <option value="11/17 10時半〜">11/17 10時半〜</option>
+                                                <option value="11/17 11時半〜">11/17 11時半〜</option>
+                                                <option value="11/17 12時半〜">11/17 12時半〜</option>
+                                                <option value="11/17 13時半〜">11/17 13時半〜</option>
+                                                <option value="11/17 14時半〜">11/17 14時半〜</option>
+                                                <option value="11/17 15時半〜">11/17 15時半〜</option>
                                             </select>
                                         </div>
                                     </div>
@@ -619,17 +619,17 @@
                                             <select class="selectForm " name="select12_5">
                                                 <option value="">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
+                                                <option value="11/16 11時半〜">11/16 11時半〜</option>
+                                                <option value="11/16 12時半〜">11/16 12時半〜</option>
+                                                <option value="11/16 13時半〜">11/16 13時半〜</option>
+                                                <option value="11/16 14時半〜">11/16 14時半〜</option>
+                                                <option value="11/16 15時半〜">11/16 15時半〜</option>
+                                                <option value="11/17 10時半〜">11/17 10時半〜</option>
+                                                <option value="11/17 11時半〜">11/17 11時半〜</option>
+                                                <option value="11/17 12時半〜">11/17 12時半〜</option>
+                                                <option value="11/17 13時半〜">11/17 13時半〜</option>
+                                                <option value="11/17 14時半〜">11/17 14時半〜</option>
+                                                <option value="11/17 15時半〜">11/17 15時半〜</option>
                                             </select>
                                         </div>
                                     </div>
@@ -650,17 +650,17 @@
                                             <select class="selectForm " name="select12_6">
                                                 <option value="">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
+                                                <option value="11/16 11時半〜">11/16 11時半〜</option>
+                                                <option value="11/16 12時半〜">11/16 12時半〜</option>
+                                                <option value="11/16 13時半〜">11/16 13時半〜</option>
+                                                <option value="11/16 14時半〜">11/16 14時半〜</option>
+                                                <option value="11/16 15時半〜">11/16 15時半〜</option>
+                                                <option value="11/17 10時半〜">11/17 10時半〜</option>
+                                                <option value="11/17 11時半〜">11/17 11時半〜</option>
+                                                <option value="11/17 12時半〜">11/17 12時半〜</option>
+                                                <option value="11/17 13時半〜">11/17 13時半〜</option>
+                                                <option value="11/17 14時半〜">11/17 14時半〜</option>
+                                                <option value="11/17 15時半〜">11/17 15時半〜</option>
                                             </select>
                                         </div>
                                     </div>
@@ -681,17 +681,17 @@
                                             <select class="selectForm " name="select12_7">
                                                 <option value="">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
+                                                <option value="11/16 11時半〜">11/16 11時半〜</option>
+                                                <option value="11/16 12時半〜">11/16 12時半〜</option>
+                                                <option value="11/16 13時半〜">11/16 13時半〜</option>
+                                                <option value="11/16 14時半〜">11/16 14時半〜</option>
+                                                <option value="11/16 15時半〜">11/16 15時半〜</option>
+                                                <option value="11/17 10時半〜">11/17 10時半〜</option>
+                                                <option value="11/17 11時半〜">11/17 11時半〜</option>
+                                                <option value="11/17 12時半〜">11/17 12時半〜</option>
+                                                <option value="11/17 13時半〜">11/17 13時半〜</option>
+                                                <option value="11/17 14時半〜">11/17 14時半〜</option>
+                                                <option value="11/17 15時半〜">11/17 15時半〜</option>
                                             </select>
                                         </div>
                                     </div>
@@ -711,17 +711,17 @@
                                             <select class="selectForm " name="select12_8">
                                                 <option value="">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/16 15時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 10時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 11時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 12時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 13時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 14時半〜</option>
-                                                <option value="11/16 10時半〜">11/17 15時半〜</option>
+                                                <option value="11/16 11時半〜">11/16 11時半〜</option>
+                                                <option value="11/16 12時半〜">11/16 12時半〜</option>
+                                                <option value="11/16 13時半〜">11/16 13時半〜</option>
+                                                <option value="11/16 14時半〜">11/16 14時半〜</option>
+                                                <option value="11/16 15時半〜">11/16 15時半〜</option>
+                                                <option value="11/17 10時半〜">11/17 10時半〜</option>
+                                                <option value="11/17 11時半〜">11/17 11時半〜</option>
+                                                <option value="11/17 12時半〜">11/17 12時半〜</option>
+                                                <option value="11/17 13時半〜">11/17 13時半〜</option>
+                                                <option value="11/17 14時半〜">11/17 14時半〜</option>
+                                                <option value="11/17 15時半〜">11/17 15時半〜</option>
                                             </select>
                                         </div>
                                     </div>

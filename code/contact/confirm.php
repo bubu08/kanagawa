@@ -117,11 +117,11 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-XXXX');</script>
+        })(window, document, 'script', 'dataLayer', 'GTM-K4L5WF3');</script>
     <!-- End Google Tag Manager -->
     <!-- Google Tag Manager (noscript) -->
     <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXX"
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4L5WF3"
                 height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
@@ -141,7 +141,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
 
                         <p class="subTitle">お申込フォーム</p>
 
-                        <p class="caption">後日、参加券を郵送いたします。</p>
+                        <p class="caption">後日、参加証を郵送いたします。</p>
                     </div>
                     <div class="rightHeader">
                         <a href="#">
@@ -296,7 +296,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                             <div class="col-md-3">
                                 <div class="wrapCheckmart">
                                     <label class="multi">11/17
-                                        <span class="<?= $join_date_1 ?>"> </span>
+                                        <span class="<?= $join_date_2 ?>"> </span>
                                     </label>
                                     <img src="../images/content/form/form7image2.png" alt=""/>
                                 </div>
@@ -377,7 +377,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                         <div class="row lineForm mT15 form11">
                             <div class="col-md-3">
                                 <div class="label-infor">
-                                    <span class="gray-span">必須</span>
+                                    <span class="gray-span">任意</span>
                                     <p>託児所利用</p>
                                 </div>
                             </div>
@@ -408,7 +408,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                         <div class="row mT15 form12">
                             <div class="col-md-3">
                                 <div class="label-infor">
-                                    <span class="gray-span">必須</span>
+                                    <span class="gray-span">任意</span>
                                     <p>参加メーカーとの
                                         個別相談希望</p>
                                     <p class="text-12">＊複数選択可</p>
