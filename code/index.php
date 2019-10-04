@@ -90,7 +90,7 @@
             <p class="desc-1 mb-10">〈主催〉神奈川新聞社　〈共催〉神奈川県住宅協議会　</p>
             <p class="desc-2 mb-20">
                 〈後援〉神奈川県・横浜市・川崎市・かながわ住まいまちづくり協会・全日本不動産協会神奈川県本部・神奈川県土地家屋調査士会・神奈川県司法書士会・東京地方税理士会・日本FP協会神奈川支部・優良ストック住宅推進協議会
-                <br>〈協賛〉東急リバプル・東京ガス・トラバース・パナソニック リビング・TKC神奈川会</p>
+                <br>〈協賛〉東急リバプル・東京ガス・トラバース・パナソニック リビング</p>
         </div>
         <div class="desc mb-block container">
             <p class="desc-1 mb-10">〈主催〉神奈川新聞社　〈共催〉神奈川県住宅協議会　</p>
@@ -229,7 +229,7 @@
                         <img src="images/rec-icon-1.png" alt="" class="rec-title-1"/>
                         <h1>設計プランプレゼント</h1>
                     </div>
-                    <p class="mt-20 dt-block">ご希望のハウスメーカーの設計士が
+                    <p class="mt-20 dt-block">ご希望の住宅メーカーの設計士が
                         <br>マイホームプランを作成します。
                         <br>下記よりシートをダウンロードして必要事項をご記入の上、
                         <br>当日、会場・受付コーナーへお持ちください。</p>
@@ -265,9 +265,9 @@
             </picture>
             <div class="title-h1-wrapper mt-50">
                 <img src="images/rec-icon-3.png" alt="" class="rec-title-1"/>
-                <h1>大手メーカー8社の個別相談会</h1>
+                <h1>大手住宅メーカー8社の個別相談会</h1>
             </div>
-            <p class="desc mt-15 mb-35">下記大手ハウスメーカー8社のスペシャリストが、家づくりに関する疑問や悩みをじっくり伺い、
+            <p class="desc mt-15 mb-35">下記大手住宅メーカー8社のスペシャリストが、家づくりに関する疑問や悩みをじっくり伺い、
                 <br>ご相談・アドバイスさせていただきます。</p>
             <img src="images/brands-bottom.jpg" alt="" class="brands-bottom"/>
         </div>
@@ -284,7 +284,6 @@
             <br><a href="">▶︎ トラバース （測量）</a>
             <br><a href="">▶︎ パナソニック リビング （キッチン・バス・洗面台）</a>
             <br><a href="">▶︎ TKC神奈川会 （税理士）</a>
-            <br>
         </div>
     </div>
     <div class="contact mt-80">
