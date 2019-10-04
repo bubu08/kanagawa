@@ -434,7 +434,7 @@ button.btn-map{
   position: fixed;
   right: 20px;
   z-index: 10;
-  bottom: 100px;
+  bottom: 20px;
   cursor: pointer;
 }
 .page-to-top.show{
