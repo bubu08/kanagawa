@@ -176,7 +176,7 @@
                                         <option value="埼玉県">埼玉県</option>
                                         <option value="千葉県">千葉県</option>
                                         <option value="東京都">東京都</option>
-                                        <option value="神奈川県">神奈川県</option>
+                                        <option value="神奈川県" selected="selected">神奈川県</option>
                                         <option value="新潟県">新潟県</option>
                                         <option value="富山県">富山県</option>
                                         <option value="石川県">石川県</option>
@@ -499,8 +499,7 @@
                             <div class="col-md-3">
                                 <div class="label-infor">
                                     <span class="gray-span">任意</span>
-                                    <p>参加メーカーとの
-                                        個別相談希望</p>
+                                    <p>参加メーカーとの個別相談希望</p>
                                     <p class="text-12">＊複数選択可</p>
                                 </div>
                             </div>
@@ -602,7 +601,7 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">ダイワハウス <input type="checkbox"
+                                            <label class="unset">積水ハウス<input type="checkbox"
                                                                                name="input12_4"/><span
                                                         class="checkmark"></span></label>
                                         </div>
@@ -633,17 +632,17 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">パナソニック ホームズ<input type="checkbox"
-                                                                                   name="input12_5"/><span
+                                            <label class="unset">ダイワハウス <input type="checkbox"
+                                                                               name="input12_5"/><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
                                     <div class="col-md-1">
                                     </div>
-                                    <div class="form-group form-flex flex-sp col-md-8">
+                                    <div class="form-group form-flex flex-sp  col-md-8">
                                         <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
-                                            <select class="selectForm " name="select12_5">
+                                            <select class="selectForm  " name="select12_5">
                                                 <option value="">選択してください</option>
                                                 <option value="11/16 10時半〜">11/16 10時半〜</option>
                                                 <option value="11/16 11時半〜">11/16 11時半〜</option>
@@ -664,14 +663,14 @@
                                 <div class="row mT20 ml--15">
                                     <div class="form-group col-md-4">
                                         <div class="wrapCheckmart">
-                                            <label class="unset">へーベルハウス<input type="checkbox"
-                                                                               name="input12_6"/><span
+                                            <label class="unset">パナソニックホームズ<input type="checkbox"
+                                                                                   name="input12_6"/><span
                                                         class="checkmark"></span></label>
                                         </div>
                                     </div>
                                     <div class="col-md-1">
                                     </div>
-                                    <div class="form-group form-flex flex-sp  col-md-8">
+                                    <div class="form-group form-flex flex-sp col-md-8">
                                         <label class="double width-auto" for="text">ご希望の時間帯</label>
                                         <div class="wrapSelect large">
                                             <select class="selectForm " name="select12_6">
