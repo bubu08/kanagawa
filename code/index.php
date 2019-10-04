@@ -336,6 +336,7 @@
                                 src="images/logo-8-bt.png"
                                 alt=""/></a>
                 </div>
+                <p class="text-12">※順不同</p>
             </div>
         </div>
     </div>

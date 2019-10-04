@@ -510,7 +510,7 @@ button.btn-map{
 .block-5 .brands-wrapper{
   background: #ffffff;
   max-width: 618px;
-  padding: 30px 35px;
+  padding: 30px 35px 10px;
   border: 1px solid #223b51;
 }
 
@@ -528,7 +528,15 @@ button.btn-map{
   padding-bottom:3px !important;
 }
 
-
+.block-5 p.text-12{
+  font-size: 6px;
+  text-align: right;
+  letter-spacing: 0.72px;;
+  line-height: normal;
+  font-weight: 500;
+  padding-top: 20px;
+  margin-right: -25px;
+}
 
 /* ================== Responsive ================== */
 @media screen and (max-width: 1000px) and (min-width: 768px){
@@ -859,9 +867,15 @@ button.btn-map{
     padding: 0 30px;
   }
   .block-5 .brands-wrapper{
-    padding: 13px;
+    padding: 13px 13px 5px;
   }
   .block-5 .brands-wrapper .brands:first-child{
     margin-bottom: 8px;
+  }
+  .block-5 p.text-12{
+    font-size: 6px;
+    margin-top: 0;
+    padding-top: 5px;
+    margin-right: -5px;
   }
 }
