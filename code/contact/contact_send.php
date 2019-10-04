@@ -65,7 +65,7 @@ $today = date( "Y/m/d H:i:s" );
 ------------------------------------------------------------ */
 
 /* 件名、本文冒頭 */
-$mail_title = "『かながわ住まいづくりフェア』";
+$mail_title = "『かながわ住まいづくりフェア』ホームページの『お問い合わせ』より送信";
 //$mail_title = $passmaster_array['hptitle'];
 
 /* クライアントメールアドレス */
@@ -159,10 +159,12 @@ headerdata;
 //メール送信
 mb_send_mail( $mailto, $subject, $message, $header );
 
+
+$mailt_title_to_guest='【『かながわ住まいづくりフェア』】お問い合わせフォーム確認メール';
 // ユーザー宛
-$header       = "From:" . mb_encode_mimeheader( $mail_title ) . "<" . $mailto . ">\r\n";
+$header       = "From:" . mb_encode_mimeheader( $mailt_title_to_guest ) . "<" . $mailto . ">\r\n";
 $mailto_guest = $email;
-$subject      = "【{$mail_title}】お問い合わせフォーム確認メール";
+$subject      = "【{$mailt_title_to_guest}】お問い合わせフォーム確認メール";
 $message      = <<<_message
 『{$mail_title}』ホームページ より、
 お問い合わせ頂きまして、誠にありがとうございます。
