@@ -563,7 +563,7 @@ $select12_8 = ! empty( $_POST['select12_8'] ) ? $_POST['select12_8'] : '';
                     <p class="caption"> かながわ住まいづくりフェア事務局 </p>
                     <p class="dig"> 〒231−8445　神奈川新聞社デジタルビジネス局内 </p>
                     <p class="tel"> TEL.045-640-0125 （平日 10：00〜18：00）</p>
-                    <a href="mailto:info@kanagawaselect8.jp"><p class="mal">お問合せメールアドレス：info@kanagawaselect8.jp</p></a>
+                    <p class="mal">お問合せメールアドレス：<a href="mailto:info@kanagawaselect8.jp">info@kanagawaselect8.jp</a></p>
 
                 </div>
             </div>
