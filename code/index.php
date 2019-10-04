@@ -325,14 +325,14 @@
                 </div>
                 <div class="brands">
                     <a target="_blank" href="https://www.daiwahouse.co.jp/jutaku/tenji/kanto/kanagawa.html"><img
-                                src="images/logo-5.png"
+                                src="images/logo-5-bt.png"
                                 alt=""/></a>
                     <a target="_blank" href="https://homes-area.jpn.panasonic.com/kanagawa/"><img
-                                src="images/logo-6.png" alt=""/></a>
-                    <a target="_blank" href="https://www.misawa.co.jp/navi/office/kanagawa"><img src="images/logo-7.png"
+                                src="images/logo-6-bt.png" alt=""/></a>
+                    <a target="_blank" href="https://www.misawa.co.jp/navi/office/kanagawa"><img src="images/logo-7-bt.png"
                                                                                                  alt=""/></a>
                     <a target="_blank" href="https://www.mitsuihome.co.jp/areasite/shutoken/kanagawa"><img
-                                src="images/logo-8.png"
+                                src="images/logo-8-bt.png"
                                 alt=""/></a>
                 </div>
             </div>
