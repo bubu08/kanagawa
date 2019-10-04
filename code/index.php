@@ -61,7 +61,8 @@
             <img src="images/bg-2-mb.png" alt="" class="img-1 mb-10">
         </picture>
         <div class="brands dt-block container ">
-            <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png" alt=""/></a>
+            <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png"
+                                                                                           alt=""/></a>
             <a target="_blank" href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt=""/></a>
             <a target="_blank" href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt=""/></a>
             <a target="_blank" href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt=""/></a>
@@ -72,13 +73,15 @@
         </div>
         <div class="brands-wrapper mb-block container ">
             <div class="brands">
-                <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png" alt=""/></a>
+                <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png"
+                                                                                               alt=""/></a>
                 <a target="_blank" href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt=""/></a>
                 <a target="_blank" href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt=""/></a>
                 <a target="_blank" href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt=""/></a>
             </div>
             <div class="brands">
-                <a target="_blank" href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png" alt=""/></a>
+                <a target="_blank" href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png"
+                                                                                            alt=""/></a>
                 <a target="_blank" href="https://sumai.panasonic.jp/"><img src="images/logo-6.png" alt=""/></a>
                 <a target="_blank" href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt=""/></a>
                 <a target="_blank" href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png" alt=""/></a>
@@ -164,7 +167,9 @@
         </div>
         <div class="bg-yelow">
             <img src="images/table-sec-3_01.jpg" alt="" class="img-1">
-            <a href="images/table-sec-3_01.jpg" target="_blank"><button class="btn-map btn-flex">拡大して見る<span><img src="images/arrow-white.png" alt=""/></span></button></a>
+            <a href="images/table-sec-3_01.jpg" target="_blank">
+                <button class="btn-map btn-flex">拡大して見る<span><img src="images/arrow-white.png" alt=""/></span></button>
+            </a>
         </div>
     </div>
     <div class="block-4 container">
@@ -189,7 +194,7 @@
                             <button>アクセス</button>
                             <p>ＪＲ・京急・相鉄・東急・横浜市営地下鉄線　
                                 <span>「横浜駅」西口　徒歩約６分 <br>（ハマボール イアスとなり）</span></p>
-                            <a href="https://goo.gl/maps/pMyz3ygJ6BEPG5SU9" target="_blank">
+                            <a style="text-decoration: none;" href="https://goo.gl/maps/pMyz3ygJ6BEPG5SU9" target="_blank">
                                 <button class="btn-map dt-block">Google MAPへ <span><img src="images/arrow-white.png"
                                                                                         alt=""/></span></button>
                             </a>
@@ -200,8 +205,10 @@
             </div>
             <div class="map-mb flex">
                 <img class="mb-block" src="images/map.jpg" alt=""/>
-                                            <a href="https://goo.gl/maps/pMyz3ygJ6BEPG5SU9" target="_blank"><button class="btn-map mb-block">Google MAPへ <span><img src="images/arrow-white.png" alt=""/></span>
-                </button></a>
+                <a href="https://goo.gl/maps/pMyz3ygJ6BEPG5SU9" target="_blank">
+                    <button class="btn-map mb-block">Google MAPへ <span><img src="images/arrow-white.png" alt=""/></span>
+                    </button>
+                </a>
             </div>
             <div class="map-wrapper">
                 <img class="mb-block" src="images/rec-map.png" alt=""/>
@@ -209,8 +216,11 @@
                     <source media="(min-width: 768px)" srcset="images/map-g.png">
                     <img src="images/map-g-mb.png" alt="">
                 </picture>
-                <a href="images/map-g-mb_w.png" target="_blank"><button class="btn-map width-150 btn-flex">拡大して見る<span><img src="images/arrow-white.png" alt=""/></span>
-                </button></a>
+                <a href="images/map-g-mb_w.png" target="_blank">
+                    <button class="btn-map width-150 btn-flex">拡大して見る<span><img src="images/arrow-white.png"
+                                                                                alt=""/></span>
+                    </button>
+                </a>
             </div>
         </div>
     </div>
@@ -238,7 +248,9 @@
                         <br> ダウンロードして必要事項をご記入の上、
                         <br> 当日、会場・受付コーナーへお持ちください。
                     </p>
-                    <a href="pdf/kanagawaselect8_plan.pdf" target="_blank"><button class="mt-25">シートダウンロード <span><img src="images/arrow.png" alt=""/></span></button></a>
+                    <a href="pdf/kanagawaselect8_plan.pdf" target="_blank">
+                        <button class="mt-25">シートダウンロード <span><img src="images/arrow.png" alt=""/></span></button>
+                    </a>
                 </div>
                 <div class="left-50">
                     <div class="title-h1-wrapper mt-50">
@@ -255,7 +267,9 @@
                         <br>ダウンロードして必要事項をご記入の上、
                         <br>当日、会場・受付コーナーへお持ちください。
                     </p>
-                    <a href="pdf/kanagawaselect8_order.pdf" target="_blank"><button class="mt-25">シートダウンロード <span><img src="images/arrow.png" alt=""/></span></button></a>
+                    <a href="pdf/kanagawaselect8_order.pdf" target="_blank">
+                        <button class="mt-25">シートダウンロード <span><img src="images/arrow.png" alt=""/></span></button>
+                    </a>
                 </div>
             </div>
             <picture>
@@ -270,16 +284,19 @@
                 <br>ご相談・アドバイスさせていただきます。</p>
             <div class="brands-wrapper container ">
                 <div class="brands">
-                    <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png" alt=""/></a>
+                    <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img
+                                src="images/logo-1.png" alt=""/></a>
                     <a target="_blank" href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt=""/></a>
                     <a target="_blank" href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt=""/></a>
                     <a target="_blank" href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt=""/></a>
                 </div>
                 <div class="brands">
-                    <a target="_blank" href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png" alt=""/></a>
+                    <a target="_blank" href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png"
+                                                                                                alt=""/></a>
                     <a target="_blank" href="https://sumai.panasonic.jp/"><img src="images/logo-6.png" alt=""/></a>
                     <a target="_blank" href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt=""/></a>
-                    <a target="_blank" href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png" alt=""/></a>
+                    <a target="_blank" href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png"
+                                                                                      alt=""/></a>
                 </div>
             </div>
         </div>
@@ -301,7 +318,7 @@
         <div class="title">かながわ住まいづくりフェア事務局</div>
         <p>〒231−8445　神奈川新聞社デジタルビジネス局内
             <br>TEL.045-640-0125 （平日 10：00〜18：00）
-            　<br>info@kanagawaselect8.jp</p>
+            　<br><a href="mailto:info@kanagawaselect8.jp">info@kanagawaselect8.jp</a></p>
     </div>
 </section>
 <footer>
