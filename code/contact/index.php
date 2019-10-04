@@ -148,7 +148,6 @@
                                     <span>必須</span>
                                     <p>住　所</p>
                                 </div>
-                                <span>＊全角カタカナ</span>
                             </div>
                             <div class="form-group col-md-4 form-flex form3">
                                 <label for="text">〒</label>
@@ -364,9 +363,9 @@
                                                 class="checkmark"></span></label>
                                 </div>
                                 <div class="wrapCheckmart">
-                                    <label class="unset">11/16 「美人収納」  捨てるが苦手な人もできる仕分け術
+                                    <label class="unset">11/16 「美人収納」捨てるのが苦手な人もできる仕分け術
                                         <input type="checkbox"
-                                               value="11/16 「美人収納」  捨てるが苦手な人もできる仕分け術"
+                                               value="11/16 「美人収納」捨てるのが苦手な人もできる仕分け術"
                                                name="input104"/><span
                                                 class="checkmark"></span></label>
                                 </div>

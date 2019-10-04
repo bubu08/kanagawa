@@ -61,30 +61,30 @@
             <img src="images/bg-2-mb.png" alt="" class="img-1 mb-10">
         </picture>
         <div class="brands dt-block container ">
-            <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png"
+            <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/model/kanagawa.shtml/"><img src="images/logo-1.png"
                                                                                            alt=""/></a>
-            <a target="_blank" href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt=""/></a>
-            <a target="_blank" href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt=""/></a>
-            <a target="_blank" href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt=""/></a>
-            <a target="_blank" href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png" alt=""/></a>
-            <a target="_blank" href="https://sumai.panasonic.jp/"><img src="images/logo-6.png" alt=""/></a>
-            <a target="_blank" href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt=""/></a>
-            <a target="_blank" href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png" alt=""/></a>
+            <a target="_blank" href="https://sfc.jp/ie/area/modelhouse/ken/14/"><img src="images/logo-2.png" alt=""/></a>
+            <a target="_blank" href="https://modelhouse.tokyo816.jp/area/kanagawa/"><img src="images/logo-3.png" alt=""/></a>
+            <a target="_blank" href="https://www.sekisuihouse.com/liaison/region/reg14_sp.html?_ga=2.160200766.2071828498.1570168545-1065487071.1554096050"><img src="images/logo-4.png" alt=""/></a>
+            <a target="_blank" href="https://www.daiwahouse.co.jp/jutaku/tenji/kanto/kanagawa.html"><img src="images/logo-5.png" alt=""/></a>
+            <a target="_blank" href="https://homes-area.jpn.panasonic.com/kanagawa/"><img src="images/logo-6.png" alt=""/></a>
+            <a target="_blank" href="https://www.misawa.co.jp/navi/office/kanagawa"><img src="images/logo-7.png" alt=""/></a>
+            <a target="_blank" href="https://www.mitsuihome.co.jp/areasite/shutoken/kanagawa"><img src="images/logo-8.png" alt=""/></a>
         </div>
         <div class="brands-wrapper mb-block container ">
             <div class="brands">
-                <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img src="images/logo-1.png"
+                <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/model/kanagawa.shtml/"><img src="images/logo-1.png"
                                                                                                alt=""/></a>
-                <a target="_blank" href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt=""/></a>
-                <a target="_blank" href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt=""/></a>
-                <a target="_blank" href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt=""/></a>
+                <a target="_blank" href="https://sfc.jp/ie/area/modelhouse/ken/14/"><img src="images/logo-2.png" alt=""/></a>
+                <a target="_blank" href="https://modelhouse.tokyo816.jp/area/kanagawa/"><img src="images/logo-3.png" alt=""/></a>
+                <a target="_blank" href="https://www.sekisuihouse.com/liaison/region/reg14_sp.html?_ga=2.160200766.2071828498.1570168545-1065487071.1554096050"><img src="images/logo-4.png" alt=""/></a>
             </div>
             <div class="brands">
-                <a target="_blank" href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png"
+                <a target="_blank" href="https://www.daiwahouse.co.jp/jutaku/tenji/kanto/kanagawa.html"><img src="images/logo-5.png"
                                                                                             alt=""/></a>
-                <a target="_blank" href="https://sumai.panasonic.jp/"><img src="images/logo-6.png" alt=""/></a>
-                <a target="_blank" href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt=""/></a>
-                <a target="_blank" href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png" alt=""/></a>
+                <a target="_blank" href="https://homes-area.jpn.panasonic.com/kanagawa/"><img src="images/logo-6.png" alt=""/></a>
+                <a target="_blank" href="https://www.misawa.co.jp/navi/office/kanagawa"><img src="images/logo-7.png" alt=""/></a>
+                <a target="_blank" href="https://www.mitsuihome.co.jp/areasite/shutoken/kanagawa"><img src="images/logo-8.png" alt=""/></a>
             </div>
         </div>
         <div class="note-wrapper container">
@@ -284,18 +284,18 @@
                 <br>ご相談・アドバイスさせていただきます。</p>
             <div class="brands-wrapper container ">
                 <div class="brands">
-                    <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/index.html/"><img
+                    <a target="_blank" href="https://www.asahi-kasei.co.jp/hebel/model/kanagawa.shtml/"><img
                                 src="images/logo-1.png" alt=""/></a>
-                    <a target="_blank" href="https://sfc.jp/cm/lp/"><img src="images/logo-2.png" alt=""/></a>
-                    <a target="_blank" href="https://www.sekisuiheim.com/"><img src="images/logo-3.png" alt=""/></a>
-                    <a target="_blank" href="https://www.sekisuihouse.co.jp"><img src="images/logo-4.png" alt=""/></a>
+                    <a target="_blank" href="https://sfc.jp/ie/area/modelhouse/ken/14/"><img src="images/logo-2.png" alt=""/></a>
+                    <a target="_blank" href="https://modelhouse.tokyo816.jp/area/kanagawa/"><img src="images/logo-3.png" alt=""/></a>
+                    <a target="_blank" href="https://www.sekisuihouse.com/liaison/region/reg14_sp.html?_ga=2.160200766.2071828498.1570168545-1065487071.1554096050"><img src="images/logo-4.png" alt=""/></a>
                 </div>
                 <div class="brands">
-                    <a target="_blank" href="https://www.daiwahouse.co.jp/live/index.html"><img src="images/logo-5.png"
+                    <a target="_blank" href="https://www.daiwahouse.co.jp/jutaku/tenji/kanto/kanagawa.html"><img src="images/logo-5.png"
                                                                                                 alt=""/></a>
-                    <a target="_blank" href="https://sumai.panasonic.jp/"><img src="images/logo-6.png" alt=""/></a>
-                    <a target="_blank" href="https://www.misawa.co.jp/"><img src="images/logo-7.png" alt=""/></a>
-                    <a target="_blank" href="https://www.mitsuihome.co.jp/home/"><img src="images/logo-8.png"
+                    <a target="_blank" href="https://homes-area.jpn.panasonic.com/kanagawa/"><img src="images/logo-6.png" alt=""/></a>
+                    <a target="_blank" href="https://www.misawa.co.jp/navi/office/kanagawa"><img src="images/logo-7.png" alt=""/></a>
+                    <a target="_blank" href="https://www.mitsuihome.co.jp/areasite/shutoken/kanagawa"><img src="images/logo-8.png"
                                                                                       alt=""/></a>
                 </div>
             </div>
@@ -311,7 +311,7 @@
             <a href="https://www.livable.co.jp/" target="_blank">▶︎ 東急リバブル （不動産仲介）</a>
             <br><a href="https://home.tokyo-gas.co.jp" target="_blank">▶︎ 東京ガス （光熱費）</a>
             <br><a href="http://www.travers.co.jp/" target="_blank">▶︎ トラバース （測量）</a>
-            <br><a href="https://sumai.panasonic.jp/" target="_blank">▶︎ パナソニック リビング （キッチン・バス・洗面台）</a>
+            <br><a href="https://homes-area.jpn.panasonic.com/kanagawa/" target="_blank">▶︎ パナソニック リビング （キッチン・バス・洗面台）</a>
         </div>
     </div>
     <div class="contact mt-80">
